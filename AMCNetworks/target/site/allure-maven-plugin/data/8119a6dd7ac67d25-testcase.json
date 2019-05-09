@@ -1,0 +1,152 @@
+{
+  "uid" : "8119a6dd7ac67d25",
+  "name" : "validateAssetTitleForDocumentary",
+  "title" : "Validate asset title for documentary",
+  "time" : {
+    "start" : 1555329332388,
+    "stop" : 1555329332443,
+    "duration" : 55
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate Asset Title of WOP",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "f38f8b9c3fe9432c",
+    "name" : "Suite : AssetCreationForDocumentary[assetType=Documentary]",
+    "title" : "Suite : AssetCreationForDocumentary[assetType=Documentary]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329332439,
+      "stop" : 1555329332439,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Title param name in WOP API]",
+    "title" : "Validating Title param name in WOP API",
+    "time" : {
+      "start" : 1555329332439,
+      "stop" : 1555329332439,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [ProgramDocumentaryTestHRb2Ikv7ButdPIKMMw]]",
+    "title" : " Param values are ------ : [ProgramDocumentaryTestHRb2Ikv7ButdPIKMMw]",
+    "time" : {
+      "start" : 1555329332439,
+      "stop" : 1555329332439,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329332443,
+      "stop" : 1555329332443,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Title param name in MP API]",
+    "title" : "Validating Title param name in MP API",
+    "time" : {
+      "start" : 1555329332443,
+      "stop" : 1555329332443,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [ProgramDocumentaryTestHRb2Ikv7ButdPIKMMw]]",
+    "title" : " Param values are ------ : [ProgramDocumentaryTestHRb2Ikv7ButdPIKMMw]",
+    "time" : {
+      "start" : 1555329332443,
+      "stop" : 1555329332443,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForDocumentary-1(68)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForDocumentary[assetType=Documentary]"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForDocumentary"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForDocumentary[assetType=Documentary]"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForDocumentary"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateAssetTitleForDocumentary"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,107 @@
+{
+  "uid" : "39ada97209c17d35",
+  "name" : "validateAlternativeTitleTypeForLegalTypeForMusicPerformance",
+  "title" : "Validate alternative title type for legal type for music performance",
+  "time" : {
+    "start" : 1555329351222,
+    "stop" : 1555329351257,
+    "duration" : 35
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate alternative title type of the asset for Legal Type",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "eeed6f0fd357512",
+    "name" : "Suite : AssetCreationForMusicPerformance[assetType=Music Performance]",
+    "title" : "Suite : AssetCreationForMusicPerformance[assetType=Music Performance]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329351257,
+      "stop" : 1555329351257,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Alt Title Type For Legal param name in WOP API]",
+    "title" : "Validating Alt Title Type For Legal param name in WOP API",
+    "time" : {
+      "start" : 1555329351257,
+      "stop" : 1555329351257,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Legal]]",
+    "title" : " Param values are ------ : [Legal]",
+    "time" : {
+      "start" : 1555329351257,
+      "stop" : 1555329351257,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateAlternativeTitleTypeForLegalTypeForMusicPerformance"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForMusicPerformance[assetType=Music Performance]"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForMusicPerformance"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForMusicPerformance-1(71)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForMusicPerformance"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForMusicPerformance[assetType=Music Performance]"
+  } ],
+  "parameters" : [ ]
+}

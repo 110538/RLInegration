@@ -1,0 +1,12 @@
+com\amc\testclasses\RLTestCasesForOneOff.class
+com\amc\testclasses\RLTestCasesForMadeForTV.class
+com\amc\testclasses\RLTestCasesForFeatureLength.class
+com\amc\testclasses\RLTestCasesForShortFilm.class
+com\amc\testclasses\RLTestCasesForMusicPerformance.class
+com\amc\testclasses\RLAssetCreation.class
+com\amc\testclasses\RLTestCasesForDemo.class
+com\amc\testclasses\RLTestCasesForPilot.class
+com\amc\testclasses\RLTestCasesForDocumentary.class
+com\amc\testclasses\RLTestCasesForSeries.class
+com\amc\testclasses\SimpleTestCase.class
+com\amc\testclasses\RLTestCasesForSpecial.class

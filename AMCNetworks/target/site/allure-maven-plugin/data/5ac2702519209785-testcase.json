@@ -1,0 +1,107 @@
+{
+  "uid" : "5ac2702519209785",
+  "name" : "validateTitleTypeForPilot",
+  "title" : "Validate title type for pilot",
+  "time" : {
+    "start" : 1555329339068,
+    "stop" : 1555329339101,
+    "duration" : 33
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate title type of the asset",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "768e4072d3e15ef",
+    "name" : "Suite : AssetCreationForPilot[assetType=Pilot]",
+    "title" : "Suite : AssetCreationForPilot[assetType=Pilot]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329339100,
+      "stop" : 1555329339100,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Title Type param name in MP API]",
+    "title" : "Validating Title Type param name in MP API",
+    "time" : {
+      "start" : 1555329339100,
+      "stop" : 1555329339100,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Episode/Theatrical]]",
+    "title" : " Param values are ------ : [Episode/Theatrical]",
+    "time" : {
+      "start" : 1555329339101,
+      "stop" : 1555329339101,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForPilot"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForPilot"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForPilot[assetType=Pilot]"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForPilot[assetType=Pilot]"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateTitleTypeForPilot"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForPilot-1(69)"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

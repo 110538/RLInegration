@@ -1,0 +1,4022 @@
+{
+  "uid" : "e163b3f7e96f79c8",
+  "name" : "validateAMCNIDForDemo",
+  "title" : "Validate AMCNID for demo",
+  "time" : {
+    "start" : 1555329324994,
+    "stop" : 1555329325047,
+    "duration" : 53
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 264
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate AMCN id of WOP",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "400cf97b2dbd7fa2",
+    "name" : "Suite : AssetCreationForDemo[assetType=Demo]",
+    "title" : "Suite : AssetCreationForDemo[assetType=Demo]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Get the details from Excel]",
+    "title" : "Get the details from Excel",
+    "time" : {
+      "start" : 1555329296634,
+      "stop" : 1555329296634,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Http Client service is invoked]",
+    "title" : "Http Client service is invoked",
+    "time" : {
+      "start" : 1555329296639,
+      "stop" : 1555329296639,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[apirequest is  : --grant_type=client_credentials&client_id=cebff59a-4e80-4a47-9c2a-6e25ec3c5397&client_secret=xY...]",
+    "title" : "apirequest is  : --grant_type=client_credentials&client_id=cebff59a-4e80-4a47-9c2a-6e25ec3c5397&client_secret=xY2sJ4xW1b...",
+    "time" : {
+      "start" : 1555329296651,
+      "stop" : 1555329296651,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Executing request with http Post method]",
+    "title" : "Executing request with http Post method",
+    "time" : {
+      "start" : 1555329296653,
+      "stop" : 1555329296653,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: FAIL FAIL, Connection: Keep-Alive, Transf...]",
+    "title" : "Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: FAIL FAIL, Connection: Keep-Alive, Transfer-Encod...",
+    "time" : {
+      "start" : 1555329298092,
+      "stop" : 1555329298092,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Executed Successully : ]",
+    "title" : "API Executed Successully : ",
+    "time" : {
+      "start" : 1555329298093,
+      "stop" : 1555329298094,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Esecuted Successfully]",
+    "title" : "API Esecuted Successfully",
+    "time" : {
+      "start" : 1555329298110,
+      "stop" : 1555329298110,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[{\"access_token\":\"AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3aeBkyRauvvx4TP97CALp4Z-kCJTP32exH5MEomxo84Q...]",
+    "title" : "{\"access_token\":\"AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3aeBkyRauvvx4TP97CALp4Z-kCJTP32exH5MEomxo84Qb9NY2_Mh...",
+    "time" : {
+      "start" : 1555329298110,
+      "stop" : 1555329298110,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[access_token value is :AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3aeBkyRauvvx4TP97CALp4Z-kCJTP32exH5MEo...]",
+    "title" : "access_token value is :AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3aeBkyRauvvx4TP97CALp4Z-kCJTP32exH5MEomxo84Qb9...",
+    "time" : {
+      "start" : 1555329298110,
+      "stop" : 1555329298110,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Get the details from Excel]",
+    "title" : "Get the details from Excel",
+    "time" : {
+      "start" : 1555329298114,
+      "stop" : 1555329298114,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Http Client service is invoked]",
+    "title" : "Http Client service is invoked",
+    "time" : {
+      "start" : 1555329298114,
+      "stop" : 1555329298114,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[apirequest is  : --{\"username\":\"restRightsLogic5\", \"password\": \"abcd1234\"} ]",
+    "title" : "apirequest is  : --{\"username\":\"restRightsLogic5\", \"password\": \"abcd1234\"} ",
+    "time" : {
+      "start" : 1555329298122,
+      "stop" : 1555329298122,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329298126,
+      "stop" : 1555329298126,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Content-Type------application/json]",
+    "title" : "Headers are: : Content-Type------application/json",
+    "time" : {
+      "start" : 1555329298126,
+      "stop" : 1555329298126,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329298126,
+      "stop" : 1555329298126,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3aeBkyRauvvx4TP97CALp4Z-kCJTP...]",
+    "title" : "Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3aeBkyRauvvx4TP97CALp4Z-kCJTP32exH5ME...",
+    "time" : {
+      "start" : 1555329298130,
+      "stop" : 1555329298130,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3aeBkyRauvvx4TP97CAL...]",
+    "title" : "Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3aeBkyRauvvx4TP97CALp4Z-kCJT...",
+    "time" : {
+      "start" : 1555329298131,
+      "stop" : 1555329298131,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329298132,
+      "stop" : 1555329298132,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Accept------application/json]",
+    "title" : "Headers are: : Accept------application/json",
+    "time" : {
+      "start" : 1555329298132,
+      "stop" : 1555329298132,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329298132,
+      "stop" : 1555329298132,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433]",
+    "title" : "Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433",
+    "time" : {
+      "start" : 1555329298136,
+      "stop" : 1555329298136,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329298136,
+      "stop" : 1555329298136,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : resource------/dev/program/login]",
+    "title" : "Headers are: : resource------/dev/program/login",
+    "time" : {
+      "start" : 1555329298136,
+      "stop" : 1555329298136,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329298136,
+      "stop" : 1555329298136,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : tls-profile------asit-wo-101059121-50697]",
+    "title" : "Headers are: : tls-profile------asit-wo-101059121-50697",
+    "time" : {
+      "start" : 1555329298140,
+      "stop" : 1555329298140,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329298140,
+      "stop" : 1555329298140,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397]",
+    "title" : "Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397",
+    "time" : {
+      "start" : 1555329298140,
+      "stop" : 1555329298140,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Executing post API with Http Post method]",
+    "title" : "Executing post API with Http Post method",
+    "time" : {
+      "start" : 1555329298144,
+      "stop" : 1555329298144,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: OK OK, Connection: Keep-Alive, Transfer-E...]",
+    "title" : "Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: OK OK, Connection: Keep-Alive, Transfer-Encoding:...",
+    "time" : {
+      "start" : 1555329299576,
+      "stop" : 1555329299576,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Executed Successully : ]",
+    "title" : "API Executed Successully : ",
+    "time" : {
+      "start" : 1555329299576,
+      "stop" : 1555329299576,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Esecuted Successfully]",
+    "title" : "API Esecuted Successfully",
+    "time" : {
+      "start" : 1555329299839,
+      "stop" : 1555329299839,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[{\"service\":\"AMCN Integration Service\",\"message\":\"Authentication successful\",\"statusCode\":\"0\",\"token\":\"eyJhbGciOi...]",
+    "title" : "{\"service\":\"AMCN Integration Service\",\"message\":\"Authentication successful\",\"statusCode\":\"0\",\"token\":\"eyJhbGciOiJIUzI1Ni...",
+    "time" : {
+      "start" : 1555329299839,
+      "stop" : 1555329299839,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[token value is :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29yZCI6bnV...]",
+    "title" : "token value is :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29yZCI6bnVsbCwiaWF...",
+    "time" : {
+      "start" : 1555329299839,
+      "stop" : 1555329299839,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started executing API Testing]",
+    "title" : "Started executing API Testing",
+    "time" : {
+      "start" : 1555329299839,
+      "stop" : 1555329299839,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verify Api Type is Get  or Post]",
+    "title" : "Verify Api Type is Get  or Post",
+    "time" : {
+      "start" : 1555329299843,
+      "stop" : 1555329299843,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Given url is Get API continue execution]",
+    "title" : "Given url is Get API continue execution",
+    "time" : {
+      "start" : 1555329299843,
+      "stop" : 1555329299843,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Given API is : https://api.us.apiconnect.ibmcloud.com/amc-networks-inc-dev/asit/1.2.0/adam/get]",
+    "title" : "Given API is : https://api.us.apiconnect.ibmcloud.com/amc-networks-inc-dev/asit/1.2.0/adam/get",
+    "time" : {
+      "start" : 1555329299847,
+      "stop" : 1555329299847,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3aeBkyRauvvx4TP97CALp4Z-kCJTP...]",
+    "title" : "Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3aeBkyRauvvx4TP97CALp4Z-kCJTP32exH5ME...",
+    "time" : {
+      "start" : 1555329299847,
+      "stop" : 1555329299847,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3aeBkyRauvvx4TP97CAL...]",
+    "title" : "Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3aeBkyRauvvx4TP97CALp4Z-kCJT...",
+    "time" : {
+      "start" : 1555329299850,
+      "stop" : 1555329299850,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Content-Type------application/xml]",
+    "title" : "Headers are: : Content-Type------application/xml",
+    "time" : {
+      "start" : 1555329299850,
+      "stop" : 1555329299850,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJ...]",
+    "title" : "Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29...",
+    "time" : {
+      "start" : 1555329299850,
+      "stop" : 1555329299850,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : auth2------Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLC...]",
+    "title" : "Headers are: : auth2------Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd2...",
+    "time" : {
+      "start" : 1555329299850,
+      "stop" : 1555329299850,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433]",
+    "title" : "Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433",
+    "time" : {
+      "start" : 1555329299850,
+      "stop" : 1555329299850,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : resource------/dev/program/getEpisodeSeasonSeries/externalReference/RLA218402]",
+    "title" : "Headers are: : resource------/dev/program/getEpisodeSeasonSeries/externalReference/RLA218402",
+    "time" : {
+      "start" : 1555329299850,
+      "stop" : 1555329299850,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : tls-profile------asit-wo-101059121-50697]",
+    "title" : "Headers are: : tls-profile------asit-wo-101059121-50697",
+    "time" : {
+      "start" : 1555329299850,
+      "stop" : 1555329299850,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397]",
+    "title" : "Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397",
+    "time" : {
+      "start" : 1555329299854,
+      "stop" : 1555329299854,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Execution Completed and reading response now]",
+    "title" : "Execution Completed and reading response now",
+    "time" : {
+      "start" : 1555329301238,
+      "stop" : 1555329301238,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verify Status code in response]",
+    "title" : "Verify Status code in response",
+    "time" : {
+      "start" : 1555329301239,
+      "stop" : 1555329301239,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Get the details from Excel]",
+    "title" : "Get the details from Excel",
+    "time" : {
+      "start" : 1555329301278,
+      "stop" : 1555329301278,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Http Client service is invoked]",
+    "title" : "Http Client service is invoked",
+    "time" : {
+      "start" : 1555329301278,
+      "stop" : 1555329301278,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[apirequest is  : --<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xyt=\"urn:xy...]",
+    "title" : "apirequest is  : --<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xyt=\"urn:xytechsyst...",
+    "time" : {
+      "start" : 1555329301286,
+      "stop" : 1555329301286,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJ...]",
+    "title" : "Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29...",
+    "time" : {
+      "start" : 1555329301286,
+      "stop" : 1555329301286,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Content-Type------text/xml]",
+    "title" : "Headers are: : Content-Type------text/xml",
+    "time" : {
+      "start" : 1555329301286,
+      "stop" : 1555329301286,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJ...]",
+    "title" : "Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29...",
+    "time" : {
+      "start" : 1555329301286,
+      "stop" : 1555329301286,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : SOAPAction------Retrieve]",
+    "title" : "Headers are: : SOAPAction------Retrieve",
+    "time" : {
+      "start" : 1555329301290,
+      "stop" : 1555329301290,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Executing post API with Http Post method]",
+    "title" : "Executing post API with Http Post method",
+    "time" : {
+      "start" : 1555329301290,
+      "stop" : 1555329301290,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Response is : HttpResponseProxy{HTTP/1.1 200 OK [Content-Length: 10593, Content-Type: text/xml; charset=utf-8, S...]",
+    "title" : "Response is : HttpResponseProxy{HTTP/1.1 200 OK [Content-Length: 10593, Content-Type: text/xml; charset=utf-8, Server: M...",
+    "time" : {
+      "start" : 1555329302301,
+      "stop" : 1555329302301,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Executed Successully : ]",
+    "title" : "API Executed Successully : ",
+    "time" : {
+      "start" : 1555329302303,
+      "stop" : 1555329302303,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Esecuted Successfully]",
+    "title" : "API Esecuted Successfully",
+    "time" : {
+      "start" : 1555329302320,
+      "stop" : 1555329302320,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[{\"s:Envelope\":{\"xmlns:s\":\"http://schemas.xmlsoap.org/soap/envelope/\",\"s:Body\":{\"RetrieveResponse\":{\"xmlns\":\"urn:...]",
+    "title" : "{\"s:Envelope\":{\"xmlns:s\":\"http://schemas.xmlsoap.org/soap/envelope/\",\"s:Body\":{\"RetrieveResponse\":{\"xmlns\":\"urn:xytechsy...",
+    "time" : {
+      "start" : 1555329302325,
+      "stop" : 1555329302325,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329303503,
+      "stop" : 1555329303503,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating AMCN ID param name in WOP API]",
+    "title" : "Validating AMCN ID param name in WOP API",
+    "time" : {
+      "start" : 1555329303503,
+      "stop" : 1555329303503,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [RLA218402]]",
+    "title" : " Param values are ------ : [RLA218402]",
+    "time" : {
+      "start" : 1555329303503,
+      "stop" : 1555329303503,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329303514,
+      "stop" : 1555329303514,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating AMCN ID param name in MP API]",
+    "title" : "Validating AMCN ID param name in MP API",
+    "time" : {
+      "start" : 1555329303514,
+      "stop" : 1555329303514,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [RLA218402]]",
+    "title" : " Param values are ------ : [RLA218402]",
+    "time" : {
+      "start" : 1555329303515,
+      "stop" : 1555329303515,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Get the details from Excel]",
+    "title" : "Get the details from Excel",
+    "time" : {
+      "start" : 1555329304675,
+      "stop" : 1555329304675,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Http Client service is invoked]",
+    "title" : "Http Client service is invoked",
+    "time" : {
+      "start" : 1555329304675,
+      "stop" : 1555329304675,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[apirequest is  : --grant_type=client_credentials&client_id=cebff59a-4e80-4a47-9c2a-6e25ec3c5397&client_secret=xY...]",
+    "title" : "apirequest is  : --grant_type=client_credentials&client_id=cebff59a-4e80-4a47-9c2a-6e25ec3c5397&client_secret=xY2sJ4xW1b...",
+    "time" : {
+      "start" : 1555329304679,
+      "stop" : 1555329304679,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Executing request with http Post method]",
+    "title" : "Executing request with http Post method",
+    "time" : {
+      "start" : 1555329304680,
+      "stop" : 1555329304680,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: FAIL FAIL, Connection: Keep-Alive, Transf...]",
+    "title" : "Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: FAIL FAIL, Connection: Keep-Alive, Transfer-Encod...",
+    "time" : {
+      "start" : 1555329305926,
+      "stop" : 1555329305926,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Executed Successully : ]",
+    "title" : "API Executed Successully : ",
+    "time" : {
+      "start" : 1555329305928,
+      "stop" : 1555329305928,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Esecuted Successfully]",
+    "title" : "API Esecuted Successfully",
+    "time" : {
+      "start" : 1555329305928,
+      "stop" : 1555329305928,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[{\"access_token\":\"AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3thl9nIoW9DROS_MpOMo6kaML0lA4JQO6g8-eu-r9lTG...]",
+    "title" : "{\"access_token\":\"AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3thl9nIoW9DROS_MpOMo6kaML0lA4JQO6g8-eu-r9lTG107hXSLW...",
+    "time" : {
+      "start" : 1555329305932,
+      "stop" : 1555329305932,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[access_token value is :AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3thl9nIoW9DROS_MpOMo6kaML0lA4JQO6g8-eu...]",
+    "title" : "access_token value is :AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3thl9nIoW9DROS_MpOMo6kaML0lA4JQO6g8-eu-r9lTG10...",
+    "time" : {
+      "start" : 1555329305932,
+      "stop" : 1555329305932,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Get the details from Excel]",
+    "title" : "Get the details from Excel",
+    "time" : {
+      "start" : 1555329305932,
+      "stop" : 1555329305932,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Http Client service is invoked]",
+    "title" : "Http Client service is invoked",
+    "time" : {
+      "start" : 1555329305936,
+      "stop" : 1555329305936,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[apirequest is  : --{\"username\":\"restRightsLogic5\", \"password\": \"abcd1234\"} ]",
+    "title" : "apirequest is  : --{\"username\":\"restRightsLogic5\", \"password\": \"abcd1234\"} ",
+    "time" : {
+      "start" : 1555329305940,
+      "stop" : 1555329305940,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329305940,
+      "stop" : 1555329305940,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Content-Type------application/json]",
+    "title" : "Headers are: : Content-Type------application/json",
+    "time" : {
+      "start" : 1555329305944,
+      "stop" : 1555329305944,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329305944,
+      "stop" : 1555329305944,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3thl9nIoW9DROS_MpOMo6kaML0lA4...]",
+    "title" : "Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3thl9nIoW9DROS_MpOMo6kaML0lA4JQO6g8-e...",
+    "time" : {
+      "start" : 1555329305944,
+      "stop" : 1555329305944,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3thl9nIoW9DROS_MpOMo...]",
+    "title" : "Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3thl9nIoW9DROS_MpOMo6kaML0lA...",
+    "time" : {
+      "start" : 1555329305944,
+      "stop" : 1555329305944,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329305948,
+      "stop" : 1555329305948,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Accept------application/json]",
+    "title" : "Headers are: : Accept------application/json",
+    "time" : {
+      "start" : 1555329305948,
+      "stop" : 1555329305948,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329305948,
+      "stop" : 1555329305948,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433]",
+    "title" : "Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433",
+    "time" : {
+      "start" : 1555329305948,
+      "stop" : 1555329305948,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329305952,
+      "stop" : 1555329305952,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : resource------/dev/program/login]",
+    "title" : "Headers are: : resource------/dev/program/login",
+    "time" : {
+      "start" : 1555329305952,
+      "stop" : 1555329305952,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329305952,
+      "stop" : 1555329305952,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : tls-profile------asit-wo-101059121-50697]",
+    "title" : "Headers are: : tls-profile------asit-wo-101059121-50697",
+    "time" : {
+      "start" : 1555329305952,
+      "stop" : 1555329305952,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329305956,
+      "stop" : 1555329305956,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397]",
+    "title" : "Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397",
+    "time" : {
+      "start" : 1555329305956,
+      "stop" : 1555329305956,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Executing post API with Http Post method]",
+    "title" : "Executing post API with Http Post method",
+    "time" : {
+      "start" : 1555329305956,
+      "stop" : 1555329305956,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: OK OK, Connection: Keep-Alive, Transfer-E...]",
+    "title" : "Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: OK OK, Connection: Keep-Alive, Transfer-Encoding:...",
+    "time" : {
+      "start" : 1555329307439,
+      "stop" : 1555329307439,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Executed Successully : ]",
+    "title" : "API Executed Successully : ",
+    "time" : {
+      "start" : 1555329307441,
+      "stop" : 1555329307441,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Esecuted Successfully]",
+    "title" : "API Esecuted Successfully",
+    "time" : {
+      "start" : 1555329307441,
+      "stop" : 1555329307441,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[{\"service\":\"AMCN Integration Service\",\"message\":\"Authentication successful\",\"statusCode\":\"0\",\"token\":\"eyJhbGciOi...]",
+    "title" : "{\"service\":\"AMCN Integration Service\",\"message\":\"Authentication successful\",\"statusCode\":\"0\",\"token\":\"eyJhbGciOiJIUzI1Ni...",
+    "time" : {
+      "start" : 1555329307445,
+      "stop" : 1555329307445,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[token value is :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29yZCI6bnV...]",
+    "title" : "token value is :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29yZCI6bnVsbCwiaWF...",
+    "time" : {
+      "start" : 1555329307445,
+      "stop" : 1555329307445,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started executing API Testing]",
+    "title" : "Started executing API Testing",
+    "time" : {
+      "start" : 1555329307445,
+      "stop" : 1555329307445,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verify Api Type is Get  or Post]",
+    "title" : "Verify Api Type is Get  or Post",
+    "time" : {
+      "start" : 1555329307445,
+      "stop" : 1555329307445,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Given url is Get API continue execution]",
+    "title" : "Given url is Get API continue execution",
+    "time" : {
+      "start" : 1555329307449,
+      "stop" : 1555329307449,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Given API is : https://api.us.apiconnect.ibmcloud.com/amc-networks-inc-dev/asit/1.2.0/adam/get]",
+    "title" : "Given API is : https://api.us.apiconnect.ibmcloud.com/amc-networks-inc-dev/asit/1.2.0/adam/get",
+    "time" : {
+      "start" : 1555329307450,
+      "stop" : 1555329307450,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3thl9nIoW9DROS_MpOMo6kaML0lA4...]",
+    "title" : "Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3thl9nIoW9DROS_MpOMo6kaML0lA4JQO6g8-e...",
+    "time" : {
+      "start" : 1555329307454,
+      "stop" : 1555329307454,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3thl9nIoW9DROS_MpOMo...]",
+    "title" : "Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3thl9nIoW9DROS_MpOMo6kaML0lA...",
+    "time" : {
+      "start" : 1555329307454,
+      "stop" : 1555329307454,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Content-Type------application/xml]",
+    "title" : "Headers are: : Content-Type------application/xml",
+    "time" : {
+      "start" : 1555329307454,
+      "stop" : 1555329307454,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJ...]",
+    "title" : "Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29...",
+    "time" : {
+      "start" : 1555329307454,
+      "stop" : 1555329307454,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : auth2------Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLC...]",
+    "title" : "Headers are: : auth2------Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd2...",
+    "time" : {
+      "start" : 1555329307458,
+      "stop" : 1555329307458,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433]",
+    "title" : "Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433",
+    "time" : {
+      "start" : 1555329307458,
+      "stop" : 1555329307458,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : resource------/dev/program/getEpisodeSeasonSeries/externalReference/RLA218404]",
+    "title" : "Headers are: : resource------/dev/program/getEpisodeSeasonSeries/externalReference/RLA218404",
+    "time" : {
+      "start" : 1555329307458,
+      "stop" : 1555329307458,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : tls-profile------asit-wo-101059121-50697]",
+    "title" : "Headers are: : tls-profile------asit-wo-101059121-50697",
+    "time" : {
+      "start" : 1555329307458,
+      "stop" : 1555329307458,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397]",
+    "title" : "Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397",
+    "time" : {
+      "start" : 1555329307462,
+      "stop" : 1555329307462,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Execution Completed and reading response now]",
+    "title" : "Execution Completed and reading response now",
+    "time" : {
+      "start" : 1555329309019,
+      "stop" : 1555329309019,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verify Status code in response]",
+    "title" : "Verify Status code in response",
+    "time" : {
+      "start" : 1555329309020,
+      "stop" : 1555329309020,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Get the details from Excel]",
+    "title" : "Get the details from Excel",
+    "time" : {
+      "start" : 1555329309026,
+      "stop" : 1555329309026,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Http Client service is invoked]",
+    "title" : "Http Client service is invoked",
+    "time" : {
+      "start" : 1555329309030,
+      "stop" : 1555329309030,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[apirequest is  : --<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xyt=\"urn:xy...]",
+    "title" : "apirequest is  : --<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xyt=\"urn:xytechsyst...",
+    "time" : {
+      "start" : 1555329309034,
+      "stop" : 1555329309034,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJ...]",
+    "title" : "Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29...",
+    "time" : {
+      "start" : 1555329309034,
+      "stop" : 1555329309034,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Content-Type------text/xml]",
+    "title" : "Headers are: : Content-Type------text/xml",
+    "time" : {
+      "start" : 1555329309034,
+      "stop" : 1555329309034,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJ...]",
+    "title" : "Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29...",
+    "time" : {
+      "start" : 1555329309038,
+      "stop" : 1555329309038,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : SOAPAction------Retrieve]",
+    "title" : "Headers are: : SOAPAction------Retrieve",
+    "time" : {
+      "start" : 1555329309038,
+      "stop" : 1555329309038,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Executing post API with Http Post method]",
+    "title" : "Executing post API with Http Post method",
+    "time" : {
+      "start" : 1555329309038,
+      "stop" : 1555329309038,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Response is : HttpResponseProxy{HTTP/1.1 200 OK [Content-Length: 10749, Content-Type: text/xml; charset=utf-8, S...]",
+    "title" : "Response is : HttpResponseProxy{HTTP/1.1 200 OK [Content-Length: 10749, Content-Type: text/xml; charset=utf-8, Server: M...",
+    "time" : {
+      "start" : 1555329309858,
+      "stop" : 1555329309858,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Executed Successully : ]",
+    "title" : "API Executed Successully : ",
+    "time" : {
+      "start" : 1555329309860,
+      "stop" : 1555329309860,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Esecuted Successfully]",
+    "title" : "API Esecuted Successfully",
+    "time" : {
+      "start" : 1555329309876,
+      "stop" : 1555329309876,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[{\"s:Envelope\":{\"xmlns:s\":\"http://schemas.xmlsoap.org/soap/envelope/\",\"s:Body\":{\"RetrieveResponse\":{\"xmlns\":\"urn:...]",
+    "title" : "{\"s:Envelope\":{\"xmlns:s\":\"http://schemas.xmlsoap.org/soap/envelope/\",\"s:Body\":{\"RetrieveResponse\":{\"xmlns\":\"urn:xytechsy...",
+    "time" : {
+      "start" : 1555329309876,
+      "stop" : 1555329309876,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329311043,
+      "stop" : 1555329311043,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating AMCN ID param name in WOP API]",
+    "title" : "Validating AMCN ID param name in WOP API",
+    "time" : {
+      "start" : 1555329311043,
+      "stop" : 1555329311043,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [RLA218404]]",
+    "title" : " Param values are ------ : [RLA218404]",
+    "time" : {
+      "start" : 1555329311043,
+      "stop" : 1555329311043,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329311043,
+      "stop" : 1555329311043,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating AMCN ID param name in MP API]",
+    "title" : "Validating AMCN ID param name in MP API",
+    "time" : {
+      "start" : 1555329311048,
+      "stop" : 1555329311048,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [RLA218404]]",
+    "title" : " Param values are ------ : [RLA218404]",
+    "time" : {
+      "start" : 1555329311048,
+      "stop" : 1555329311048,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Get the details from Excel]",
+    "title" : "Get the details from Excel",
+    "time" : {
+      "start" : 1555329312021,
+      "stop" : 1555329312021,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Http Client service is invoked]",
+    "title" : "Http Client service is invoked",
+    "time" : {
+      "start" : 1555329312022,
+      "stop" : 1555329312022,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[apirequest is  : --grant_type=client_credentials&client_id=cebff59a-4e80-4a47-9c2a-6e25ec3c5397&client_secret=xY...]",
+    "title" : "apirequest is  : --grant_type=client_credentials&client_id=cebff59a-4e80-4a47-9c2a-6e25ec3c5397&client_secret=xY2sJ4xW1b...",
+    "time" : {
+      "start" : 1555329312023,
+      "stop" : 1555329312023,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Executing request with http Post method]",
+    "title" : "Executing request with http Post method",
+    "time" : {
+      "start" : 1555329312023,
+      "stop" : 1555329312023,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: FAIL FAIL, Connection: Keep-Alive, Transf...]",
+    "title" : "Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: FAIL FAIL, Connection: Keep-Alive, Transfer-Encod...",
+    "time" : {
+      "start" : 1555329313242,
+      "stop" : 1555329313242,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Executed Successully : ]",
+    "title" : "API Executed Successully : ",
+    "time" : {
+      "start" : 1555329313243,
+      "stop" : 1555329313243,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Esecuted Successfully]",
+    "title" : "API Esecuted Successfully",
+    "time" : {
+      "start" : 1555329313243,
+      "stop" : 1555329313243,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[{\"access_token\":\"AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk31JBANY6__doht506EElNX4YpykLtft98YntZ8ON9zKT...]",
+    "title" : "{\"access_token\":\"AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk31JBANY6__doht506EElNX4YpykLtft98YntZ8ON9zKTL1eqhLoR...",
+    "time" : {
+      "start" : 1555329313243,
+      "stop" : 1555329313243,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[access_token value is :AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk31JBANY6__doht506EElNX4YpykLtft98YntZ8...]",
+    "title" : "access_token value is :AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk31JBANY6__doht506EElNX4YpykLtft98YntZ8ON9zKTL1...",
+    "time" : {
+      "start" : 1555329313247,
+      "stop" : 1555329313247,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Get the details from Excel]",
+    "title" : "Get the details from Excel",
+    "time" : {
+      "start" : 1555329313248,
+      "stop" : 1555329313248,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Http Client service is invoked]",
+    "title" : "Http Client service is invoked",
+    "time" : {
+      "start" : 1555329313248,
+      "stop" : 1555329313248,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[apirequest is  : --{\"username\":\"restRightsLogic5\", \"password\": \"abcd1234\"} ]",
+    "title" : "apirequest is  : --{\"username\":\"restRightsLogic5\", \"password\": \"abcd1234\"} ",
+    "time" : {
+      "start" : 1555329313256,
+      "stop" : 1555329313256,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329313256,
+      "stop" : 1555329313256,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Content-Type------application/json]",
+    "title" : "Headers are: : Content-Type------application/json",
+    "time" : {
+      "start" : 1555329313256,
+      "stop" : 1555329313256,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329313256,
+      "stop" : 1555329313256,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk31JBANY6__doht506EElNX4YpykLt...]",
+    "title" : "Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk31JBANY6__doht506EElNX4YpykLtft98YntZ...",
+    "time" : {
+      "start" : 1555329313256,
+      "stop" : 1555329313256,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk31JBANY6__doht506EEl...]",
+    "title" : "Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk31JBANY6__doht506EElNX4YpykL...",
+    "time" : {
+      "start" : 1555329313260,
+      "stop" : 1555329313260,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329313260,
+      "stop" : 1555329313260,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Accept------application/json]",
+    "title" : "Headers are: : Accept------application/json",
+    "time" : {
+      "start" : 1555329313260,
+      "stop" : 1555329313260,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329313260,
+      "stop" : 1555329313260,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433]",
+    "title" : "Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433",
+    "time" : {
+      "start" : 1555329313260,
+      "stop" : 1555329313260,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329313264,
+      "stop" : 1555329313264,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : resource------/dev/program/login]",
+    "title" : "Headers are: : resource------/dev/program/login",
+    "time" : {
+      "start" : 1555329313264,
+      "stop" : 1555329313264,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329313264,
+      "stop" : 1555329313264,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : tls-profile------asit-wo-101059121-50697]",
+    "title" : "Headers are: : tls-profile------asit-wo-101059121-50697",
+    "time" : {
+      "start" : 1555329313264,
+      "stop" : 1555329313264,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329313264,
+      "stop" : 1555329313264,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397]",
+    "title" : "Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397",
+    "time" : {
+      "start" : 1555329313268,
+      "stop" : 1555329313268,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Executing post API with Http Post method]",
+    "title" : "Executing post API with Http Post method",
+    "time" : {
+      "start" : 1555329313268,
+      "stop" : 1555329313268,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: OK OK, Connection: Keep-Alive, Transfer-E...]",
+    "title" : "Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: OK OK, Connection: Keep-Alive, Transfer-Encoding:...",
+    "time" : {
+      "start" : 1555329314701,
+      "stop" : 1555329314701,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Executed Successully : ]",
+    "title" : "API Executed Successully : ",
+    "time" : {
+      "start" : 1555329314702,
+      "stop" : 1555329314702,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Esecuted Successfully]",
+    "title" : "API Esecuted Successfully",
+    "time" : {
+      "start" : 1555329314703,
+      "stop" : 1555329314703,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[{\"service\":\"AMCN Integration Service\",\"message\":\"Authentication successful\",\"statusCode\":\"0\",\"token\":\"eyJhbGciOi...]",
+    "title" : "{\"service\":\"AMCN Integration Service\",\"message\":\"Authentication successful\",\"statusCode\":\"0\",\"token\":\"eyJhbGciOiJIUzI1Ni...",
+    "time" : {
+      "start" : 1555329314703,
+      "stop" : 1555329314703,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[token value is :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29yZCI6bnV...]",
+    "title" : "token value is :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29yZCI6bnVsbCwiaWF...",
+    "time" : {
+      "start" : 1555329314707,
+      "stop" : 1555329314707,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started executing API Testing]",
+    "title" : "Started executing API Testing",
+    "time" : {
+      "start" : 1555329314708,
+      "stop" : 1555329314708,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verify Api Type is Get  or Post]",
+    "title" : "Verify Api Type is Get  or Post",
+    "time" : {
+      "start" : 1555329314709,
+      "stop" : 1555329314709,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Given url is Get API continue execution]",
+    "title" : "Given url is Get API continue execution",
+    "time" : {
+      "start" : 1555329314709,
+      "stop" : 1555329314709,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Given API is : https://api.us.apiconnect.ibmcloud.com/amc-networks-inc-dev/asit/1.2.0/adam/get]",
+    "title" : "Given API is : https://api.us.apiconnect.ibmcloud.com/amc-networks-inc-dev/asit/1.2.0/adam/get",
+    "time" : {
+      "start" : 1555329314715,
+      "stop" : 1555329314715,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk31JBANY6__doht506EElNX4YpykLt...]",
+    "title" : "Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk31JBANY6__doht506EElNX4YpykLtft98YntZ...",
+    "time" : {
+      "start" : 1555329314716,
+      "stop" : 1555329314716,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk31JBANY6__doht506EEl...]",
+    "title" : "Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk31JBANY6__doht506EElNX4YpykL...",
+    "time" : {
+      "start" : 1555329314717,
+      "stop" : 1555329314717,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Content-Type------application/xml]",
+    "title" : "Headers are: : Content-Type------application/xml",
+    "time" : {
+      "start" : 1555329314718,
+      "stop" : 1555329314718,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJ...]",
+    "title" : "Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29...",
+    "time" : {
+      "start" : 1555329314718,
+      "stop" : 1555329314718,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : auth2------Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLC...]",
+    "title" : "Headers are: : auth2------Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd2...",
+    "time" : {
+      "start" : 1555329314718,
+      "stop" : 1555329314718,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433]",
+    "title" : "Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433",
+    "time" : {
+      "start" : 1555329314718,
+      "stop" : 1555329314718,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : resource------/dev/program/getEpisodeSeasonSeries/externalReference/RLA218405]",
+    "title" : "Headers are: : resource------/dev/program/getEpisodeSeasonSeries/externalReference/RLA218405",
+    "time" : {
+      "start" : 1555329314718,
+      "stop" : 1555329314718,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : tls-profile------asit-wo-101059121-50697]",
+    "title" : "Headers are: : tls-profile------asit-wo-101059121-50697",
+    "time" : {
+      "start" : 1555329314722,
+      "stop" : 1555329314722,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397]",
+    "title" : "Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397",
+    "time" : {
+      "start" : 1555329314723,
+      "stop" : 1555329314723,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Execution Completed and reading response now]",
+    "title" : "Execution Completed and reading response now",
+    "time" : {
+      "start" : 1555329316102,
+      "stop" : 1555329316102,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verify Status code in response]",
+    "title" : "Verify Status code in response",
+    "time" : {
+      "start" : 1555329316103,
+      "stop" : 1555329316104,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Get the details from Excel]",
+    "title" : "Get the details from Excel",
+    "time" : {
+      "start" : 1555329316111,
+      "stop" : 1555329316111,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Http Client service is invoked]",
+    "title" : "Http Client service is invoked",
+    "time" : {
+      "start" : 1555329316112,
+      "stop" : 1555329316112,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[apirequest is  : --<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xyt=\"urn:xy...]",
+    "title" : "apirequest is  : --<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xyt=\"urn:xytechsyst...",
+    "time" : {
+      "start" : 1555329316118,
+      "stop" : 1555329316118,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJ...]",
+    "title" : "Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29...",
+    "time" : {
+      "start" : 1555329316119,
+      "stop" : 1555329316120,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Content-Type------text/xml]",
+    "title" : "Headers are: : Content-Type------text/xml",
+    "time" : {
+      "start" : 1555329316121,
+      "stop" : 1555329316121,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJ...]",
+    "title" : "Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29...",
+    "time" : {
+      "start" : 1555329316121,
+      "stop" : 1555329316121,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : SOAPAction------Retrieve]",
+    "title" : "Headers are: : SOAPAction------Retrieve",
+    "time" : {
+      "start" : 1555329316121,
+      "stop" : 1555329316121,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Executing post API with Http Post method]",
+    "title" : "Executing post API with Http Post method",
+    "time" : {
+      "start" : 1555329316125,
+      "stop" : 1555329316125,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Response is : HttpResponseProxy{HTTP/1.1 200 OK [Content-Length: 10740, Content-Type: text/xml; charset=utf-8, S...]",
+    "title" : "Response is : HttpResponseProxy{HTTP/1.1 200 OK [Content-Length: 10740, Content-Type: text/xml; charset=utf-8, Server: M...",
+    "time" : {
+      "start" : 1555329316875,
+      "stop" : 1555329316875,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Executed Successully : ]",
+    "title" : "API Executed Successully : ",
+    "time" : {
+      "start" : 1555329316875,
+      "stop" : 1555329316875,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Esecuted Successfully]",
+    "title" : "API Esecuted Successfully",
+    "time" : {
+      "start" : 1555329316881,
+      "stop" : 1555329316881,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[{\"s:Envelope\":{\"xmlns:s\":\"http://schemas.xmlsoap.org/soap/envelope/\",\"s:Body\":{\"RetrieveResponse\":{\"xmlns\":\"urn:...]",
+    "title" : "{\"s:Envelope\":{\"xmlns:s\":\"http://schemas.xmlsoap.org/soap/envelope/\",\"s:Body\":{\"RetrieveResponse\":{\"xmlns\":\"urn:xytechsy...",
+    "time" : {
+      "start" : 1555329316886,
+      "stop" : 1555329316886,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329317954,
+      "stop" : 1555329317954,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating AMCN ID param name in WOP API]",
+    "title" : "Validating AMCN ID param name in WOP API",
+    "time" : {
+      "start" : 1555329317954,
+      "stop" : 1555329317954,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [RLA218405]]",
+    "title" : " Param values are ------ : [RLA218405]",
+    "time" : {
+      "start" : 1555329317954,
+      "stop" : 1555329317954,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329317954,
+      "stop" : 1555329317954,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating AMCN ID param name in MP API]",
+    "title" : "Validating AMCN ID param name in MP API",
+    "time" : {
+      "start" : 1555329317954,
+      "stop" : 1555329317954,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [RLA218405]]",
+    "title" : " Param values are ------ : [RLA218405]",
+    "time" : {
+      "start" : 1555329317954,
+      "stop" : 1555329317954,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Get the details from Excel]",
+    "title" : "Get the details from Excel",
+    "time" : {
+      "start" : 1555329318946,
+      "stop" : 1555329318946,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Http Client service is invoked]",
+    "title" : "Http Client service is invoked",
+    "time" : {
+      "start" : 1555329318947,
+      "stop" : 1555329318947,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[apirequest is  : --grant_type=client_credentials&client_id=cebff59a-4e80-4a47-9c2a-6e25ec3c5397&client_secret=xY...]",
+    "title" : "apirequest is  : --grant_type=client_credentials&client_id=cebff59a-4e80-4a47-9c2a-6e25ec3c5397&client_secret=xY2sJ4xW1b...",
+    "time" : {
+      "start" : 1555329318952,
+      "stop" : 1555329318952,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Executing request with http Post method]",
+    "title" : "Executing request with http Post method",
+    "time" : {
+      "start" : 1555329318952,
+      "stop" : 1555329318952,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: FAIL FAIL, Connection: Keep-Alive, Transf...]",
+    "title" : "Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: FAIL FAIL, Connection: Keep-Alive, Transfer-Encod...",
+    "time" : {
+      "start" : 1555329320158,
+      "stop" : 1555329320158,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Executed Successully : ]",
+    "title" : "API Executed Successully : ",
+    "time" : {
+      "start" : 1555329320159,
+      "stop" : 1555329320159,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Esecuted Successfully]",
+    "title" : "API Esecuted Successfully",
+    "time" : {
+      "start" : 1555329320161,
+      "stop" : 1555329320161,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[{\"access_token\":\"AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3vFtAmbKPVOvS2wXqhmGsTC-m8jJUjwm-ZIKkcmeGA5j...]",
+    "title" : "{\"access_token\":\"AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3vFtAmbKPVOvS2wXqhmGsTC-m8jJUjwm-ZIKkcmeGA5jyIqrNCKA...",
+    "time" : {
+      "start" : 1555329320161,
+      "stop" : 1555329320161,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[access_token value is :AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3vFtAmbKPVOvS2wXqhmGsTC-m8jJUjwm-ZIKkc...]",
+    "title" : "access_token value is :AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3vFtAmbKPVOvS2wXqhmGsTC-m8jJUjwm-ZIKkcmeGA5jyI...",
+    "time" : {
+      "start" : 1555329320162,
+      "stop" : 1555329320162,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Get the details from Excel]",
+    "title" : "Get the details from Excel",
+    "time" : {
+      "start" : 1555329320163,
+      "stop" : 1555329320163,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Http Client service is invoked]",
+    "title" : "Http Client service is invoked",
+    "time" : {
+      "start" : 1555329320164,
+      "stop" : 1555329320164,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[apirequest is  : --{\"username\":\"restRightsLogic5\", \"password\": \"abcd1234\"} ]",
+    "title" : "apirequest is  : --{\"username\":\"restRightsLogic5\", \"password\": \"abcd1234\"} ",
+    "time" : {
+      "start" : 1555329320170,
+      "stop" : 1555329320170,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329320171,
+      "stop" : 1555329320171,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Content-Type------application/json]",
+    "title" : "Headers are: : Content-Type------application/json",
+    "time" : {
+      "start" : 1555329320171,
+      "stop" : 1555329320171,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329320172,
+      "stop" : 1555329320172,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3vFtAmbKPVOvS2wXqhmGsTC-m8jJU...]",
+    "title" : "Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3vFtAmbKPVOvS2wXqhmGsTC-m8jJUjwm-ZIKk...",
+    "time" : {
+      "start" : 1555329320172,
+      "stop" : 1555329320172,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3vFtAmbKPVOvS2wXqhmG...]",
+    "title" : "Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3vFtAmbKPVOvS2wXqhmGsTC-m8jJ...",
+    "time" : {
+      "start" : 1555329320172,
+      "stop" : 1555329320172,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329320172,
+      "stop" : 1555329320172,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Accept------application/json]",
+    "title" : "Headers are: : Accept------application/json",
+    "time" : {
+      "start" : 1555329320172,
+      "stop" : 1555329320172,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329320176,
+      "stop" : 1555329320176,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433]",
+    "title" : "Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433",
+    "time" : {
+      "start" : 1555329320177,
+      "stop" : 1555329320177,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329320178,
+      "stop" : 1555329320178,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : resource------/dev/program/login]",
+    "title" : "Headers are: : resource------/dev/program/login",
+    "time" : {
+      "start" : 1555329320178,
+      "stop" : 1555329320178,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329320179,
+      "stop" : 1555329320179,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : tls-profile------asit-wo-101059121-50697]",
+    "title" : "Headers are: : tls-profile------asit-wo-101059121-50697",
+    "time" : {
+      "start" : 1555329320180,
+      "stop" : 1555329320180,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : no value]",
+    "title" : "Using Access tokena as Bearer : no value",
+    "time" : {
+      "start" : 1555329320180,
+      "stop" : 1555329320180,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397]",
+    "title" : "Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397",
+    "time" : {
+      "start" : 1555329320182,
+      "stop" : 1555329320182,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Executing post API with Http Post method]",
+    "title" : "Executing post API with Http Post method",
+    "time" : {
+      "start" : 1555329320183,
+      "stop" : 1555329320183,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: OK OK, Connection: Keep-Alive, Transfer-E...]",
+    "title" : "Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: OK OK, Connection: Keep-Alive, Transfer-Encoding:...",
+    "time" : {
+      "start" : 1555329321546,
+      "stop" : 1555329321546,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Executed Successully : ]",
+    "title" : "API Executed Successully : ",
+    "time" : {
+      "start" : 1555329321546,
+      "stop" : 1555329321546,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Esecuted Successfully]",
+    "title" : "API Esecuted Successfully",
+    "time" : {
+      "start" : 1555329321547,
+      "stop" : 1555329321547,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[{\"service\":\"AMCN Integration Service\",\"message\":\"Authentication successful\",\"statusCode\":\"0\",\"token\":\"eyJhbGciOi...]",
+    "title" : "{\"service\":\"AMCN Integration Service\",\"message\":\"Authentication successful\",\"statusCode\":\"0\",\"token\":\"eyJhbGciOiJIUzI1Ni...",
+    "time" : {
+      "start" : 1555329321551,
+      "stop" : 1555329321551,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[token value is :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29yZCI6bnV...]",
+    "title" : "token value is :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29yZCI6bnVsbCwiaWF...",
+    "time" : {
+      "start" : 1555329321552,
+      "stop" : 1555329321552,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started executing API Testing]",
+    "title" : "Started executing API Testing",
+    "time" : {
+      "start" : 1555329321553,
+      "stop" : 1555329321553,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verify Api Type is Get  or Post]",
+    "title" : "Verify Api Type is Get  or Post",
+    "time" : {
+      "start" : 1555329321555,
+      "stop" : 1555329321555,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Given url is Get API continue execution]",
+    "title" : "Given url is Get API continue execution",
+    "time" : {
+      "start" : 1555329321556,
+      "stop" : 1555329321556,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Given API is : https://api.us.apiconnect.ibmcloud.com/amc-networks-inc-dev/asit/1.2.0/adam/get]",
+    "title" : "Given API is : https://api.us.apiconnect.ibmcloud.com/amc-networks-inc-dev/asit/1.2.0/adam/get",
+    "time" : {
+      "start" : 1555329321557,
+      "stop" : 1555329321557,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3vFtAmbKPVOvS2wXqhmGsTC-m8jJU...]",
+    "title" : "Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3vFtAmbKPVOvS2wXqhmGsTC-m8jJUjwm-ZIKk...",
+    "time" : {
+      "start" : 1555329321557,
+      "stop" : 1555329321557,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3vFtAmbKPVOvS2wXqhmG...]",
+    "title" : "Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3vFtAmbKPVOvS2wXqhmGsTC-m8jJ...",
+    "time" : {
+      "start" : 1555329321562,
+      "stop" : 1555329321562,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Content-Type------application/xml]",
+    "title" : "Headers are: : Content-Type------application/xml",
+    "time" : {
+      "start" : 1555329321563,
+      "stop" : 1555329321563,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJ...]",
+    "title" : "Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29...",
+    "time" : {
+      "start" : 1555329321563,
+      "stop" : 1555329321563,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : auth2------Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLC...]",
+    "title" : "Headers are: : auth2------Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd2...",
+    "time" : {
+      "start" : 1555329321563,
+      "stop" : 1555329321563,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433]",
+    "title" : "Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433",
+    "time" : {
+      "start" : 1555329321563,
+      "stop" : 1555329321563,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : resource------/dev/program/getEpisodeSeasonSeries/externalReference/RLA218406]",
+    "title" : "Headers are: : resource------/dev/program/getEpisodeSeasonSeries/externalReference/RLA218406",
+    "time" : {
+      "start" : 1555329321563,
+      "stop" : 1555329321563,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : tls-profile------asit-wo-101059121-50697]",
+    "title" : "Headers are: : tls-profile------asit-wo-101059121-50697",
+    "time" : {
+      "start" : 1555329321563,
+      "stop" : 1555329321563,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397]",
+    "title" : "Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397",
+    "time" : {
+      "start" : 1555329321567,
+      "stop" : 1555329321567,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Execution Completed and reading response now]",
+    "title" : "Execution Completed and reading response now",
+    "time" : {
+      "start" : 1555329323033,
+      "stop" : 1555329323033,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verify Status code in response]",
+    "title" : "Verify Status code in response",
+    "time" : {
+      "start" : 1555329323034,
+      "stop" : 1555329323034,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Get the details from Excel]",
+    "title" : "Get the details from Excel",
+    "time" : {
+      "start" : 1555329323037,
+      "stop" : 1555329323037,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Http Client service is invoked]",
+    "title" : "Http Client service is invoked",
+    "time" : {
+      "start" : 1555329323041,
+      "stop" : 1555329323041,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[apirequest is  : --<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xyt=\"urn:xy...]",
+    "title" : "apirequest is  : --<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xyt=\"urn:xytechsyst...",
+    "time" : {
+      "start" : 1555329323048,
+      "stop" : 1555329323048,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJ...]",
+    "title" : "Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29...",
+    "time" : {
+      "start" : 1555329323048,
+      "stop" : 1555329323048,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Content-Type------text/xml]",
+    "title" : "Headers are: : Content-Type------text/xml",
+    "time" : {
+      "start" : 1555329323048,
+      "stop" : 1555329323048,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJ...]",
+    "title" : "Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29...",
+    "time" : {
+      "start" : 1555329323048,
+      "stop" : 1555329323048,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : SOAPAction------Retrieve]",
+    "title" : "Headers are: : SOAPAction------Retrieve",
+    "time" : {
+      "start" : 1555329323052,
+      "stop" : 1555329323052,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Executing post API with Http Post method]",
+    "title" : "Executing post API with Http Post method",
+    "time" : {
+      "start" : 1555329323053,
+      "stop" : 1555329323053,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Response is : HttpResponseProxy{HTTP/1.1 200 OK [Content-Length: 10729, Content-Type: text/xml; charset=utf-8, S...]",
+    "title" : "Response is : HttpResponseProxy{HTTP/1.1 200 OK [Content-Length: 10729, Content-Type: text/xml; charset=utf-8, Server: M...",
+    "time" : {
+      "start" : 1555329323760,
+      "stop" : 1555329323760,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Executed Successully : ]",
+    "title" : "API Executed Successully : ",
+    "time" : {
+      "start" : 1555329323761,
+      "stop" : 1555329323761,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Esecuted Successfully]",
+    "title" : "API Esecuted Successfully",
+    "time" : {
+      "start" : 1555329323768,
+      "stop" : 1555329323768,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[{\"s:Envelope\":{\"xmlns:s\":\"http://schemas.xmlsoap.org/soap/envelope/\",\"s:Body\":{\"RetrieveResponse\":{\"xmlns\":\"urn:...]",
+    "title" : "{\"s:Envelope\":{\"xmlns:s\":\"http://schemas.xmlsoap.org/soap/envelope/\",\"s:Body\":{\"RetrieveResponse\":{\"xmlns\":\"urn:xytechsy...",
+    "time" : {
+      "start" : 1555329323772,
+      "stop" : 1555329323772,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329325047,
+      "stop" : 1555329325047,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating AMCN ID param name in WOP API]",
+    "title" : "Validating AMCN ID param name in WOP API",
+    "time" : {
+      "start" : 1555329325047,
+      "stop" : 1555329325047,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [RLA218406]]",
+    "title" : " Param values are ------ : [RLA218406]",
+    "time" : {
+      "start" : 1555329325047,
+      "stop" : 1555329325047,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329325047,
+      "stop" : 1555329325047,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating AMCN ID param name in MP API]",
+    "title" : "Validating AMCN ID param name in MP API",
+    "time" : {
+      "start" : 1555329325047,
+      "stop" : 1555329325047,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [RLA218406]]",
+    "title" : " Param values are ------ : [RLA218406]",
+    "time" : {
+      "start" : 1555329325047,
+      "stop" : 1555329325047,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForDemo[assetType=Demo]"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForDemo"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForDemo-1(67)"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForDemo"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForDemo[assetType=Demo]"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateAMCNIDForDemo"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

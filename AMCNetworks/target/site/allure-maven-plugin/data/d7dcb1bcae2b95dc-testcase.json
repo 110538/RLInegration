@@ -1,0 +1,152 @@
+{
+  "uid" : "d7dcb1bcae2b95dc",
+  "name" : "validateOriginForMusicPerformance",
+  "title" : "Validate origin for music performance",
+  "time" : {
+    "start" : 1555329351506,
+    "stop" : 1555329351561,
+    "duration" : 55
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate Origin of WOP",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "eeed6f0fd357512",
+    "name" : "Suite : AssetCreationForMusicPerformance[assetType=Music Performance]",
+    "title" : "Suite : AssetCreationForMusicPerformance[assetType=Music Performance]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329351558,
+      "stop" : 1555329351558,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Origin param name in WOP API]",
+    "title" : "Validating Origin param name in WOP API",
+    "time" : {
+      "start" : 1555329351558,
+      "stop" : 1555329351558,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Licensed]]",
+    "title" : " Param values are ------ : [Licensed]",
+    "time" : {
+      "start" : 1555329351559,
+      "stop" : 1555329351559,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329351560,
+      "stop" : 1555329351560,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Origin param name in MP API]",
+    "title" : "Validating Origin param name in MP API",
+    "time" : {
+      "start" : 1555329351561,
+      "stop" : 1555329351561,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Licensed]]",
+    "title" : " Param values are ------ : [Licensed]",
+    "time" : {
+      "start" : 1555329351561,
+      "stop" : 1555329351561,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForMusicPerformance[assetType=Music Performance]"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForMusicPerformance"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForMusicPerformance-1(71)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForMusicPerformance"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForMusicPerformance[assetType=Music Performance]"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateOriginForMusicPerformance"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="appURL" value="https://rl32test.amcnetworks.com/Login.aspx"/>
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="com.amc.listners.TestExecutionListner"/>
+    <listener class-name="com.amc.listners.TestRailListner"/>
+  </listeners>
+  <test thread-count="2" name="AssetCreationForFeatureLength(failed)" parallel="classes">
+    <parameter name="assetType" value="Feature Length"/>
+    <classes>
+      <class name="com.amc.testclasses.RLTestCasesForFeatureLength">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="validateAlternativeTitleTypeForAKAForFeatureLength"/>
+          <include name="checkExecutionCondition"/>
+          <include name="executeAPI"/>
+          <include name="setExcelValuesToInitialValue"/>
+          <include name="validateReleaseYearForFeatureLength"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.amc.testclasses.RLTestCasesForFeatureLength -->
+    </classes>
+  </test> <!-- AssetCreationForFeatureLength(failed) -->
+</suite> <!-- Failed suite [Suite] -->

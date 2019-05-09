@@ -1,0 +1,152 @@
+{
+  "uid" : "1928f7be1a44dffc",
+  "name" : "validateProductionCompanyForPilot",
+  "title" : "Validate production company for pilot",
+  "time" : {
+    "start" : 1555329338926,
+    "stop" : 1555329338962,
+    "duration" : 36
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate Production Company of the asset",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "768e4072d3e15ef",
+    "name" : "Suite : AssetCreationForPilot[assetType=Pilot]",
+    "title" : "Suite : AssetCreationForPilot[assetType=Pilot]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329338959,
+      "stop" : 1555329338959,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Production Company param name in WOP API]",
+    "title" : "Validating Production Company param name in WOP API",
+    "time" : {
+      "start" : 1555329338959,
+      "stop" : 1555329338959,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Apple Inc.]]",
+    "title" : " Param values are ------ : [Apple Inc.]",
+    "time" : {
+      "start" : 1555329338960,
+      "stop" : 1555329338960,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329338961,
+      "stop" : 1555329338961,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Production Company param name in MP API]",
+    "title" : "Validating Production Company param name in MP API",
+    "time" : {
+      "start" : 1555329338962,
+      "stop" : 1555329338962,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Apple Inc.]]",
+    "title" : " Param values are ------ : [Apple Inc.]",
+    "time" : {
+      "start" : 1555329338962,
+      "stop" : 1555329338962,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForPilot"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForPilot"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForPilot[assetType=Pilot]"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForPilot[assetType=Pilot]"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForPilot-1(69)"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateProductionCompanyForPilot"
+  } ],
+  "parameters" : [ ]
+}

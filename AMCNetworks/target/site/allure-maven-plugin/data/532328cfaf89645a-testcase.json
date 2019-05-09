@@ -1,0 +1,3071 @@
+{
+  "uid" : "532328cfaf89645a",
+  "name" : "createDifferentRLAssetsForRegression",
+  "title" : "Create different RL assets for regression",
+  "time" : {
+    "start" : 1555328479149,
+    "stop" : 1555329295709,
+    "duration" : 816560
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 200
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "9b84ceadcd6f342f",
+    "name" : "Suite : AssetCreationForRL[assetType=rlAssetCreation]",
+    "title" : "Suite : AssetCreationForRL[assetType=rlAssetCreation]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Enter user name as:chandan.heralagi@amcnetworks.com]",
+    "title" : "Enter user name as:chandan.heralagi@amcnetworks.com",
+    "time" : {
+      "start" : 1555328479336,
+      "stop" : 1555328479336,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Enter password as:8KaRbijapur]",
+    "title" : "Enter password as:8KaRbijapur",
+    "time" : {
+      "start" : 1555328479506,
+      "stop" : 1555328479506,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Taking screenshot]",
+    "title" : "Taking screenshot",
+    "time" : {
+      "start" : 1555328479614,
+      "stop" : 1555328479614,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click On submit Button]",
+    "title" : "Click On submit Button",
+    "time" : {
+      "start" : 1555328480008,
+      "stop" : 1555328480008,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Taking screenshot]",
+    "title" : "Taking screenshot",
+    "time" : {
+      "start" : 1555328486693,
+      "stop" : 1555328486693,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Maintenance Link]",
+    "title" : "Click on Asset Maintenance Link",
+    "time" : {
+      "start" : 1555328487048,
+      "stop" : 1555328487048,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on New Button]",
+    "title" : "Click on New Button",
+    "time" : {
+      "start" : 1555328489898,
+      "stop" : 1555328489898,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Program Button]",
+    "title" : "Click on Program Button",
+    "time" : {
+      "start" : 1555328490016,
+      "stop" : 1555328490016,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset type as Program - Series]",
+    "title" : "Select asset type as Program - Series",
+    "time" : {
+      "start" : 1555328498639,
+      "stop" : 1555328498639,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset title as ProgramSeriesTestRdJuWsRU5s7KuCuYnxj4eob3VS0]",
+    "title" : "Select asset title as ProgramSeriesTestRdJuWsRU5s7KuCuYnxj4eob3VS0",
+    "time" : {
+      "start" : 1555328506591,
+      "stop" : 1555328506591,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Vendor]",
+    "title" : "Click on Asset Vendor",
+    "time" : {
+      "start" : 1555328509035,
+      "stop" : 1555328509035,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Search for vendor Apple Inc.]",
+    "title" : "Search for vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328511635,
+      "stop" : 1555328511635,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select vendor Apple Inc.]",
+    "title" : "Select vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328512989,
+      "stop" : 1555328512989,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select source business unit as AMC Linear]",
+    "title" : "Select source business unit as AMC Linear",
+    "time" : {
+      "start" : 1555328513223,
+      "stop" : 1555328513223,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Enter asset duration as 10050]",
+    "title" : "Enter asset duration as 10050",
+    "time" : {
+      "start" : 1555328513307,
+      "stop" : 1555328513307,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset status as Active]",
+    "title" : "Select asset status as Active",
+    "time" : {
+      "start" : 1555328513396,
+      "stop" : 1555328513396,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset source as AMC Licensed Scripted Original]",
+    "title" : "Select asset source as AMC Licensed Scripted Original",
+    "time" : {
+      "start" : 1555328513498,
+      "stop" : 1555328513498,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Details Tab]",
+    "title" : "Click on Details Tab",
+    "time" : {
+      "start" : 1555328523498,
+      "stop" : 1555328523498,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Set AKA alternative title as Program Alternative Title]",
+    "title" : "Set AKA alternative title as Program Alternative Title",
+    "time" : {
+      "start" : 1555328531786,
+      "stop" : 1555328531786,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328532832,
+      "stop" : 1555328532832,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title type as Legal]",
+    "title" : "Select alternative title type as Legal",
+    "time" : {
+      "start" : 1555328533555,
+      "stop" : 1555328533555,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328533991,
+      "stop" : 1555328533991,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select release year as 2030]",
+    "title" : "Select release year as 2030",
+    "time" : {
+      "start" : 1555328534254,
+      "stop" : 1555328534254,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Navigator Menu]",
+    "title" : "Click on Asset Navigator Menu",
+    "time" : {
+      "start" : 1555328553308,
+      "stop" : 1555328553308,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Switch to asset navigator frame]",
+    "title" : "Switch to asset navigator frame",
+    "time" : {
+      "start" : 1555328555029,
+      "stop" : 1555328555029,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Add Season Button]",
+    "title" : "Click on Add Season Button",
+    "time" : {
+      "start" : 1555328555058,
+      "stop" : 1555328555058,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Switch to default content]",
+    "title" : "Switch to default content",
+    "time" : {
+      "start" : 1555328555987,
+      "stop" : 1555328555987,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Switch to Add Item frame]",
+    "title" : "Switch to Add Item frame",
+    "time" : {
+      "start" : 1555328555993,
+      "stop" : 1555328555993,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Enter season name as Season1]",
+    "title" : "Enter season name as Season1",
+    "time" : {
+      "start" : 1555328556053,
+      "stop" : 1555328556053,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Save Button]",
+    "title" : "Click on Save Button",
+    "time" : {
+      "start" : 1555328556161,
+      "stop" : 1555328556161,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Switch to asset navigator frame]",
+    "title" : "Switch to asset navigator frame",
+    "time" : {
+      "start" : 1555328557289,
+      "stop" : 1555328557289,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Season]",
+    "title" : "Click on Season",
+    "time" : {
+      "start" : 1555328557308,
+      "stop" : 1555328557308,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Add Episode Button]",
+    "title" : "Click on Add Episode Button",
+    "time" : {
+      "start" : 1555328557377,
+      "stop" : 1555328557377,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Episode episode name as Episode1]",
+    "title" : "Episode episode name as Episode1",
+    "time" : {
+      "start" : 1555328558106,
+      "stop" : 1555328558106,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Episode episode order as 01-001]",
+    "title" : "Episode episode order as 01-001",
+    "time" : {
+      "start" : 1555328558256,
+      "stop" : 1555328558256,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Episode episode air date as 5/1/19]",
+    "title" : "Episode episode air date as 5/1/19",
+    "time" : {
+      "start" : 1555328558341,
+      "stop" : 1555328558341,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Save Button]",
+    "title" : "Click on Save Button",
+    "time" : {
+      "start" : 1555328558432,
+      "stop" : 1555328558432,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Ok Button]",
+    "title" : "Click on Ok Button",
+    "time" : {
+      "start" : 1555328559666,
+      "stop" : 1555328559666,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Maintenance Link]",
+    "title" : "Click on Asset Maintenance Link",
+    "time" : {
+      "start" : 1555328581369,
+      "stop" : 1555328581369,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on New Button]",
+    "title" : "Click on New Button",
+    "time" : {
+      "start" : 1555328585887,
+      "stop" : 1555328585887,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Program Button]",
+    "title" : "Click on Program Button",
+    "time" : {
+      "start" : 1555328585999,
+      "stop" : 1555328585999,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset type as Program - One-Off]",
+    "title" : "Select asset type as Program - One-Off",
+    "time" : {
+      "start" : 1555328589808,
+      "stop" : 1555328589808,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset title as ProgramOne-OffTestlXZW2DbhcdWX0YPnbT]",
+    "title" : "Select asset title as ProgramOne-OffTestlXZW2DbhcdWX0YPnbT",
+    "time" : {
+      "start" : 1555328589866,
+      "stop" : 1555328589866,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Vendor]",
+    "title" : "Click on Asset Vendor",
+    "time" : {
+      "start" : 1555328592267,
+      "stop" : 1555328592267,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Search for vendor Apple Inc.]",
+    "title" : "Search for vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328593110,
+      "stop" : 1555328593110,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select vendor Apple Inc.]",
+    "title" : "Select vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328593945,
+      "stop" : 1555328593945,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select source business unit as AMC Linear]",
+    "title" : "Select source business unit as AMC Linear",
+    "time" : {
+      "start" : 1555328594168,
+      "stop" : 1555328594168,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Enter asset duration as 10050]",
+    "title" : "Enter asset duration as 10050",
+    "time" : {
+      "start" : 1555328594258,
+      "stop" : 1555328594258,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset status as Active]",
+    "title" : "Select asset status as Active",
+    "time" : {
+      "start" : 1555328594375,
+      "stop" : 1555328594375,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset source as AMC Licensed Scripted Original]",
+    "title" : "Select asset source as AMC Licensed Scripted Original",
+    "time" : {
+      "start" : 1555328594483,
+      "stop" : 1555328594483,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Details Tab]",
+    "title" : "Click on Details Tab",
+    "time" : {
+      "start" : 1555328600084,
+      "stop" : 1555328600084,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Set AKA alternative title as Program Alternative Title]",
+    "title" : "Set AKA alternative title as Program Alternative Title",
+    "time" : {
+      "start" : 1555328602373,
+      "stop" : 1555328602373,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328603099,
+      "stop" : 1555328603099,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title type as Legal]",
+    "title" : "Select alternative title type as Legal",
+    "time" : {
+      "start" : 1555328603795,
+      "stop" : 1555328603795,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328604257,
+      "stop" : 1555328604257,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select release year as 2030]",
+    "title" : "Select release year as 2030",
+    "time" : {
+      "start" : 1555328604534,
+      "stop" : 1555328604534,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Maintenance Link]",
+    "title" : "Click on Asset Maintenance Link",
+    "time" : {
+      "start" : 1555328623101,
+      "stop" : 1555328623101,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on New Button]",
+    "title" : "Click on New Button",
+    "time" : {
+      "start" : 1555328627487,
+      "stop" : 1555328627487,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Program Button]",
+    "title" : "Click on Program Button",
+    "time" : {
+      "start" : 1555328627593,
+      "stop" : 1555328627593,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset type as Program - Special]",
+    "title" : "Select asset type as Program - Special",
+    "time" : {
+      "start" : 1555328632767,
+      "stop" : 1555328632767,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset title as ProgramSpecialTestNQXIw831VRyQiB1]",
+    "title" : "Select asset title as ProgramSpecialTestNQXIw831VRyQiB1",
+    "time" : {
+      "start" : 1555328636627,
+      "stop" : 1555328636627,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Vendor]",
+    "title" : "Click on Asset Vendor",
+    "time" : {
+      "start" : 1555328638988,
+      "stop" : 1555328638988,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Search for vendor Apple Inc.]",
+    "title" : "Search for vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328639792,
+      "stop" : 1555328639792,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select vendor Apple Inc.]",
+    "title" : "Select vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328640602,
+      "stop" : 1555328640602,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select source business unit as AMC Linear]",
+    "title" : "Select source business unit as AMC Linear",
+    "time" : {
+      "start" : 1555328640819,
+      "stop" : 1555328640819,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Enter asset duration as 10050]",
+    "title" : "Enter asset duration as 10050",
+    "time" : {
+      "start" : 1555328640890,
+      "stop" : 1555328640890,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset status as Active]",
+    "title" : "Select asset status as Active",
+    "time" : {
+      "start" : 1555328640983,
+      "stop" : 1555328640983,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset source as AMC Licensed Scripted Original]",
+    "title" : "Select asset source as AMC Licensed Scripted Original",
+    "time" : {
+      "start" : 1555328641087,
+      "stop" : 1555328641087,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Details Tab]",
+    "title" : "Click on Details Tab",
+    "time" : {
+      "start" : 1555328647200,
+      "stop" : 1555328647200,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Set AKA alternative title as Program Alternative Title]",
+    "title" : "Set AKA alternative title as Program Alternative Title",
+    "time" : {
+      "start" : 1555328649705,
+      "stop" : 1555328649705,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328650419,
+      "stop" : 1555328650419,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title type as Legal]",
+    "title" : "Select alternative title type as Legal",
+    "time" : {
+      "start" : 1555328651153,
+      "stop" : 1555328651153,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328651560,
+      "stop" : 1555328651560,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select release year as 2030]",
+    "title" : "Select release year as 2030",
+    "time" : {
+      "start" : 1555328651813,
+      "stop" : 1555328651813,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Maintenance Link]",
+    "title" : "Click on Asset Maintenance Link",
+    "time" : {
+      "start" : 1555328673624,
+      "stop" : 1555328673624,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on New Button]",
+    "title" : "Click on New Button",
+    "time" : {
+      "start" : 1555328677499,
+      "stop" : 1555328677499,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Program Button]",
+    "title" : "Click on Program Button",
+    "time" : {
+      "start" : 1555328677615,
+      "stop" : 1555328677615,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset type as Program - Demo]",
+    "title" : "Select asset type as Program - Demo",
+    "time" : {
+      "start" : 1555328681833,
+      "stop" : 1555328681833,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset title as ProgramDemoTest95hCueZ4kueujG1]",
+    "title" : "Select asset title as ProgramDemoTest95hCueZ4kueujG1",
+    "time" : {
+      "start" : 1555328685038,
+      "stop" : 1555328685038,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Vendor]",
+    "title" : "Click on Asset Vendor",
+    "time" : {
+      "start" : 1555328687378,
+      "stop" : 1555328687378,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Search for vendor Apple Inc.]",
+    "title" : "Search for vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328687987,
+      "stop" : 1555328687987,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select vendor Apple Inc.]",
+    "title" : "Select vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328688596,
+      "stop" : 1555328688596,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select source business unit as AMC Linear]",
+    "title" : "Select source business unit as AMC Linear",
+    "time" : {
+      "start" : 1555328688806,
+      "stop" : 1555328688806,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Enter asset duration as 10050]",
+    "title" : "Enter asset duration as 10050",
+    "time" : {
+      "start" : 1555328688880,
+      "stop" : 1555328688880,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset status as Active]",
+    "title" : "Select asset status as Active",
+    "time" : {
+      "start" : 1555328688980,
+      "stop" : 1555328688980,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset source as AMC Licensed Scripted Original]",
+    "title" : "Select asset source as AMC Licensed Scripted Original",
+    "time" : {
+      "start" : 1555328689071,
+      "stop" : 1555328689071,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Details Tab]",
+    "title" : "Click on Details Tab",
+    "time" : {
+      "start" : 1555328694251,
+      "stop" : 1555328694251,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Set AKA alternative title as Program Alternative Title]",
+    "title" : "Set AKA alternative title as Program Alternative Title",
+    "time" : {
+      "start" : 1555328696432,
+      "stop" : 1555328696432,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328697160,
+      "stop" : 1555328697160,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title type as Legal]",
+    "title" : "Select alternative title type as Legal",
+    "time" : {
+      "start" : 1555328697910,
+      "stop" : 1555328697910,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328698336,
+      "stop" : 1555328698336,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select release year as 2030]",
+    "title" : "Select release year as 2030",
+    "time" : {
+      "start" : 1555328698580,
+      "stop" : 1555328698580,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Maintenance Link]",
+    "title" : "Click on Asset Maintenance Link",
+    "time" : {
+      "start" : 1555328716995,
+      "stop" : 1555328716995,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on New Button]",
+    "title" : "Click on New Button",
+    "time" : {
+      "start" : 1555328720601,
+      "stop" : 1555328720601,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Program Button]",
+    "title" : "Click on Program Button",
+    "time" : {
+      "start" : 1555328720712,
+      "stop" : 1555328720712,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset type as Program - Documentary]",
+    "title" : "Select asset type as Program - Documentary",
+    "time" : {
+      "start" : 1555328724768,
+      "stop" : 1555328724768,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset title as ProgramDocumentaryTestHRb2Ikv7ButdPIKMMw]",
+    "title" : "Select asset title as ProgramDocumentaryTestHRb2Ikv7ButdPIKMMw",
+    "time" : {
+      "start" : 1555328728590,
+      "stop" : 1555328728590,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Vendor]",
+    "title" : "Click on Asset Vendor",
+    "time" : {
+      "start" : 1555328730997,
+      "stop" : 1555328730997,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Search for vendor Apple Inc.]",
+    "title" : "Search for vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328731864,
+      "stop" : 1555328731864,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select vendor Apple Inc.]",
+    "title" : "Select vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328732694,
+      "stop" : 1555328732694,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select source business unit as AMC Linear]",
+    "title" : "Select source business unit as AMC Linear",
+    "time" : {
+      "start" : 1555328732902,
+      "stop" : 1555328732902,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Enter asset duration as 10050]",
+    "title" : "Enter asset duration as 10050",
+    "time" : {
+      "start" : 1555328732977,
+      "stop" : 1555328732977,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset status as Active]",
+    "title" : "Select asset status as Active",
+    "time" : {
+      "start" : 1555328733095,
+      "stop" : 1555328733095,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset source as AMC Licensed Scripted Original]",
+    "title" : "Select asset source as AMC Licensed Scripted Original",
+    "time" : {
+      "start" : 1555328733191,
+      "stop" : 1555328733191,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Details Tab]",
+    "title" : "Click on Details Tab",
+    "time" : {
+      "start" : 1555328739206,
+      "stop" : 1555328739206,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Set AKA alternative title as Program Alternative Title]",
+    "title" : "Set AKA alternative title as Program Alternative Title",
+    "time" : {
+      "start" : 1555328741954,
+      "stop" : 1555328741954,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328742675,
+      "stop" : 1555328742675,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title type as Legal]",
+    "title" : "Select alternative title type as Legal",
+    "time" : {
+      "start" : 1555328743478,
+      "stop" : 1555328743478,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328743894,
+      "stop" : 1555328743894,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select release year as 2030]",
+    "title" : "Select release year as 2030",
+    "time" : {
+      "start" : 1555328744168,
+      "stop" : 1555328744168,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Maintenance Link]",
+    "title" : "Click on Asset Maintenance Link",
+    "time" : {
+      "start" : 1555328764063,
+      "stop" : 1555328764063,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on New Button]",
+    "title" : "Click on New Button",
+    "time" : {
+      "start" : 1555328767403,
+      "stop" : 1555328767403,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Program Button]",
+    "title" : "Click on Program Button",
+    "time" : {
+      "start" : 1555328767511,
+      "stop" : 1555328767511,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset type as Program - Pilot]",
+    "title" : "Select asset type as Program - Pilot",
+    "time" : {
+      "start" : 1555328772442,
+      "stop" : 1555328772442,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset title as ProgramPilotTestYvmjPUP65kHqZYn5XG]",
+    "title" : "Select asset title as ProgramPilotTestYvmjPUP65kHqZYn5XG",
+    "time" : {
+      "start" : 1555328775734,
+      "stop" : 1555328775734,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Vendor]",
+    "title" : "Click on Asset Vendor",
+    "time" : {
+      "start" : 1555328778097,
+      "stop" : 1555328778097,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Search for vendor Apple Inc.]",
+    "title" : "Search for vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328779153,
+      "stop" : 1555328779153,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select vendor Apple Inc.]",
+    "title" : "Select vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328779928,
+      "stop" : 1555328779928,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select source business unit as AMC Linear]",
+    "title" : "Select source business unit as AMC Linear",
+    "time" : {
+      "start" : 1555328780142,
+      "stop" : 1555328780142,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Enter asset duration as 10050]",
+    "title" : "Enter asset duration as 10050",
+    "time" : {
+      "start" : 1555328780218,
+      "stop" : 1555328780218,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset status as Active]",
+    "title" : "Select asset status as Active",
+    "time" : {
+      "start" : 1555328780308,
+      "stop" : 1555328780308,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset source as AMC Licensed Scripted Original]",
+    "title" : "Select asset source as AMC Licensed Scripted Original",
+    "time" : {
+      "start" : 1555328780389,
+      "stop" : 1555328780389,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Details Tab]",
+    "title" : "Click on Details Tab",
+    "time" : {
+      "start" : 1555328785991,
+      "stop" : 1555328785991,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Set AKA alternative title as Program Alternative Title]",
+    "title" : "Set AKA alternative title as Program Alternative Title",
+    "time" : {
+      "start" : 1555328788296,
+      "stop" : 1555328788296,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328789046,
+      "stop" : 1555328789046,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title type as Legal]",
+    "title" : "Select alternative title type as Legal",
+    "time" : {
+      "start" : 1555328789749,
+      "stop" : 1555328789749,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328790167,
+      "stop" : 1555328790167,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select release year as 2030]",
+    "title" : "Select release year as 2030",
+    "time" : {
+      "start" : 1555328790441,
+      "stop" : 1555328790441,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Maintenance Link]",
+    "title" : "Click on Asset Maintenance Link",
+    "time" : {
+      "start" : 1555328810351,
+      "stop" : 1555328810351,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on New Button]",
+    "title" : "Click on New Button",
+    "time" : {
+      "start" : 1555328813051,
+      "stop" : 1555328813051,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Program Button]",
+    "title" : "Click on Program Button",
+    "time" : {
+      "start" : 1555328813160,
+      "stop" : 1555328813160,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset type as Program - Made for TV]",
+    "title" : "Select asset type as Program - Made for TV",
+    "time" : {
+      "start" : 1555328816344,
+      "stop" : 1555328816345,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset title as ProgramMadeForTVTest0rmkV1bHgsJH4MnFCR]",
+    "title" : "Select asset title as ProgramMadeForTVTest0rmkV1bHgsJH4MnFCR",
+    "time" : {
+      "start" : 1555328819647,
+      "stop" : 1555328819647,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Vendor]",
+    "title" : "Click on Asset Vendor",
+    "time" : {
+      "start" : 1555328822046,
+      "stop" : 1555328822046,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Search for vendor Apple Inc.]",
+    "title" : "Search for vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328822664,
+      "stop" : 1555328822664,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select vendor Apple Inc.]",
+    "title" : "Select vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328823285,
+      "stop" : 1555328823285,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select source business unit as AMC Linear]",
+    "title" : "Select source business unit as AMC Linear",
+    "time" : {
+      "start" : 1555328823498,
+      "stop" : 1555328823498,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Enter asset duration as 10050]",
+    "title" : "Enter asset duration as 10050",
+    "time" : {
+      "start" : 1555328823574,
+      "stop" : 1555328823574,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset status as Active]",
+    "title" : "Select asset status as Active",
+    "time" : {
+      "start" : 1555328823663,
+      "stop" : 1555328823663,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset source as AMC Licensed Scripted Original]",
+    "title" : "Select asset source as AMC Licensed Scripted Original",
+    "time" : {
+      "start" : 1555328823754,
+      "stop" : 1555328823754,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Details Tab]",
+    "title" : "Click on Details Tab",
+    "time" : {
+      "start" : 1555328828881,
+      "stop" : 1555328828881,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Set AKA alternative title as Program Alternative Title]",
+    "title" : "Set AKA alternative title as Program Alternative Title",
+    "time" : {
+      "start" : 1555328830988,
+      "stop" : 1555328830988,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328831701,
+      "stop" : 1555328831701,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title type as Legal]",
+    "title" : "Select alternative title type as Legal",
+    "time" : {
+      "start" : 1555328832432,
+      "stop" : 1555328832432,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328832813,
+      "stop" : 1555328832813,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select release year as 2030]",
+    "title" : "Select release year as 2030",
+    "time" : {
+      "start" : 1555328833092,
+      "stop" : 1555328833092,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Maintenance Link]",
+    "title" : "Click on Asset Maintenance Link",
+    "time" : {
+      "start" : 1555328856544,
+      "stop" : 1555328856544,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on New Button]",
+    "title" : "Click on New Button",
+    "time" : {
+      "start" : 1555328859030,
+      "stop" : 1555328859030,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Program Button]",
+    "title" : "Click on Program Button",
+    "time" : {
+      "start" : 1555328859141,
+      "stop" : 1555328859141,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset type as Program - Music Performance]",
+    "title" : "Select asset type as Program - Music Performance",
+    "time" : {
+      "start" : 1555328862299,
+      "stop" : 1555328862299,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset title as ProgramMusicPerformanceTestLuFvyQ6aix4EL2lO54]",
+    "title" : "Select asset title as ProgramMusicPerformanceTestLuFvyQ6aix4EL2lO54",
+    "time" : {
+      "start" : 1555328865498,
+      "stop" : 1555328865498,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Vendor]",
+    "title" : "Click on Asset Vendor",
+    "time" : {
+      "start" : 1555328867934,
+      "stop" : 1555328867934,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Search for vendor Apple Inc.]",
+    "title" : "Search for vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328868525,
+      "stop" : 1555328868525,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select vendor Apple Inc.]",
+    "title" : "Select vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328869241,
+      "stop" : 1555328869241,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select source business unit as AMC Linear]",
+    "title" : "Select source business unit as AMC Linear",
+    "time" : {
+      "start" : 1555328869456,
+      "stop" : 1555328869456,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Enter asset duration as 10050]",
+    "title" : "Enter asset duration as 10050",
+    "time" : {
+      "start" : 1555328869591,
+      "stop" : 1555328869591,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset status as Active]",
+    "title" : "Select asset status as Active",
+    "time" : {
+      "start" : 1555328869677,
+      "stop" : 1555328869677,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset source as AMC Licensed Scripted Original]",
+    "title" : "Select asset source as AMC Licensed Scripted Original",
+    "time" : {
+      "start" : 1555328869751,
+      "stop" : 1555328869751,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Details Tab]",
+    "title" : "Click on Details Tab",
+    "time" : {
+      "start" : 1555328875041,
+      "stop" : 1555328875041,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Set AKA alternative title as Program Alternative Title]",
+    "title" : "Set AKA alternative title as Program Alternative Title",
+    "time" : {
+      "start" : 1555328877525,
+      "stop" : 1555328877525,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328878245,
+      "stop" : 1555328878245,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title type as Legal]",
+    "title" : "Select alternative title type as Legal",
+    "time" : {
+      "start" : 1555328878977,
+      "stop" : 1555328878977,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328879379,
+      "stop" : 1555328879379,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select release year as 2030]",
+    "title" : "Select release year as 2030",
+    "time" : {
+      "start" : 1555328879636,
+      "stop" : 1555328879636,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Maintenance Link]",
+    "title" : "Click on Asset Maintenance Link",
+    "time" : {
+      "start" : 1555328903255,
+      "stop" : 1555328903255,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on New Button]",
+    "title" : "Click on New Button",
+    "time" : {
+      "start" : 1555328909127,
+      "stop" : 1555328909127,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Theatrical Button]",
+    "title" : "Click on Theatrical Button",
+    "time" : {
+      "start" : 1555328909238,
+      "stop" : 1555328909238,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset type as Theatrical - Feature Length]",
+    "title" : "Select asset type as Theatrical - Feature Length",
+    "time" : {
+      "start" : 1555328913606,
+      "stop" : 1555328913606,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset title as Theatrical Feature Length Test5LboWzURgDMq6UY]",
+    "title" : "Select asset title as Theatrical Feature Length Test5LboWzURgDMq6UY",
+    "time" : {
+      "start" : 1555328913665,
+      "stop" : 1555328913665,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Vendor]",
+    "title" : "Click on Asset Vendor",
+    "time" : {
+      "start" : 1555328916074,
+      "stop" : 1555328916074,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Search for vendor Apple Inc.]",
+    "title" : "Search for vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328916947,
+      "stop" : 1555328916947,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select vendor Apple Inc.]",
+    "title" : "Select vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328918052,
+      "stop" : 1555328918052,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select source business unit as AMC Linear]",
+    "title" : "Select source business unit as AMC Linear",
+    "time" : {
+      "start" : 1555328918276,
+      "stop" : 1555328918276,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Enter asset duration as 10050]",
+    "title" : "Enter asset duration as 10050",
+    "time" : {
+      "start" : 1555328918354,
+      "stop" : 1555328918354,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset status as Active]",
+    "title" : "Select asset status as Active",
+    "time" : {
+      "start" : 1555328918453,
+      "stop" : 1555328918453,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset source as AMC Licensed Scripted Original]",
+    "title" : "Select asset source as AMC Licensed Scripted Original",
+    "time" : {
+      "start" : 1555328918613,
+      "stop" : 1555328918613,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Details Tab]",
+    "title" : "Click on Details Tab",
+    "time" : {
+      "start" : 1555328928827,
+      "stop" : 1555328928827,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Set AKA alternative title as Program Alternative Title]",
+    "title" : "Set AKA alternative title as Program Alternative Title",
+    "time" : {
+      "start" : 1555328931529,
+      "stop" : 1555328931529,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328932283,
+      "stop" : 1555328932283,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title type as Legal]",
+    "title" : "Select alternative title type as Legal",
+    "time" : {
+      "start" : 1555328933005,
+      "stop" : 1555328933005,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328933420,
+      "stop" : 1555328933420,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select release year as 2030]",
+    "title" : "Select release year as 2030",
+    "time" : {
+      "start" : 1555328933684,
+      "stop" : 1555328933684,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Maintenance Link]",
+    "title" : "Click on Asset Maintenance Link",
+    "time" : {
+      "start" : 1555328953726,
+      "stop" : 1555328953726,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on New Button]",
+    "title" : "Click on New Button",
+    "time" : {
+      "start" : 1555328957683,
+      "stop" : 1555328957683,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Theatrical Button]",
+    "title" : "Click on Theatrical Button",
+    "time" : {
+      "start" : 1555328957812,
+      "stop" : 1555328957812,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset type as Theatrical - Short Film]",
+    "title" : "Select asset type as Theatrical - Short Film",
+    "time" : {
+      "start" : 1555328961449,
+      "stop" : 1555328961449,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset title as Theatrical Short FilmAxP3Ybjfcw6yHsDOei]",
+    "title" : "Select asset title as Theatrical Short FilmAxP3Ybjfcw6yHsDOei",
+    "time" : {
+      "start" : 1555328965083,
+      "stop" : 1555328965083,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Asset Vendor]",
+    "title" : "Click on Asset Vendor",
+    "time" : {
+      "start" : 1555328967485,
+      "stop" : 1555328967485,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Search for vendor Apple Inc.]",
+    "title" : "Search for vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328968280,
+      "stop" : 1555328968280,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select vendor Apple Inc.]",
+    "title" : "Select vendor Apple Inc.",
+    "time" : {
+      "start" : 1555328969090,
+      "stop" : 1555328969090,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select source business unit as AMC Linear]",
+    "title" : "Select source business unit as AMC Linear",
+    "time" : {
+      "start" : 1555328969351,
+      "stop" : 1555328969351,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Enter asset duration as 10050]",
+    "title" : "Enter asset duration as 10050",
+    "time" : {
+      "start" : 1555328969429,
+      "stop" : 1555328969429,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset status as Active]",
+    "title" : "Select asset status as Active",
+    "time" : {
+      "start" : 1555328969516,
+      "stop" : 1555328969516,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select asset source as AMC Licensed Scripted Original]",
+    "title" : "Select asset source as AMC Licensed Scripted Original",
+    "time" : {
+      "start" : 1555328969595,
+      "stop" : 1555328969595,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Click on Details Tab]",
+    "title" : "Click on Details Tab",
+    "time" : {
+      "start" : 1555328975201,
+      "stop" : 1555328975201,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Set AKA alternative title as Program Alternative Title]",
+    "title" : "Set AKA alternative title as Program Alternative Title",
+    "time" : {
+      "start" : 1555328977608,
+      "stop" : 1555328977608,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328978376,
+      "stop" : 1555328978376,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title type as Legal]",
+    "title" : "Select alternative title type as Legal",
+    "time" : {
+      "start" : 1555328979115,
+      "stop" : 1555328979115,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select alternative title network as AMC]",
+    "title" : "Select alternative title network as AMC",
+    "time" : {
+      "start" : 1555328979529,
+      "stop" : 1555328979530,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Select release year as 2030]",
+    "title" : "Select release year as 2030",
+    "time" : {
+      "start" : 1555328979852,
+      "stop" : 1555328979852,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "a9e0da1f-b2a9-4238-add3-4846601284e3-attachment.png",
+    "type" : "image/png",
+    "size" : 43682,
+    "uid" : "96f242e11d7c66ab"
+  }, {
+    "title" : "Screenshot",
+    "source" : "83e3a736-2561-4c9d-b82f-5506577c7fea-attachment.png",
+    "type" : "image/png",
+    "size" : 80780,
+    "uid" : "e88864ce358df57e"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForRL[assetType=rlAssetCreation]"
+  }, {
+    "name" : "testMethod",
+    "value" : "createDifferentRLAssetsForRegression"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForRL[assetType=rlAssetCreation]"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForRL-1(19)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLAssetCreation"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForRL"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,152 @@
+{
+  "uid" : "89eaaa896ac6d02c",
+  "name" : "validateAssetTitleForOneOff",
+  "title" : "Validate asset title for one off",
+  "time" : {
+    "start" : 1555329311412,
+    "stop" : 1555329311468,
+    "duration" : 56
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate Asset Title of WOP",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "494bd51e37b66cca",
+    "name" : "Suite : AssetCreationForOneOff[assetType=One-Off]",
+    "title" : "Suite : AssetCreationForOneOff[assetType=One-Off]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329311467,
+      "stop" : 1555329311467,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Title param name in WOP API]",
+    "title" : "Validating Title param name in WOP API",
+    "time" : {
+      "start" : 1555329311467,
+      "stop" : 1555329311467,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [ProgramOne-OffTestlXZW2DbhcdWX0YPnbT]]",
+    "title" : " Param values are ------ : [ProgramOne-OffTestlXZW2DbhcdWX0YPnbT]",
+    "time" : {
+      "start" : 1555329311468,
+      "stop" : 1555329311468,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329311468,
+      "stop" : 1555329311468,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Title param name in MP API]",
+    "title" : "Validating Title param name in MP API",
+    "time" : {
+      "start" : 1555329311468,
+      "stop" : 1555329311468,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [ProgramOne-OffTestlXZW2DbhcdWX0YPnbT]]",
+    "title" : " Param values are ------ : [ProgramOne-OffTestlXZW2DbhcdWX0YPnbT]",
+    "time" : {
+      "start" : 1555329311468,
+      "stop" : 1555329311468,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForOneOff[assetType=One-Off]"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForOneOff[assetType=One-Off]"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateAssetTitleForOneOff"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForOneOff"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForOneOff"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForOneOff-1(65)"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,152 @@
+{
+  "uid" : "bf7e2be1531222e7",
+  "name" : "validateAssetSourceForSpecial",
+  "title" : "Validate asset source for special",
+  "time" : {
+    "start" : 1555329318235,
+    "stop" : 1555329318308,
+    "duration" : 73
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate Asset Source of WOP",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "de7fc0c6b87bf3f0",
+    "name" : "Suite : AssetCreationForSpecial[assetType=Special]",
+    "title" : "Suite : AssetCreationForSpecial[assetType=Special]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329318303,
+      "stop" : 1555329318303,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Asset Source param name in WOP API]",
+    "title" : "Validating Asset Source param name in WOP API",
+    "time" : {
+      "start" : 1555329318305,
+      "stop" : 1555329318305,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Original]]",
+    "title" : " Param values are ------ : [Original]",
+    "time" : {
+      "start" : 1555329318305,
+      "stop" : 1555329318305,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329318306,
+      "stop" : 1555329318306,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Asset Source param name in MP API]",
+    "title" : "Validating Asset Source param name in MP API",
+    "time" : {
+      "start" : 1555329318307,
+      "stop" : 1555329318307,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Original]]",
+    "title" : " Param values are ------ : [Original]",
+    "time" : {
+      "start" : 1555329318307,
+      "stop" : 1555329318307,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForSpecial"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForSpecial[assetType=Special]"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForSpecial"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForSpecial[assetType=Special]"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateAssetSourceForSpecial"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSpecial-1(66)"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

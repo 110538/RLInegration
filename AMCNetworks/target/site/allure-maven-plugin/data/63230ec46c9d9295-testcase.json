@@ -1,0 +1,107 @@
+{
+  "uid" : "63230ec46c9d9295",
+  "name" : "validateAlternativeTitleForAKAForFeatureLength",
+  "title" : "Validate alternative title for AKA for feature length",
+  "time" : {
+    "start" : 1555329357449,
+    "stop" : 1555329357498,
+    "duration" : 49
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate alternative title of the asset for AKA Type",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "3df6906f10d1da58",
+    "name" : "Suite : AssetCreationForFeatureLength[assetType=Feature Length]",
+    "title" : "Suite : AssetCreationForFeatureLength[assetType=Feature Length]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329357497,
+      "stop" : 1555329357497,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Alt Title param name in WOP API]",
+    "title" : "Validating Alt Title param name in WOP API",
+    "time" : {
+      "start" : 1555329357497,
+      "stop" : 1555329357497,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Program Alternative Title]]",
+    "title" : " Param values are ------ : [Program Alternative Title]",
+    "time" : {
+      "start" : 1555329357498,
+      "stop" : 1555329357498,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateAlternativeTitleForAKAForFeatureLength"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForFeatureLength"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForFeatureLength[assetType=Feature Length]"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForFeatureLength[assetType=Feature Length]"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForFeatureLength-1(72)"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForFeatureLength"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

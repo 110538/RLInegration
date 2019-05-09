@@ -1,0 +1,152 @@
+{
+  "uid" : "88a28fc41038e77d",
+  "name" : "validateAssetTitleForMusicPerformance",
+  "title" : "Validate asset title for music performance",
+  "time" : {
+    "start" : 1555329351339,
+    "stop" : 1555329351405,
+    "duration" : 66
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate Asset Title of WOP",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "eeed6f0fd357512",
+    "name" : "Suite : AssetCreationForMusicPerformance[assetType=Music Performance]",
+    "title" : "Suite : AssetCreationForMusicPerformance[assetType=Music Performance]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329351402,
+      "stop" : 1555329351402,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Title param name in WOP API]",
+    "title" : "Validating Title param name in WOP API",
+    "time" : {
+      "start" : 1555329351402,
+      "stop" : 1555329351402,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [ProgramMusicPerformanceTestLuFvyQ6aix4EL2lO54]]",
+    "title" : " Param values are ------ : [ProgramMusicPerformanceTestLuFvyQ6aix4EL2lO54]",
+    "time" : {
+      "start" : 1555329351404,
+      "stop" : 1555329351404,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329351404,
+      "stop" : 1555329351404,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Title param name in MP API]",
+    "title" : "Validating Title param name in MP API",
+    "time" : {
+      "start" : 1555329351405,
+      "stop" : 1555329351405,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [ProgramMusicPerformanceTestLuFvyQ6aix4EL2lO54]]",
+    "title" : " Param values are ------ : [ProgramMusicPerformanceTestLuFvyQ6aix4EL2lO54]",
+    "time" : {
+      "start" : 1555329351405,
+      "stop" : 1555329351405,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForMusicPerformance[assetType=Music Performance]"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForMusicPerformance"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateAssetTitleForMusicPerformance"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForMusicPerformance-1(71)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForMusicPerformance"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForMusicPerformance[assetType=Music Performance]"
+  } ],
+  "parameters" : [ ]
+}

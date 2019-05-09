@@ -1,0 +1,107 @@
+{
+  "uid" : "ff0afc06951eb014",
+  "name" : "validateTitleTypeForFeatureLength",
+  "title" : "Validate title type for feature length",
+  "time" : {
+    "start" : 1555329358102,
+    "stop" : 1555329358147,
+    "duration" : 45
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate title type of the asset",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "3df6906f10d1da58",
+    "name" : "Suite : AssetCreationForFeatureLength[assetType=Feature Length]",
+    "title" : "Suite : AssetCreationForFeatureLength[assetType=Feature Length]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329358143,
+      "stop" : 1555329358143,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Title Type param name in MP API]",
+    "title" : "Validating Title Type param name in MP API",
+    "time" : {
+      "start" : 1555329358147,
+      "stop" : 1555329358147,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Episode/Theatrical]]",
+    "title" : " Param values are ------ : [Episode/Theatrical]",
+    "time" : {
+      "start" : 1555329358147,
+      "stop" : 1555329358147,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForFeatureLength"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForFeatureLength[assetType=Feature Length]"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForFeatureLength[assetType=Feature Length]"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateTitleTypeForFeatureLength"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForFeatureLength-1(72)"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForFeatureLength"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

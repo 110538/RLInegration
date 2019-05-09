@@ -1,0 +1,152 @@
+{
+  "uid" : "61a76ed3f06cd44b",
+  "name" : "validateProductionModeForSpecial",
+  "title" : "Validate production mode for special",
+  "time" : {
+    "start" : 1555329318605,
+    "stop" : 1555329318663,
+    "duration" : 58
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate Production Mode of WOP",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "de7fc0c6b87bf3f0",
+    "name" : "Suite : AssetCreationForSpecial[assetType=Special]",
+    "title" : "Suite : AssetCreationForSpecial[assetType=Special]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329318659,
+      "stop" : 1555329318659,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Production Mode param name in WOP API]",
+    "title" : "Validating Production Mode param name in WOP API",
+    "time" : {
+      "start" : 1555329318659,
+      "stop" : 1555329318659,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Scripted]]",
+    "title" : " Param values are ------ : [Scripted]",
+    "time" : {
+      "start" : 1555329318660,
+      "stop" : 1555329318660,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329318660,
+      "stop" : 1555329318660,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Production Mode param name in MP API]",
+    "title" : "Validating Production Mode param name in MP API",
+    "time" : {
+      "start" : 1555329318662,
+      "stop" : 1555329318662,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Scripted]]",
+    "title" : " Param values are ------ : [Scripted]",
+    "time" : {
+      "start" : 1555329318662,
+      "stop" : 1555329318662,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForSpecial"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForSpecial[assetType=Special]"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForSpecial"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateProductionModeForSpecial"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForSpecial[assetType=Special]"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSpecial-1(66)"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

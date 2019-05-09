@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556016808025" stop="1556016817252" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite : AssetCreationForSeries[assetType=Series]</name>
+    <title>Suite : AssetCreationForSeries[assetType=Series]</title>
+    <test-cases>
+        <test-case start="1556016815861" stop="1556016815960" status="passed">
+            <name>validateAMCNID</name>
+            <description>Validate AMCN id of WOP</description>
+            <steps>
+                <step start="1556016808141" stop="1556016808141" status="passed">
+                    <name>logStep[Get the details from Excel]</name>
+                    <title>Get the details from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016808146" stop="1556016808146" status="passed">
+                    <name>logStep[Http Client service is invoked]</name>
+                    <title>Http Client service is invoked</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016808660" stop="1556016808660" status="passed">
+                    <name>logStep[apirequest is  : --grant_type=client_credentials&amp;client_id=cebff59a-4e80-4a47-9c2a-6e25ec3c5397&amp;client_secret=xY...]</name>
+                    <title>apirequest is  : --grant_type=client_credentials&amp;client_id=cebff59a-4e80-4a47-9c2a-6e25ec3c5397&amp;client_secret=xY2sJ4xW1b...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016808666" stop="1556016808666" status="passed">
+                    <name>logStep[Executing request with http Post method]</name>
+                    <title>Executing request with http Post method</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810461" stop="1556016810461" status="passed">
+                    <name>logStep[Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: FAIL FAIL, Connection: Keep-Alive, Transf...]</name>
+                    <title>Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: FAIL FAIL, Connection: Keep-Alive, Transfer-Encod...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810463" stop="1556016810463" status="passed">
+                    <name>logStep[API Executed Successully : ]</name>
+                    <title>API Executed Successully : </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810475" stop="1556016810475" status="passed">
+                    <name>logStep[API Executed Successfully]</name>
+                    <title>API Executed Successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810485" stop="1556016810485" status="passed">
+                    <name>logStep[{"access_token":"AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3mL7jTL7VqiXpem7vWK0DX7ckZmf6HKV0WLrh337U9fq...]</name>
+                    <title>{"access_token":"AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3mL7jTL7VqiXpem7vWK0DX7ckZmf6HKV0WLrh337U9fq58jX44Ux...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810485" stop="1556016810485" status="passed">
+                    <name>logStep[access_token value is :AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3mL7jTL7VqiXpem7vWK0DX7ckZmf6HKV0WLrh3...]</name>
+                    <title>access_token value is :AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3mL7jTL7VqiXpem7vWK0DX7ckZmf6HKV0WLrh337U9fq58...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810489" stop="1556016810489" status="passed">
+                    <name>logStep[Get the details from Excel]</name>
+                    <title>Get the details from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810492" stop="1556016810492" status="passed">
+                    <name>logStep[Http Client service is invoked]</name>
+                    <title>Http Client service is invoked</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810502" stop="1556016810502" status="passed">
+                    <name>logStep[apirequest is  : --{"username":"restRightsLogic5", "password": "abcd1234"} ]</name>
+                    <title>apirequest is  : --{"username":"restRightsLogic5", "password": "abcd1234"} </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810506" stop="1556016810506" status="passed">
+                    <name>logStep[Using Access tokena as Bearer : no value]</name>
+                    <title>Using Access tokena as Bearer : no value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810508" stop="1556016810508" status="passed">
+                    <name>logStep[Headers are: : Content-Type------application/json]</name>
+                    <title>Headers are: : Content-Type------application/json</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810509" stop="1556016810509" status="passed">
+                    <name>logStep[Using Access tokena as Bearer : no value]</name>
+                    <title>Using Access tokena as Bearer : no value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810512" stop="1556016810512" status="passed">
+                    <name>logStep[Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3mL7jTL7VqiXpem7vWK0DX7ckZmf6...]</name>
+                    <title>Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3mL7jTL7VqiXpem7vWK0DX7ckZmf6HKV0WLrh...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810516" stop="1556016810516" status="passed">
+                    <name>logStep[Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3mL7jTL7VqiXpem7vWK0...]</name>
+                    <title>Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3mL7jTL7VqiXpem7vWK0DX7ckZmf...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810519" stop="1556016810519" status="passed">
+                    <name>logStep[Using Access tokena as Bearer : no value]</name>
+                    <title>Using Access tokena as Bearer : no value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810520" stop="1556016810520" status="passed">
+                    <name>logStep[Headers are: : Accept------application/json]</name>
+                    <title>Headers are: : Accept------application/json</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810522" stop="1556016810522" status="passed">
+                    <name>logStep[Using Access tokena as Bearer : no value]</name>
+                    <title>Using Access tokena as Bearer : no value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810526" stop="1556016810526" status="passed">
+                    <name>logStep[Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433]</name>
+                    <title>Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810528" stop="1556016810528" status="passed">
+                    <name>logStep[Using Access tokena as Bearer : no value]</name>
+                    <title>Using Access tokena as Bearer : no value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810529" stop="1556016810529" status="passed">
+                    <name>logStep[Headers are: : resource------/dev/program/login]</name>
+                    <title>Headers are: : resource------/dev/program/login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810529" stop="1556016810529" status="passed">
+                    <name>logStep[Using Access tokena as Bearer : no value]</name>
+                    <title>Using Access tokena as Bearer : no value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810532" stop="1556016810532" status="passed">
+                    <name>logStep[Headers are: : tls-profile------asit-wo-101059121-50697]</name>
+                    <title>Headers are: : tls-profile------asit-wo-101059121-50697</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810534" stop="1556016810534" status="passed">
+                    <name>logStep[Using Access tokena as Bearer : no value]</name>
+                    <title>Using Access tokena as Bearer : no value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810535" stop="1556016810535" status="passed">
+                    <name>logStep[Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397]</name>
+                    <title>Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016810538" stop="1556016810538" status="passed">
+                    <name>logStep[Executing post API with Http Post method]</name>
+                    <title>Executing post API with Http Post method</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016811981" stop="1556016811981" status="passed">
+                    <name>logStep[Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: OK OK, Connection: Keep-Alive, Transfer-E...]</name>
+                    <title>Response is : HttpResponseProxy{HTTP/1.1 200 OK [X-Backside-Transport: OK OK, Connection: Keep-Alive, Transfer-Encoding:...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016811982" stop="1556016811982" status="passed">
+                    <name>logStep[API Executed Successully : ]</name>
+                    <title>API Executed Successully : </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016811984" stop="1556016811984" status="passed">
+                    <name>logStep[API Executed Successfully]</name>
+                    <title>API Executed Successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016811984" stop="1556016811984" status="passed">
+                    <name>logStep[{"service":"AMCN Integration Service","message":"Authentication successful","statusCode":"0","token":"eyJhbGciOi...]</name>
+                    <title>{"service":"AMCN Integration Service","message":"Authentication successful","statusCode":"0","token":"eyJhbGciOiJIUzI1Ni...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016811986" stop="1556016811986" status="passed">
+                    <name>logStep[token value is :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29yZCI6bnV...]</name>
+                    <title>token value is :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29yZCI6bnVsbCwiaWF...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016811986" stop="1556016811986" status="passed">
+                    <name>logStep[Started executing API Testing]</name>
+                    <title>Started executing API Testing</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016811988" stop="1556016811988" status="passed">
+                    <name>logStep[Verify Api Type is Get  or Post]</name>
+                    <title>Verify Api Type is Get  or Post</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016811989" stop="1556016811989" status="passed">
+                    <name>logStep[Given url is Get API continue execution]</name>
+                    <title>Given url is Get API continue execution</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016811997" stop="1556016811998" status="passed">
+                    <name>logStep[Given API is : https://api.us.apiconnect.ibmcloud.com/amc-networks-inc-dev/asit/1.2.0/adam/get]</name>
+                    <title>Given API is : https://api.us.apiconnect.ibmcloud.com/amc-networks-inc-dev/asit/1.2.0/adam/get</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016812001" stop="1556016812001" status="passed">
+                    <name>logStep[Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3mL7jTL7VqiXpem7vWK0DX7ckZmf6...]</name>
+                    <title>Using Access tokena as Bearer : AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3mL7jTL7VqiXpem7vWK0DX7ckZmf6HKV0WLrh...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016812001" stop="1556016812001" status="passed">
+                    <name>logStep[Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3mL7jTL7VqiXpem7vWK0...]</name>
+                    <title>Headers are: : Authorization------Bearer AAIkY2ViZmY1OWEtNGU4MC00YTQ3LTljMmEtNmUyNWVjM2M1Mzk3mL7jTL7VqiXpem7vWK0DX7ckZmf...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016812001" stop="1556016812001" status="passed">
+                    <name>logStep[Headers are: : Content-Type------application/xml]</name>
+                    <title>Headers are: : Content-Type------application/xml</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016812001" stop="1556016812001" status="passed">
+                    <name>logStep[Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJ...]</name>
+                    <title>Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016812001" stop="1556016812001" status="passed">
+                    <name>logStep[Headers are: : auth2------Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLC...]</name>
+                    <title>Headers are: : auth2------Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd2...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016812001" stop="1556016812001" status="passed">
+                    <name>logStep[Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433]</name>
+                    <title>Headers are: : endpoint------https://cap-sg-prd-4.integration.ibmcloud.com:17433</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016812006" stop="1556016812006" status="passed">
+                    <name>logStep[Headers are: : resource------/dev/program/getEpisodeSeasonSeries/externalReference/RLA218671]</name>
+                    <title>Headers are: : resource------/dev/program/getEpisodeSeasonSeries/externalReference/RLA218671</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016812007" stop="1556016812007" status="passed">
+                    <name>logStep[Headers are: : tls-profile------asit-wo-101059121-50697]</name>
+                    <title>Headers are: : tls-profile------asit-wo-101059121-50697</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016812007" stop="1556016812007" status="passed">
+                    <name>logStep[Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397]</name>
+                    <title>Headers are: : x-ibm-client-id------cebff59a-4e80-4a47-9c2a-6e25ec3c5397</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016813501" stop="1556016813501" status="passed">
+                    <name>logStep[Execution Completed and reading response now]</name>
+                    <title>Execution Completed and reading response now</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016813503" stop="1556016813503" status="passed">
+                    <name>logStep[Verify Status code in response]</name>
+                    <title>Verify Status code in response</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016813536" stop="1556016813536" status="passed">
+                    <name>logStep[Get the details from Excel]</name>
+                    <title>Get the details from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016813539" stop="1556016813539" status="passed">
+                    <name>logStep[Http Client service is invoked]</name>
+                    <title>Http Client service is invoked</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016813546" stop="1556016813546" status="passed">
+                    <name>logStep[apirequest is  : --&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xyt="urn:xy...]</name>
+                    <title>apirequest is  : --&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xyt="urn:xytechsyst...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016813547" stop="1556016813547" status="passed">
+                    <name>logStep[Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJ...]</name>
+                    <title>Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016813548" stop="1556016813548" status="passed">
+                    <name>logStep[Headers are: : Content-Type------text/xml]</name>
+                    <title>Headers are: : Content-Type------text/xml</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016813548" stop="1556016813548" status="passed">
+                    <name>logStep[Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJ...]</name>
+                    <title>Using Access tokena as Bearer : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlc3RSaWdodHNMb2dpYzUiLCJwYXNzd29...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016813548" stop="1556016813548" status="passed">
+                    <name>logStep[Headers are: : SOAPAction------Retrieve]</name>
+                    <title>Headers are: : SOAPAction------Retrieve</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016813548" stop="1556016813548" status="passed">
+                    <name>logStep[Executing post API with Http Post method]</name>
+                    <title>Executing post API with Http Post method</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016814624" stop="1556016814624" status="passed">
+                    <name>logStep[Response is : HttpResponseProxy{HTTP/1.1 200 OK [Content-Length: 10561, Content-Type: text/xml; charset=utf-8, S...]</name>
+                    <title>Response is : HttpResponseProxy{HTTP/1.1 200 OK [Content-Length: 10561, Content-Type: text/xml; charset=utf-8, Server: M...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016814626" stop="1556016814626" status="passed">
+                    <name>logStep[API Executed Successully : ]</name>
+                    <title>API Executed Successully : </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016814642" stop="1556016814642" status="passed">
+                    <name>logStep[API Executed Successfully]</name>
+                    <title>API Executed Successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016814646" stop="1556016814646" status="passed">
+                    <name>logStep[{"s:Envelope":{"xmlns:s":"http://schemas.xmlsoap.org/soap/envelope/","s:Body":{"RetrieveResponse":{"xmlns":"urn:...]</name>
+                    <title>{"s:Envelope":{"xmlns:s":"http://schemas.xmlsoap.org/soap/envelope/","s:Body":{"RetrieveResponse":{"xmlns":"urn:xytechsy...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016815947" stop="1556016815947" status="passed">
+                    <name>logStep[Started reading Responses from WOP API ]</name>
+                    <title>Started reading Responses from WOP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016815947" stop="1556016815947" status="passed">
+                    <name>logStep[Validating AMCN ID param name in WOP API]</name>
+                    <title>Validating AMCN ID param name in WOP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016815947" stop="1556016815947" status="passed">
+                    <name>logStep[ Param values are ------ : [RLA218671]]</name>
+                    <title> Param values are ------ : [RLA218671]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016815947" stop="1556016815947" status="passed">
+                    <name>logStep[Validating WOP API value RLA218671 with test data value RLA218671]</name>
+                    <title>Validating WOP API value RLA218671 with test data value RLA218671</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016815956" stop="1556016815956" status="passed">
+                    <name>logStep[Started reading Responses from MP API ]</name>
+                    <title>Started reading Responses from MP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016815956" stop="1556016815956" status="passed">
+                    <name>logStep[Validating AMCN ID param name in MP API]</name>
+                    <title>Validating AMCN ID param name in MP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016815959" stop="1556016815959" status="passed">
+                    <name>logStep[ Param values are ------ : [RLA218671]]</name>
+                    <title> Param values are ------ : [RLA218671]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016815959" stop="1556016815959" status="passed">
+                    <name>logStep[Validating MP API value RLA218671 with test data value RLA218671]</name>
+                    <title>Validating MP API value RLA218671 with test data value RLA218671</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForSeries"/>
+                <label name="testClass" value="com.amc.testclasses.RLTestCasesForSeries"/>
+                <label name="testMethod" value="validateAMCNID"/>
+                <label name="host" value="MONO-HYD-LAP-44"/>
+                <label name="thread" value="11540@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(66)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556016815966" stop="1556016816103" status="passed">
+            <name>validateAlternativeTitleForAKA</name>
+            <description>Validate alternative title of the asset for AKA Type</description>
+            <steps>
+                <step start="1556016816103" stop="1556016816103" status="passed">
+                    <name>logStep[Started reading Responses from WOP API ]</name>
+                    <title>Started reading Responses from WOP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816103" stop="1556016816103" status="passed">
+                    <name>logStep[Validating Alt Title param name in WOP API]</name>
+                    <title>Validating Alt Title param name in WOP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816103" stop="1556016816103" status="passed">
+                    <name>logStep[ Param values are ------ : [Program Series Alternative Title]]</name>
+                    <title> Param values are ------ : [Program Series Alternative Title]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816103" stop="1556016816103" status="passed">
+                    <name>logStep[Validating WOP API value Program Series Alternative Title with test data value Program Series Alternative Title]</name>
+                    <title>Validating WOP API value Program Series Alternative Title with test data value Program Series Alternative Title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForSeries"/>
+                <label name="testClass" value="com.amc.testclasses.RLTestCasesForSeries"/>
+                <label name="testMethod" value="validateAlternativeTitleForAKA"/>
+                <label name="host" value="MONO-HYD-LAP-44"/>
+                <label name="thread" value="11540@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(66)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556016816109" stop="1556016816184" status="passed">
+            <name>validateAlternativeTitleForLegal</name>
+            <description>Validate alternative title of the asset for Legal Type</description>
+            <steps>
+                <step start="1556016816181" stop="1556016816181" status="passed">
+                    <name>logStep[Started reading Responses from WOP API ]</name>
+                    <title>Started reading Responses from WOP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816182" stop="1556016816182" status="passed">
+                    <name>logStep[Validating Alt Title For Legal param name in WOP API]</name>
+                    <title>Validating Alt Title For Legal param name in WOP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816182" stop="1556016816182" status="passed">
+                    <name>logStep[ Param values are ------ : [Program Legal Title]]</name>
+                    <title> Param values are ------ : [Program Legal Title]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816183" stop="1556016816183" status="passed">
+                    <name>logStep[Validating WOP API value Program Legal Title with test data value Program Legal Title]</name>
+                    <title>Validating WOP API value Program Legal Title with test data value Program Legal Title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForSeries"/>
+                <label name="testClass" value="com.amc.testclasses.RLTestCasesForSeries"/>
+                <label name="testMethod" value="validateAlternativeTitleForLegal"/>
+                <label name="host" value="MONO-HYD-LAP-44"/>
+                <label name="thread" value="11540@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(66)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556016816189" stop="1556016816286" status="passed">
+            <name>validateAlternativeTitleTypeForAKA</name>
+            <description>Validate alternative title type of the asset for AKA Type</description>
+            <steps>
+                <step start="1556016816283" stop="1556016816283" status="passed">
+                    <name>logStep[Started reading Responses from WOP API ]</name>
+                    <title>Started reading Responses from WOP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816283" stop="1556016816283" status="passed">
+                    <name>logStep[Validating Alt Title Type param name in WOP API]</name>
+                    <title>Validating Alt Title Type param name in WOP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816283" stop="1556016816283" status="passed">
+                    <name>logStep[ Param values are ------ : [AKA]]</name>
+                    <title> Param values are ------ : [AKA]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816283" stop="1556016816283" status="passed">
+                    <name>logStep[Validating WOP API value AKA with test data value AKA]</name>
+                    <title>Validating WOP API value AKA with test data value AKA</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForSeries"/>
+                <label name="testClass" value="com.amc.testclasses.RLTestCasesForSeries"/>
+                <label name="testMethod" value="validateAlternativeTitleTypeForAKA"/>
+                <label name="host" value="MONO-HYD-LAP-44"/>
+                <label name="thread" value="11540@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(66)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556016816292" stop="1556016816358" status="passed">
+            <name>validateAlternativeTitleTypeForLegalType</name>
+            <description>Validate alternative title type of the asset for Legal Type</description>
+            <steps>
+                <step start="1556016816355" stop="1556016816355" status="passed">
+                    <name>logStep[Started reading Responses from WOP API ]</name>
+                    <title>Started reading Responses from WOP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816355" stop="1556016816355" status="passed">
+                    <name>logStep[Validating Alt Title Type For Legal param name in WOP API]</name>
+                    <title>Validating Alt Title Type For Legal param name in WOP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816355" stop="1556016816355" status="passed">
+                    <name>logStep[ Param values are ------ : [Legal]]</name>
+                    <title> Param values are ------ : [Legal]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816358" stop="1556016816358" status="passed">
+                    <name>logStep[Validating WOP API value Legal with test data value Legal]</name>
+                    <title>Validating WOP API value Legal with test data value Legal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForSeries"/>
+                <label name="testClass" value="com.amc.testclasses.RLTestCasesForSeries"/>
+                <label name="testMethod" value="validateAlternativeTitleTypeForLegalType"/>
+                <label name="host" value="MONO-HYD-LAP-44"/>
+                <label name="thread" value="11540@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(66)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556016816362" stop="1556016816444" status="passed">
+            <name>validateAssetShowType</name>
+            <description>Validate Asset Shpw Type of WOP</description>
+            <steps>
+                <step start="1556016816437" stop="1556016816437" status="passed">
+                    <name>logStep[Started reading Responses from WOP API ]</name>
+                    <title>Started reading Responses from WOP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816437" stop="1556016816437" status="passed">
+                    <name>logStep[Validating ShowType param name in WOP API]</name>
+                    <title>Validating ShowType param name in WOP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816437" stop="1556016816437" status="passed">
+                    <name>logStep[ Param values are ------ : [Series]]</name>
+                    <title> Param values are ------ : [Series]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816437" stop="1556016816437" status="passed">
+                    <name>logStep[Validating WOP API value Series with test data value Series]</name>
+                    <title>Validating WOP API value Series with test data value Series</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816437" stop="1556016816437" status="passed">
+                    <name>logStep[Started reading Responses from MP API ]</name>
+                    <title>Started reading Responses from MP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816437" stop="1556016816437" status="passed">
+                    <name>logStep[Validating ShowType param name in MP API]</name>
+                    <title>Validating ShowType param name in MP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816442" stop="1556016816442" status="passed">
+                    <name>logStep[ Param values are ------ : [Series]]</name>
+                    <title> Param values are ------ : [Series]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816442" stop="1556016816442" status="passed">
+                    <name>logStep[Validating MP API value Series with test data value Series]</name>
+                    <title>Validating MP API value Series with test data value Series</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForSeries"/>
+                <label name="testClass" value="com.amc.testclasses.RLTestCasesForSeries"/>
+                <label name="testMethod" value="validateAssetShowType"/>
+                <label name="host" value="MONO-HYD-LAP-44"/>
+                <label name="thread" value="11540@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(66)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556016816448" stop="1556016816516" status="passed">
+            <name>validateAssetSource</name>
+            <description>Validate Asset Source of WOP</description>
+            <steps>
+                <step start="1556016816511" stop="1556016816511" status="passed">
+                    <name>logStep[Started reading Responses from WOP API ]</name>
+                    <title>Started reading Responses from WOP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816511" stop="1556016816511" status="passed">
+                    <name>logStep[Validating Asset Source param name in WOP API]</name>
+                    <title>Validating Asset Source param name in WOP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816514" stop="1556016816514" status="passed">
+                    <name>logStep[ Param values are ------ : [Original]]</name>
+                    <title> Param values are ------ : [Original]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816514" stop="1556016816514" status="passed">
+                    <name>logStep[Validating WOP API value Original with test data value Original]</name>
+                    <title>Validating WOP API value Original with test data value Original</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816515" stop="1556016816515" status="passed">
+                    <name>logStep[Started reading Responses from MP API ]</name>
+                    <title>Started reading Responses from MP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816515" stop="1556016816515" status="passed">
+                    <name>logStep[Validating Asset Source param name in MP API]</name>
+                    <title>Validating Asset Source param name in MP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816516" stop="1556016816516" status="passed">
+                    <name>logStep[ Param values are ------ : [Original]]</name>
+                    <title> Param values are ------ : [Original]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816516" stop="1556016816516" status="passed">
+                    <name>logStep[Validating MP API value Original with test data value Original]</name>
+                    <title>Validating MP API value Original with test data value Original</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForSeries"/>
+                <label name="testClass" value="com.amc.testclasses.RLTestCasesForSeries"/>
+                <label name="testMethod" value="validateAssetSource"/>
+                <label name="host" value="MONO-HYD-LAP-44"/>
+                <label name="thread" value="11540@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(66)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556016816519" stop="1556016816587" status="passed">
+            <name>validateAssetTitle</name>
+            <description>Validate Asset Title of WOP</description>
+            <steps>
+                <step start="1556016816581" stop="1556016816581" status="passed">
+                    <name>logStep[Started reading Responses from WOP API ]</name>
+                    <title>Started reading Responses from WOP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816582" stop="1556016816582" status="passed">
+                    <name>logStep[Validating Title param name in WOP API]</name>
+                    <title>Validating Title param name in WOP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816582" stop="1556016816582" status="passed">
+                    <name>logStep[ Param values are ------ : [ProgramSeriesTestvj5]]</name>
+                    <title> Param values are ------ : [ProgramSeriesTestvj5]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816582" stop="1556016816582" status="passed">
+                    <name>logStep[Validating WOP API value ProgramSeriesTestvj5 with test data value ProgramSeriesTestvj5]</name>
+                    <title>Validating WOP API value ProgramSeriesTestvj5 with test data value ProgramSeriesTestvj5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816582" stop="1556016816582" status="passed">
+                    <name>logStep[Started reading Responses from MP API ]</name>
+                    <title>Started reading Responses from MP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816582" stop="1556016816582" status="passed">
+                    <name>logStep[Validating Title param name in MP API]</name>
+                    <title>Validating Title param name in MP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816582" stop="1556016816582" status="passed">
+                    <name>logStep[ Param values are ------ : [ProgramSeriesTestvj5]]</name>
+                    <title> Param values are ------ : [ProgramSeriesTestvj5]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816582" stop="1556016816582" status="passed">
+                    <name>logStep[Validating MP API value ProgramSeriesTestvj5 with test data value ProgramSeriesTestvj5]</name>
+                    <title>Validating MP API value ProgramSeriesTestvj5 with test data value ProgramSeriesTestvj5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForSeries"/>
+                <label name="testClass" value="com.amc.testclasses.RLTestCasesForSeries"/>
+                <label name="testMethod" value="validateAssetTitle"/>
+                <label name="host" value="MONO-HYD-LAP-44"/>
+                <label name="thread" value="11540@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(66)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556016816593" stop="1556016816678" status="passed">
+            <name>validateCastType</name>
+            <description>Validate Cast Type</description>
+            <steps>
+                <step start="1556016816675" stop="1556016816675" status="passed">
+                    <name>logStep[Started reading Responses from WOP API ]</name>
+                    <title>Started reading Responses from WOP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816675" stop="1556016816675" status="passed">
+                    <name>logStep[Validating Cast Type param name in WOP API]</name>
+                    <title>Validating Cast Type param name in WOP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816675" stop="1556016816675" status="passed">
+                    <name>logStep[ Param values are ------ : [Director]]</name>
+                    <title> Param values are ------ : [Director]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816678" stop="1556016816678" status="passed">
+                    <name>logStep[Validating WOP API value Director with test data value Director]</name>
+                    <title>Validating WOP API value Director with test data value Director</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForSeries"/>
+                <label name="testClass" value="com.amc.testclasses.RLTestCasesForSeries"/>
+                <label name="testMethod" value="validateCastType"/>
+                <label name="host" value="MONO-HYD-LAP-44"/>
+                <label name="thread" value="11540@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(66)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556016816683" stop="1556016816749" status="passed">
+            <name>validateFirstNameOfCastMember</name>
+            <description>Validate name of cast member</description>
+            <steps>
+                <step start="1556016816747" stop="1556016816747" status="passed">
+                    <name>logStep[Started reading Responses from WOP API ]</name>
+                    <title>Started reading Responses from WOP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816748" stop="1556016816748" status="passed">
+                    <name>logStep[Validating First Name param name in WOP API]</name>
+                    <title>Validating First Name param name in WOP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816748" stop="1556016816748" status="passed">
+                    <name>logStep[ Param values are ------ : [Caroline Apperre]]</name>
+                    <title> Param values are ------ : [Caroline Apperre]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816749" stop="1556016816749" status="passed">
+                    <name>logStep[Validating WOP API value Caroline Apperre with test data value Caroline Apperre]</name>
+                    <title>Validating WOP API value Caroline Apperre with test data value Caroline Apperre</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForSeries"/>
+                <label name="testClass" value="com.amc.testclasses.RLTestCasesForSeries"/>
+                <label name="testMethod" value="validateFirstNameOfCastMember"/>
+                <label name="host" value="MONO-HYD-LAP-44"/>
+                <label name="thread" value="11540@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(66)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556016816753" stop="1556016816820" status="passed">
+            <name>validateOrigin</name>
+            <description>Validate Origin of WOP</description>
+            <steps>
+                <step start="1556016816816" stop="1556016816816" status="passed">
+                    <name>logStep[Started reading Responses from WOP API ]</name>
+                    <title>Started reading Responses from WOP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816816" stop="1556016816816" status="passed">
+                    <name>logStep[Validating Origin param name in WOP API]</name>
+                    <title>Validating Origin param name in WOP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816817" stop="1556016816817" status="passed">
+                    <name>logStep[ Param values are ------ : [Licensed]]</name>
+                    <title> Param values are ------ : [Licensed]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816817" stop="1556016816817" status="passed">
+                    <name>logStep[Validating WOP API value Licensed with test data value Licensed]</name>
+                    <title>Validating WOP API value Licensed with test data value Licensed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816819" stop="1556016816819" status="passed">
+                    <name>logStep[Started reading Responses from MP API ]</name>
+                    <title>Started reading Responses from MP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816819" stop="1556016816819" status="passed">
+                    <name>logStep[Validating Origin param name in MP API]</name>
+                    <title>Validating Origin param name in MP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816819" stop="1556016816819" status="passed">
+                    <name>logStep[ Param values are ------ : [Licensed]]</name>
+                    <title> Param values are ------ : [Licensed]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816820" stop="1556016816820" status="passed">
+                    <name>logStep[Validating MP API value Licensed with test data value Licensed]</name>
+                    <title>Validating MP API value Licensed with test data value Licensed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForSeries"/>
+                <label name="testClass" value="com.amc.testclasses.RLTestCasesForSeries"/>
+                <label name="testMethod" value="validateOrigin"/>
+                <label name="host" value="MONO-HYD-LAP-44"/>
+                <label name="thread" value="11540@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(66)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556016816825" stop="1556016816891" status="passed">
+            <name>validateOwnerNetwork</name>
+            <description>Validate Owner Network</description>
+            <steps>
+                <step start="1556016816888" stop="1556016816888" status="passed">
+                    <name>logStep[Started reading Responses from WOP API ]</name>
+                    <title>Started reading Responses from WOP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816889" stop="1556016816889" status="passed">
+                    <name>logStep[Validating Owner Network param name in WOP API]</name>
+                    <title>Validating Owner Network param name in WOP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816890" stop="1556016816890" status="passed">
+                    <name>logStep[ Param values are ------ : [AMC]]</name>
+                    <title> Param values are ------ : [AMC]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816890" stop="1556016816890" status="passed">
+                    <name>logStep[Validating WOP API value AMC with test data value AMC]</name>
+                    <title>Validating WOP API value AMC with test data value AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816891" stop="1556016816891" status="passed">
+                    <name>logStep[Started reading Responses from MP API ]</name>
+                    <title>Started reading Responses from MP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816891" stop="1556016816891" status="passed">
+                    <name>logStep[Validating Owner Network param name in MP API]</name>
+                    <title>Validating Owner Network param name in MP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816891" stop="1556016816891" status="passed">
+                    <name>logStep[ Param values are ------ : [AMC]]</name>
+                    <title> Param values are ------ : [AMC]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816891" stop="1556016816891" status="passed">
+                    <name>logStep[Validating MP API value AMC with test data value AMC]</name>
+                    <title>Validating MP API value AMC with test data value AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForSeries"/>
+                <label name="testClass" value="com.amc.testclasses.RLTestCasesForSeries"/>
+                <label name="testMethod" value="validateOwnerNetwork"/>
+                <label name="host" value="MONO-HYD-LAP-44"/>
+                <label name="thread" value="11540@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(66)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556016816897" stop="1556016816979" status="passed">
+            <name>validateProductionMode</name>
+            <description>Validate Production Mode of WOP</description>
+            <steps>
+                <step start="1556016816975" stop="1556016816975" status="passed">
+                    <name>logStep[Started reading Responses from WOP API ]</name>
+                    <title>Started reading Responses from WOP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816976" stop="1556016816976" status="passed">
+                    <name>logStep[Validating Production Mode param name in WOP API]</name>
+                    <title>Validating Production Mode param name in WOP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816976" stop="1556016816976" status="passed">
+                    <name>logStep[ Param values are ------ : [Scripted]]</name>
+                    <title> Param values are ------ : [Scripted]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816977" stop="1556016816977" status="passed">
+                    <name>logStep[Validating WOP API value Scripted with test data value Scripted]</name>
+                    <title>Validating WOP API value Scripted with test data value Scripted</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816978" stop="1556016816978" status="passed">
+                    <name>logStep[Started reading Responses from MP API ]</name>
+                    <title>Started reading Responses from MP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816978" stop="1556016816978" status="passed">
+                    <name>logStep[Validating Production Mode param name in MP API]</name>
+                    <title>Validating Production Mode param name in MP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816979" stop="1556016816979" status="passed">
+                    <name>logStep[ Param values are ------ : [Scripted]]</name>
+                    <title> Param values are ------ : [Scripted]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016816979" stop="1556016816979" status="passed">
+                    <name>logStep[Validating MP API value Scripted with test data value Scripted]</name>
+                    <title>Validating MP API value Scripted with test data value Scripted</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForSeries"/>
+                <label name="testClass" value="com.amc.testclasses.RLTestCasesForSeries"/>
+                <label name="testMethod" value="validateProductionMode"/>
+                <label name="host" value="MONO-HYD-LAP-44"/>
+                <label name="thread" value="11540@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(66)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556016816983" stop="1556016817061" status="passed">
+            <name>validateTitleType</name>
+            <description>Validate title type of the asset</description>
+            <steps>
+                <step start="1556016817050" stop="1556016817050" status="passed">
+                    <name>logStep[Started reading Responses from WOP API ]</name>
+                    <title>Started reading Responses from WOP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016817050" stop="1556016817050" status="passed">
+                    <name>logStep[Validating Title Type param name in WOP API]</name>
+                    <title>Validating Title Type param name in WOP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016817050" stop="1556016817050" status="passed">
+                    <name>logStep[ Param values are ------ : [Series]]</name>
+                    <title> Param values are ------ : [Series]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016817050" stop="1556016817050" status="passed">
+                    <name>logStep[Validating WOP API value Series with test data value Series]</name>
+                    <title>Validating WOP API value Series with test data value Series</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016817056" stop="1556016817056" status="passed">
+                    <name>logStep[Started reading Responses from MP API ]</name>
+                    <title>Started reading Responses from MP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016817057" stop="1556016817057" status="passed">
+                    <name>logStep[Validating Title Type param name in MP API]</name>
+                    <title>Validating Title Type param name in MP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016817058" stop="1556016817058" status="passed">
+                    <name>logStep[ Param values are ------ : [Series]]</name>
+                    <title> Param values are ------ : [Series]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016817059" stop="1556016817059" status="passed">
+                    <name>logStep[Validating MP API value Series with test data value Series]</name>
+                    <title>Validating MP API value Series with test data value Series</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForSeries"/>
+                <label name="testClass" value="com.amc.testclasses.RLTestCasesForSeries"/>
+                <label name="testMethod" value="validateTitleType"/>
+                <label name="host" value="MONO-HYD-LAP-44"/>
+                <label name="thread" value="11540@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(66)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556016817065" stop="1556016817133" status="passed">
+            <name>validateTotalNumberOfEpisodes</name>
+            <description>Validate total number of episodes in the series</description>
+            <steps>
+                <step start="1556016817132" stop="1556016817132" status="passed">
+                    <name>logStep[Started reading Responses from MP API ]</name>
+                    <title>Started reading Responses from MP API </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016817133" stop="1556016817133" status="passed">
+                    <name>logStep[Validating TotalNumberOfEpisodes param name in MP API]</name>
+                    <title>Validating TotalNumberOfEpisodes param name in MP API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016817133" stop="1556016817133" status="passed">
+                    <name>logStep[ Param values are ------ : [1]]</name>
+                    <title> Param values are ------ : [1]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556016817133" stop="1556016817133" status="passed">
+                    <name>logStep[Validating MP API value 1 with test data value 1]</name>
+                    <title>Validating MP API value 1 with test data value 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForSeries"/>
+                <label name="testClass" value="com.amc.testclasses.RLTestCasesForSeries"/>
+                <label name="testMethod" value="validateTotalNumberOfEpisodes"/>
+                <label name="host" value="MONO-HYD-LAP-44"/>
+                <label name="thread" value="11540@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(66)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

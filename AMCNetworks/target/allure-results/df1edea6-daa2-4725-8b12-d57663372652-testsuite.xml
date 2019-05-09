@@ -1,0 +1,1620 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556714545850" stop="1556715639524" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite : AssetCreationForRL[assetType=rlAssetCreation]</name>
+    <title>Suite : AssetCreationForRL[assetType=rlAssetCreation]</title>
+    <test-cases>
+        <test-case start="1556714546061" stop="1556715639269" status="passed">
+            <name>createDifferentRLAssetsForRegression</name>
+            <steps>
+                <step start="1556714546521" stop="1556714546525" status="passed">
+                    <name>logStep[Enter user name as:chandan.heralagi@amcnetworks.com]</name>
+                    <title>Enter user name as:chandan.heralagi@amcnetworks.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714546808" stop="1556714546808" status="passed">
+                    <name>logStep[Enter password as:8KaRbijapur]</name>
+                    <title>Enter password as:8KaRbijapur</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714546983" stop="1556714546983" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714547601" stop="1556714547601" status="passed">
+                    <name>logStep[Click On submit Button]</name>
+                    <title>Click On submit Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714556336" stop="1556714556336" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714556825" stop="1556714556825" status="passed">
+                    <name>logStep[Click on Asset Maintenance Link]</name>
+                    <title>Click on Asset Maintenance Link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714560871" stop="1556714560871" status="passed">
+                    <name>logStep[Click on New Button]</name>
+                    <title>Click on New Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714561146" stop="1556714561146" status="passed">
+                    <name>logStep[Click on Program Button]</name>
+                    <title>Click on Program Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714566727" stop="1556714566727" status="passed">
+                    <name>logStep[Select asset type as Program - Series]</name>
+                    <title>Select asset type as Program - Series</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714572008" stop="1556714572008" status="passed">
+                    <name>logStep[Select asset title as ProgramSeriesTest9TT]</name>
+                    <title>Select asset title as ProgramSeriesTest9TT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714575045" stop="1556714575045" status="passed">
+                    <name>logStep[Click on Asset Vendor]</name>
+                    <title>Click on Asset Vendor</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714577166" stop="1556714577166" status="passed">
+                    <name>logStep[Search for vendor Apple Inc.]</name>
+                    <title>Search for vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714578868" stop="1556714578868" status="passed">
+                    <name>logStep[Select vendor Apple Inc.]</name>
+                    <title>Select vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714579444" stop="1556714579444" status="passed">
+                    <name>logStep[Select source business unit as AMC Linear]</name>
+                    <title>Select source business unit as AMC Linear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714579769" stop="1556714579769" status="passed">
+                    <name>logStep[Enter asset duration as 100620]</name>
+                    <title>Enter asset duration as 100620</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714580232" stop="1556714580232" status="passed">
+                    <name>logStep[Select asset status as Active]</name>
+                    <title>Select asset status as Active</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714580589" stop="1556714580589" status="passed">
+                    <name>logStep[Select asset source as AMC Licensed Scripted Original]</name>
+                    <title>Select asset source as AMC Licensed Scripted Original</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714589560" stop="1556714589560" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714590009" stop="1556714590009" status="passed">
+                    <name>logStep[Click on Details Tab]</name>
+                    <title>Click on Details Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714594457" stop="1556714594457" status="passed">
+                    <name>logStep[Set AKA alternative title as Program Series Alternative Title]</name>
+                    <title>Set AKA alternative title as Program Series Alternative Title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714598159" stop="1556714598159" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714601364" stop="1556714601364" status="passed">
+                    <name>logStep[Select alternative title type as Legal]</name>
+                    <title>Select alternative title type as Legal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714603164" stop="1556714603164" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714604306" stop="1556714604306" status="passed">
+                    <name>logStep[Select release year as 2030]</name>
+                    <title>Select release year as 2030</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714608221" stop="1556714608221" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714632161" stop="1556714632161" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714632729" stop="1556714632729" status="passed">
+                    <name>logStep[Click on Asset Navigator Menu]</name>
+                    <title>Click on Asset Navigator Menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714634524" stop="1556714634524" status="passed">
+                    <name>logStep[Switch to asset navigator frame]</name>
+                    <title>Switch to asset navigator frame</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714634623" stop="1556714634623" status="passed">
+                    <name>logStep[Click on Add Season Button]</name>
+                    <title>Click on Add Season Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714635576" stop="1556714635576" status="passed">
+                    <name>logStep[Switch to default content]</name>
+                    <title>Switch to default content</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714635589" stop="1556714635589" status="passed">
+                    <name>logStep[Switch to Add Item frame]</name>
+                    <title>Switch to Add Item frame</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714635682" stop="1556714635682" status="passed">
+                    <name>logStep[Enter season name as Season1]</name>
+                    <title>Enter season name as Season1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714636086" stop="1556714636086" status="passed">
+                    <name>logStep[Click on Save Button]</name>
+                    <title>Click on Save Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714637784" stop="1556714637784" status="passed">
+                    <name>logStep[Switch to asset navigator frame]</name>
+                    <title>Switch to asset navigator frame</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714637862" stop="1556714637862" status="passed">
+                    <name>logStep[Click on Season]</name>
+                    <title>Click on Season</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714638183" stop="1556714638183" status="passed">
+                    <name>logStep[Click on Add Episode Button]</name>
+                    <title>Click on Add Episode Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714639287" stop="1556714639287" status="passed">
+                    <name>logStep[Episode episode name as Episode1]</name>
+                    <title>Episode episode name as Episode1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714639666" stop="1556714639666" status="passed">
+                    <name>logStep[Episode episode order as 01-001]</name>
+                    <title>Episode episode order as 01-001</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714640011" stop="1556714640011" status="passed">
+                    <name>logStep[Episode episode air date as 5/1/19]</name>
+                    <title>Episode episode air date as 5/1/19</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714640387" stop="1556714640387" status="passed">
+                    <name>logStep[Click on Save Button]</name>
+                    <title>Click on Save Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714642216" stop="1556714642216" status="passed">
+                    <name>logStep[Click on Ok Button]</name>
+                    <title>Click on Ok Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714669327" stop="1556714669327" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714669329" stop="1556714669329" status="passed">
+                    <name>logStep[Series Get Created]</name>
+                    <title>Series Get Created</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714669330" stop="1556714669330" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714673637" stop="1556714673637" status="passed">
+                    <name>logStep[Click on Asset Maintenance Link]</name>
+                    <title>Click on Asset Maintenance Link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714677710" stop="1556714677710" status="passed">
+                    <name>logStep[Click on New Button]</name>
+                    <title>Click on New Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714677958" stop="1556714677958" status="passed">
+                    <name>logStep[Click on Program Button]</name>
+                    <title>Click on Program Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714682604" stop="1556714682604" status="passed">
+                    <name>logStep[Select asset type as Program - One-Off]</name>
+                    <title>Select asset type as Program - One-Off</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714682743" stop="1556714682743" status="passed">
+                    <name>logStep[Select asset title as ProgramOne-OffTestPUX]</name>
+                    <title>Select asset title as ProgramOne-OffTestPUX</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714685377" stop="1556714685377" status="passed">
+                    <name>logStep[Click on Asset Vendor]</name>
+                    <title>Click on Asset Vendor</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714686748" stop="1556714686748" status="passed">
+                    <name>logStep[Search for vendor Apple Inc.]</name>
+                    <title>Search for vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714688025" stop="1556714688025" status="passed">
+                    <name>logStep[Select vendor Apple Inc.]</name>
+                    <title>Select vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714688923" stop="1556714688923" status="passed">
+                    <name>logStep[Select source business unit as AMC Linear]</name>
+                    <title>Select source business unit as AMC Linear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714689220" stop="1556714689221" status="passed">
+                    <name>logStep[Enter asset duration as 090620]</name>
+                    <title>Enter asset duration as 090620</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714689624" stop="1556714689624" status="passed">
+                    <name>logStep[Select asset status as Active]</name>
+                    <title>Select asset status as Active</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714689939" stop="1556714689939" status="passed">
+                    <name>logStep[Select asset source as AMC Licensed Scripted Original]</name>
+                    <title>Select asset source as AMC Licensed Scripted Original</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714696941" stop="1556714696941" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714697346" stop="1556714697346" status="passed">
+                    <name>logStep[Click on Details Tab]</name>
+                    <title>Click on Details Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714700709" stop="1556714700709" status="passed">
+                    <name>logStep[Set AKA alternative title as Program One OffAlternative Title]</name>
+                    <title>Set AKA alternative title as Program One OffAlternative Title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714703383" stop="1556714703383" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714706501" stop="1556714706501" status="passed">
+                    <name>logStep[Select alternative title type as Legal]</name>
+                    <title>Select alternative title type as Legal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714708248" stop="1556714708248" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714709391" stop="1556714709391" status="passed">
+                    <name>logStep[Select release year as 2030]</name>
+                    <title>Select release year as 2030</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714713611" stop="1556714713611" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714741806" stop="1556714741806" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714742288" stop="1556714742288" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714742289" stop="1556714742289" status="passed">
+                    <name>logStep[One-Off Get Created]</name>
+                    <title>One-Off Get Created</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714742290" stop="1556714742290" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714747123" stop="1556714747123" status="passed">
+                    <name>logStep[Click on Asset Maintenance Link]</name>
+                    <title>Click on Asset Maintenance Link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714752876" stop="1556714752876" status="passed">
+                    <name>logStep[Click on New Button]</name>
+                    <title>Click on New Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714753122" stop="1556714753122" status="passed">
+                    <name>logStep[Click on Program Button]</name>
+                    <title>Click on Program Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714758213" stop="1556714758213" status="passed">
+                    <name>logStep[Select asset type as Program - Special]</name>
+                    <title>Select asset type as Program - Special</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714763867" stop="1556714763867" status="passed">
+                    <name>logStep[Select asset title as ProgramSpecialTestVhf]</name>
+                    <title>Select asset title as ProgramSpecialTestVhf</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714766906" stop="1556714766906" status="passed">
+                    <name>logStep[Click on Asset Vendor]</name>
+                    <title>Click on Asset Vendor</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714768657" stop="1556714768657" status="passed">
+                    <name>logStep[Search for vendor Apple Inc.]</name>
+                    <title>Search for vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714770273" stop="1556714770273" status="passed">
+                    <name>logStep[Select vendor Apple Inc.]</name>
+                    <title>Select vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714771151" stop="1556714771151" status="passed">
+                    <name>logStep[Select source business unit as AMC Linear]</name>
+                    <title>Select source business unit as AMC Linear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714771434" stop="1556714771434" status="passed">
+                    <name>logStep[Enter asset duration as 080620]</name>
+                    <title>Enter asset duration as 080620</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714771628" stop="1556714771628" status="passed">
+                    <name>logStep[Select asset status as Active]</name>
+                    <title>Select asset status as Active</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714771790" stop="1556714771790" status="passed">
+                    <name>logStep[Select asset source as AMC Licensed Scripted Original]</name>
+                    <title>Select asset source as AMC Licensed Scripted Original</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714780918" stop="1556714780918" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714781350" stop="1556714781350" status="passed">
+                    <name>logStep[Click on Details Tab]</name>
+                    <title>Click on Details Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714786859" stop="1556714786859" status="passed">
+                    <name>logStep[Set AKA alternative title as Program SpeicalAlternative Title]</name>
+                    <title>Set AKA alternative title as Program SpeicalAlternative Title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714789528" stop="1556714789528" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714792293" stop="1556714792293" status="passed">
+                    <name>logStep[Select alternative title type as Legal]</name>
+                    <title>Select alternative title type as Legal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714793328" stop="1556714793328" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714794326" stop="1556714794326" status="passed">
+                    <name>logStep[Select release year as 2030]</name>
+                    <title>Select release year as 2030</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714800135" stop="1556714800135" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714822688" stop="1556714822688" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714823143" stop="1556714823143" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714823143" stop="1556714823143" status="passed">
+                    <name>logStep[Special Get Created]</name>
+                    <title>Special Get Created</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714823144" stop="1556714823144" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714828337" stop="1556714828337" status="passed">
+                    <name>logStep[Click on Asset Maintenance Link]</name>
+                    <title>Click on Asset Maintenance Link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714835216" stop="1556714835216" status="passed">
+                    <name>logStep[Click on New Button]</name>
+                    <title>Click on New Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714835452" stop="1556714835452" status="passed">
+                    <name>logStep[Click on Program Button]</name>
+                    <title>Click on Program Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714840667" stop="1556714840667" status="passed">
+                    <name>logStep[Select asset type as Program - Demo]</name>
+                    <title>Select asset type as Program - Demo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714844995" stop="1556714844995" status="passed">
+                    <name>logStep[Select asset title as ProgramDemoTestrnE]</name>
+                    <title>Select asset title as ProgramDemoTestrnE</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714847918" stop="1556714847918" status="passed">
+                    <name>logStep[Click on Asset Vendor]</name>
+                    <title>Click on Asset Vendor</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714849673" stop="1556714849673" status="passed">
+                    <name>logStep[Search for vendor Apple Inc.]</name>
+                    <title>Search for vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714851169" stop="1556714851169" status="passed">
+                    <name>logStep[Select vendor Apple Inc.]</name>
+                    <title>Select vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714852105" stop="1556714852105" status="passed">
+                    <name>logStep[Select source business unit as AMC Linear]</name>
+                    <title>Select source business unit as AMC Linear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714852413" stop="1556714852413" status="passed">
+                    <name>logStep[Enter asset duration as 100620]</name>
+                    <title>Enter asset duration as 100620</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714852834" stop="1556714852834" status="passed">
+                    <name>logStep[Select asset status as Active]</name>
+                    <title>Select asset status as Active</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714853160" stop="1556714853160" status="passed">
+                    <name>logStep[Select asset source as AMC Licensed Scripted Original]</name>
+                    <title>Select asset source as AMC Licensed Scripted Original</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714859942" stop="1556714859942" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714860365" stop="1556714860365" status="passed">
+                    <name>logStep[Click on Details Tab]</name>
+                    <title>Click on Details Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714864042" stop="1556714864042" status="passed">
+                    <name>logStep[Set AKA alternative title as Program DemoAlternative Title]</name>
+                    <title>Set AKA alternative title as Program DemoAlternative Title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714865665" stop="1556714865665" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714867270" stop="1556714867270" status="passed">
+                    <name>logStep[Select alternative title type as Legal]</name>
+                    <title>Select alternative title type as Legal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714868153" stop="1556714868153" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714868739" stop="1556714868739" status="passed">
+                    <name>logStep[Select release year as 2030]</name>
+                    <title>Select release year as 2030</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714872435" stop="1556714872435" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714894231" stop="1556714894231" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714894629" stop="1556714894629" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714894630" stop="1556714894630" status="passed">
+                    <name>logStep[Demo Get Created]</name>
+                    <title>Demo Get Created</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714894630" stop="1556714894630" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714899052" stop="1556714899052" status="passed">
+                    <name>logStep[Click on Asset Maintenance Link]</name>
+                    <title>Click on Asset Maintenance Link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714904761" stop="1556714904761" status="passed">
+                    <name>logStep[Click on New Button]</name>
+                    <title>Click on New Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714905229" stop="1556714905229" status="passed">
+                    <name>logStep[Click on Program Button]</name>
+                    <title>Click on Program Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714911860" stop="1556714911860" status="passed">
+                    <name>logStep[Select asset type as Program - Documentary]</name>
+                    <title>Select asset type as Program - Documentary</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714917758" stop="1556714917758" status="passed">
+                    <name>logStep[Select asset title as ProgramDocumentaryTestFFk]</name>
+                    <title>Select asset title as ProgramDocumentaryTestFFk</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714920924" stop="1556714920924" status="passed">
+                    <name>logStep[Click on Asset Vendor]</name>
+                    <title>Click on Asset Vendor</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714922969" stop="1556714922969" status="passed">
+                    <name>logStep[Search for vendor Apple Inc.]</name>
+                    <title>Search for vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714924622" stop="1556714924622" status="passed">
+                    <name>logStep[Select vendor Apple Inc.]</name>
+                    <title>Select vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714925449" stop="1556714925449" status="passed">
+                    <name>logStep[Select source business unit as AMC Linear]</name>
+                    <title>Select source business unit as AMC Linear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714925752" stop="1556714925752" status="passed">
+                    <name>logStep[Enter asset duration as 100620]</name>
+                    <title>Enter asset duration as 100620</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714926163" stop="1556714926163" status="passed">
+                    <name>logStep[Select asset status as Active]</name>
+                    <title>Select asset status as Active</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714926471" stop="1556714926471" status="passed">
+                    <name>logStep[Select asset source as AMC Licensed Scripted Original]</name>
+                    <title>Select asset source as AMC Licensed Scripted Original</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714934068" stop="1556714934068" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714934508" stop="1556714934508" status="passed">
+                    <name>logStep[Click on Details Tab]</name>
+                    <title>Click on Details Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714938005" stop="1556714938005" status="passed">
+                    <name>logStep[Set AKA alternative title as Program DocumentryAlternative Title]</name>
+                    <title>Set AKA alternative title as Program DocumentryAlternative Title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714939542" stop="1556714939542" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714941948" stop="1556714941948" status="passed">
+                    <name>logStep[Select alternative title type as Legal]</name>
+                    <title>Select alternative title type as Legal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714943651" stop="1556714943651" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714944742" stop="1556714944742" status="passed">
+                    <name>logStep[Select release year as 2030]</name>
+                    <title>Select release year as 2030</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714949833" stop="1556714949833" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714970066" stop="1556714970066" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714970516" stop="1556714970516" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714970516" stop="1556714970516" status="passed">
+                    <name>logStep[Documentary Get Created]</name>
+                    <title>Documentary Get Created</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714970517" stop="1556714970517" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714974541" stop="1556714974541" status="passed">
+                    <name>logStep[Click on Asset Maintenance Link]</name>
+                    <title>Click on Asset Maintenance Link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714980017" stop="1556714980017" status="passed">
+                    <name>logStep[Click on New Button]</name>
+                    <title>Click on New Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714980285" stop="1556714980285" status="passed">
+                    <name>logStep[Click on Program Button]</name>
+                    <title>Click on Program Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714986312" stop="1556714986312" status="passed">
+                    <name>logStep[Select asset type as Program - Pilot]</name>
+                    <title>Select asset type as Program - Pilot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714990342" stop="1556714990342" status="passed">
+                    <name>logStep[Select asset title as ProgramPilotTestHRs]</name>
+                    <title>Select asset title as ProgramPilotTestHRs</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714993114" stop="1556714993114" status="passed">
+                    <name>logStep[Click on Asset Vendor]</name>
+                    <title>Click on Asset Vendor</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714994677" stop="1556714994677" status="passed">
+                    <name>logStep[Search for vendor Apple Inc.]</name>
+                    <title>Search for vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714995880" stop="1556714995880" status="passed">
+                    <name>logStep[Select vendor Apple Inc.]</name>
+                    <title>Select vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714996385" stop="1556714996385" status="passed">
+                    <name>logStep[Select source business unit as AMC Linear]</name>
+                    <title>Select source business unit as AMC Linear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714996663" stop="1556714996663" status="passed">
+                    <name>logStep[Enter asset duration as 100620]</name>
+                    <title>Enter asset duration as 100620</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714996958" stop="1556714996958" status="passed">
+                    <name>logStep[Select asset status as Active]</name>
+                    <title>Select asset status as Active</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556714997148" stop="1556714997148" status="passed">
+                    <name>logStep[Select asset source as AMC Licensed Scripted Original]</name>
+                    <title>Select asset source as AMC Licensed Scripted Original</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715003898" stop="1556715003898" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715004330" stop="1556715004330" status="passed">
+                    <name>logStep[Click on Details Tab]</name>
+                    <title>Click on Details Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715007410" stop="1556715007410" status="passed">
+                    <name>logStep[Set AKA alternative title as Program PilotAlternative Title]</name>
+                    <title>Set AKA alternative title as Program PilotAlternative Title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715010166" stop="1556715010166" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715013353" stop="1556715013353" status="passed">
+                    <name>logStep[Select alternative title type as Legal]</name>
+                    <title>Select alternative title type as Legal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715015093" stop="1556715015093" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715015796" stop="1556715015796" status="passed">
+                    <name>logStep[Select release year as 2030]</name>
+                    <title>Select release year as 2030</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715021612" stop="1556715021612" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715043676" stop="1556715043676" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715044073" stop="1556715044073" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715044073" stop="1556715044073" status="passed">
+                    <name>logStep[Pilot Get Created]</name>
+                    <title>Pilot Get Created</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715044074" stop="1556715044074" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715049762" stop="1556715049762" status="passed">
+                    <name>logStep[Click on Asset Maintenance Link]</name>
+                    <title>Click on Asset Maintenance Link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715054887" stop="1556715054887" status="passed">
+                    <name>logStep[Click on New Button]</name>
+                    <title>Click on New Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715055110" stop="1556715055110" status="passed">
+                    <name>logStep[Click on Program Button]</name>
+                    <title>Click on Program Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715059842" stop="1556715059842" status="passed">
+                    <name>logStep[Select asset type as Program - Made for TV]</name>
+                    <title>Select asset type as Program - Made for TV</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715064718" stop="1556715064718" status="passed">
+                    <name>logStep[Select asset title as ProgramMade For TVTestHKr]</name>
+                    <title>Select asset title as ProgramMade For TVTestHKr</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715067803" stop="1556715067803" status="passed">
+                    <name>logStep[Click on Asset Vendor]</name>
+                    <title>Click on Asset Vendor</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715069450" stop="1556715069450" status="passed">
+                    <name>logStep[Search for vendor Apple Inc.]</name>
+                    <title>Search for vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715070799" stop="1556715070799" status="passed">
+                    <name>logStep[Select vendor Apple Inc.]</name>
+                    <title>Select vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715071724" stop="1556715071724" status="passed">
+                    <name>logStep[Select source business unit as AMC Linear]</name>
+                    <title>Select source business unit as AMC Linear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715072025" stop="1556715072025" status="passed">
+                    <name>logStep[Enter asset duration as 100620]</name>
+                    <title>Enter asset duration as 100620</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715072440" stop="1556715072441" status="passed">
+                    <name>logStep[Select asset status as Active]</name>
+                    <title>Select asset status as Active</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715072768" stop="1556715072768" status="passed">
+                    <name>logStep[Select asset source as AMC Licensed Scripted Original]</name>
+                    <title>Select asset source as AMC Licensed Scripted Original</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715079448" stop="1556715079448" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715079853" stop="1556715079853" status="passed">
+                    <name>logStep[Click on Details Tab]</name>
+                    <title>Click on Details Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715082688" stop="1556715082688" status="passed">
+                    <name>logStep[Set AKA alternative title as Program MadeForTVAlternative Title]</name>
+                    <title>Set AKA alternative title as Program MadeForTVAlternative Title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715085873" stop="1556715085873" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715088993" stop="1556715088993" status="passed">
+                    <name>logStep[Select alternative title type as Legal]</name>
+                    <title>Select alternative title type as Legal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715090687" stop="1556715090687" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715091716" stop="1556715091716" status="passed">
+                    <name>logStep[Select release year as 2030]</name>
+                    <title>Select release year as 2030</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715096032" stop="1556715096032" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715120656" stop="1556715120656" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715121081" stop="1556715121081" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715121082" stop="1556715121082" status="passed">
+                    <name>logStep[Made For TV Get Created]</name>
+                    <title>Made For TV Get Created</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715121082" stop="1556715121082" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715125056" stop="1556715125056" status="passed">
+                    <name>logStep[Click on Asset Maintenance Link]</name>
+                    <title>Click on Asset Maintenance Link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715129615" stop="1556715129615" status="passed">
+                    <name>logStep[Click on New Button]</name>
+                    <title>Click on New Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715129829" stop="1556715129829" status="passed">
+                    <name>logStep[Click on Program Button]</name>
+                    <title>Click on Program Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715134568" stop="1556715134568" status="passed">
+                    <name>logStep[Select asset type as Program - Music Performance]</name>
+                    <title>Select asset type as Program - Music Performance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715139042" stop="1556715139042" status="passed">
+                    <name>logStep[Select asset title as ProgramMusic PerformanceTest5CK]</name>
+                    <title>Select asset title as ProgramMusic PerformanceTest5CK</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715142384" stop="1556715142384" status="passed">
+                    <name>logStep[Click on Asset Vendor]</name>
+                    <title>Click on Asset Vendor</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715144042" stop="1556715144042" status="passed">
+                    <name>logStep[Search for vendor Apple Inc.]</name>
+                    <title>Search for vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715145918" stop="1556715145918" status="passed">
+                    <name>logStep[Select vendor Apple Inc.]</name>
+                    <title>Select vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715146828" stop="1556715146828" status="passed">
+                    <name>logStep[Select source business unit as AMC Linear]</name>
+                    <title>Select source business unit as AMC Linear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715147146" stop="1556715147146" status="passed">
+                    <name>logStep[Enter asset duration as 100620]</name>
+                    <title>Enter asset duration as 100620</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715147572" stop="1556715147572" status="passed">
+                    <name>logStep[Select asset status as Active]</name>
+                    <title>Select asset status as Active</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715147882" stop="1556715147882" status="passed">
+                    <name>logStep[Select asset source as AMC Licensed Scripted Original]</name>
+                    <title>Select asset source as AMC Licensed Scripted Original</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715154865" stop="1556715154865" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715155286" stop="1556715155286" status="passed">
+                    <name>logStep[Click on Details Tab]</name>
+                    <title>Click on Details Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715158340" stop="1556715158340" status="passed">
+                    <name>logStep[Set AKA alternative title as Program Music PerformanceAlternative Title]</name>
+                    <title>Set AKA alternative title as Program Music PerformanceAlternative Title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715160071" stop="1556715160071" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715162784" stop="1556715162784" status="passed">
+                    <name>logStep[Select alternative title type as Legal]</name>
+                    <title>Select alternative title type as Legal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715164223" stop="1556715164223" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715165058" stop="1556715165058" status="passed">
+                    <name>logStep[Select release year as 2030]</name>
+                    <title>Select release year as 2030</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715169000" stop="1556715169000" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715191365" stop="1556715191365" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715191770" stop="1556715191770" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715191771" stop="1556715191771" status="passed">
+                    <name>logStep[Music Performance Get Created]</name>
+                    <title>Music Performance Get Created</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715191771" stop="1556715191771" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715196356" stop="1556715196357" status="passed">
+                    <name>logStep[Click on Asset Maintenance Link]</name>
+                    <title>Click on Asset Maintenance Link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715201623" stop="1556715201623" status="passed">
+                    <name>logStep[Click on New Button]</name>
+                    <title>Click on New Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715202047" stop="1556715202047" status="passed">
+                    <name>logStep[Click on Theatrical Button]</name>
+                    <title>Click on Theatrical Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715208213" stop="1556715208213" status="passed">
+                    <name>logStep[Select asset type as Theatrical - Feature Length]</name>
+                    <title>Select asset type as Theatrical - Feature Length</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715208413" stop="1556715208413" status="passed">
+                    <name>logStep[Select asset title as ProgramFeature LengthTest2h0]</name>
+                    <title>Select asset title as ProgramFeature LengthTest2h0</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715211707" stop="1556715211707" status="passed">
+                    <name>logStep[Click on Asset Vendor]</name>
+                    <title>Click on Asset Vendor</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715213339" stop="1556715213340" status="passed">
+                    <name>logStep[Search for vendor Apple Inc.]</name>
+                    <title>Search for vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715214920" stop="1556715214920" status="passed">
+                    <name>logStep[Select vendor Apple Inc.]</name>
+                    <title>Select vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715215816" stop="1556715215816" status="passed">
+                    <name>logStep[Select source business unit as AMC Linear]</name>
+                    <title>Select source business unit as AMC Linear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715216108" stop="1556715216108" status="passed">
+                    <name>logStep[Enter asset duration as 100620]</name>
+                    <title>Enter asset duration as 100620</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715216403" stop="1556715216403" status="passed">
+                    <name>logStep[Select asset status as Active]</name>
+                    <title>Select asset status as Active</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715216617" stop="1556715216617" status="passed">
+                    <name>logStep[Select asset source as AMC Licensed Scripted Original]</name>
+                    <title>Select asset source as AMC Licensed Scripted Original</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715227727" stop="1556715227727" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715228174" stop="1556715228174" status="passed">
+                    <name>logStep[Click on Details Tab]</name>
+                    <title>Click on Details Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715231102" stop="1556715231102" status="passed">
+                    <name>logStep[Set AKA alternative title as Program Feature Length Alternative Title]</name>
+                    <title>Set AKA alternative title as Program Feature Length Alternative Title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715233481" stop="1556715233481" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715236443" stop="1556715236443" status="passed">
+                    <name>logStep[Select alternative title type as Legal]</name>
+                    <title>Select alternative title type as Legal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715238128" stop="1556715238128" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715239151" stop="1556715239151" status="passed">
+                    <name>logStep[Select release year as 2030]</name>
+                    <title>Select release year as 2030</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715242869" stop="1556715242869" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715263321" stop="1556715263321" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715263764" stop="1556715263764" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715263765" stop="1556715263765" status="passed">
+                    <name>logStep[Feature Length Get Created]</name>
+                    <title>Feature Length Get Created</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715263765" stop="1556715263765" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715267872" stop="1556715267872" status="passed">
+                    <name>logStep[Click on Asset Maintenance Link]</name>
+                    <title>Click on Asset Maintenance Link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715272536" stop="1556715272536" status="passed">
+                    <name>logStep[Click on New Button]</name>
+                    <title>Click on New Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715272773" stop="1556715272773" status="passed">
+                    <name>logStep[Click on Theatrical Button]</name>
+                    <title>Click on Theatrical Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715278765" stop="1556715278765" status="passed">
+                    <name>logStep[Select asset type as Theatrical - Short Film]</name>
+                    <title>Select asset type as Theatrical - Short Film</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715283317" stop="1556715283317" status="passed">
+                    <name>logStep[Select asset title as ProgramShort FilmTestONX]</name>
+                    <title>Select asset title as ProgramShort FilmTestONX</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715286477" stop="1556715286477" status="passed">
+                    <name>logStep[Click on Asset Vendor]</name>
+                    <title>Click on Asset Vendor</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715288183" stop="1556715288183" status="passed">
+                    <name>logStep[Search for vendor Apple Inc.]</name>
+                    <title>Search for vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715290395" stop="1556715290395" status="passed">
+                    <name>logStep[Select vendor Apple Inc.]</name>
+                    <title>Select vendor Apple Inc.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715290849" stop="1556715290849" status="passed">
+                    <name>logStep[Select source business unit as AMC Linear]</name>
+                    <title>Select source business unit as AMC Linear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715291009" stop="1556715291009" status="passed">
+                    <name>logStep[Enter asset duration as 100620]</name>
+                    <title>Enter asset duration as 100620</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715291220" stop="1556715291220" status="passed">
+                    <name>logStep[Select asset status as Active]</name>
+                    <title>Select asset status as Active</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715291396" stop="1556715291396" status="passed">
+                    <name>logStep[Select asset source as AMC Licensed Scripted Original]</name>
+                    <title>Select asset source as AMC Licensed Scripted Original</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715299575" stop="1556715299575" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715299982" stop="1556715299982" status="passed">
+                    <name>logStep[Click on Details Tab]</name>
+                    <title>Click on Details Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715304364" stop="1556715304364" status="passed">
+                    <name>logStep[Set AKA alternative title as Program ShortFilm Alternative Title]</name>
+                    <title>Set AKA alternative title as Program ShortFilm Alternative Title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715306779" stop="1556715306779" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715308762" stop="1556715308762" status="passed">
+                    <name>logStep[Select alternative title type as Legal]</name>
+                    <title>Select alternative title type as Legal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715309837" stop="1556715309837" status="passed">
+                    <name>logStep[Select alternative title network as AMC]</name>
+                    <title>Select alternative title network as AMC</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715310652" stop="1556715310652" status="passed">
+                    <name>logStep[Select release year as 2030]</name>
+                    <title>Select release year as 2030</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715315935" stop="1556715315935" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715338468" stop="1556715338468" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715338879" stop="1556715338879" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715338880" stop="1556715338880" status="passed">
+                    <name>logStep[Short Film Get Created]</name>
+                    <title>Short Film Get Created</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556715338880" stop="1556715338880" status="passed">
+                    <name>logStep[====================================================]</name>
+                    <title>====================================================</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot" source="ac0b62c0-802a-470b-8fe2-99a413b5b647-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="90b84b50-b412-4efd-814c-da85764c635b-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="be541b58-8297-4050-bd2a-c2b3228a0bdd-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="41da8b80-7f09-4a3f-8ed1-16480489223a-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="5f25a1f3-94fd-4423-85eb-fd317d96be9f-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="406126c3-70af-4d48-8198-30a91ccaf35b-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="b050ee5a-225d-4db4-922d-243806c6390a-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="d4f77177-1609-4cf5-8955-331fcaac5a47-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="3ed4b4a9-9422-47f7-a4a3-899924f5249b-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="6aeece12-c138-4972-894f-315beefd0419-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="49f1b3b1-764b-4ef5-a71d-867be3a05581-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="af98ee88-f5d2-402c-a033-2865b01ab101-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="9c084489-57e1-4122-99c3-1ab45e305243-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="cacca730-ad7a-4fa3-ba9b-ea665a910235-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="74f91b35-87ba-4587-8fdb-3938df941c8a-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="17cd71b2-1a71-47e6-90c8-e517f5200a23-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="46e33602-5c7c-446a-82a1-6af9b1ade7b6-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="19be64da-d311-4227-aaf2-b7e55d86ee27-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="3339cd3b-2019-4ec3-af43-01835643b0bd-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="bbf866af-ddfa-4017-9123-a9d856481fdd-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="c0ec8e1c-aa1f-4746-9d49-f240084484b6-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="a40608af-b64b-4346-b277-f20175fe04ab-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="449aba8a-7af9-4145-a6c1-1ce3883d42d8-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="516c4569-c851-44e4-b27b-8b43b3545f1f-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="99aba17a-6c7d-4808-b9f6-ed929e879fbc-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="1ac2045d-dc2e-4938-bc6a-95c20f2b5094-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="052e4992-c895-4bc8-927e-64e92299f1dc-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="e10c76c1-1182-4b30-a47b-0bf46c588743-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="216891bb-a2ad-4599-a139-b21d69ac9420-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="82bf87d2-c671-4c8a-b4b1-ba3768ee11cf-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="cc20bfc0-6b13-40d9-9a07-520f8de944f9-attachment.png" type="image/png"/>
+                <attachment title="Screenshot" source="e1896bdb-e9d8-4228-af50-d991ea353ee1-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForRL"/>
+                <label name="testClass" value="com.amc.testclasses.RLAssetCreation"/>
+                <label name="testMethod" value="createDifferentRLAssetsForRegression"/>
+                <label name="story" value="RLRegressionValidation"/>
+                <label name="feature" value="RLRegressionValidation"/>
+                <label name="host" value="MONO-HYD-LAP-44"/>
+                <label name="thread" value="9212@MONO-HYD-LAP-44.TestNG-test=AssetCreationForRL-1(22)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

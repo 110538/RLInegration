@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+   <duplication lines="16" tokens="124">
+      <file line="158"
+            path="C:\Users\Monocept\eclipse-workspace\AMCNetworks\src\main\java\com\amc\pageobjects\ApiExecutionTypes.java"/>
+      <file line="286"
+            path="C:\Users\Monocept\eclipse-workspace\AMCNetworks\src\main\java\com\amc\pageobjects\ApiExecutionTypes.java"/>
+      <codefragment><![CDATA[					String line = "";
+					while ((line = rd.readLine()) != null) {
+						textView_1.append(line);
+
+					}
+					if (textView_1.toString().contains("xml")) {
+						text1 = convertxmltoJson(textView_1.toString());
+					} else if (!textView_1.toString().contains("xml")) {
+						jsonObj = new JSONObject();
+						text1 = textView_1.toString();
+						if (text1.startsWith("[")) {
+							textView_1.deleteCharAt(0);
+							textView_1.deleteCharAt(textView_1.length() - 1);
+							text1 = textView_1.toString();
+						}
+						System.out.println("response  is : =========" + text1.toString());]]></codefragment>
+   </duplication>
+</pmd-cpd>

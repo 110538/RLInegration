@@ -1,0 +1,107 @@
+{
+  "uid" : "63177a56be295bf7",
+  "name" : "validateAlternativeTitleTypeForLegalTypeForOneOff",
+  "title" : "Validate alternative title type for legal type for one off",
+  "time" : {
+    "start" : 1555329311231,
+    "stop" : 1555329311294,
+    "duration" : 63
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate alternative title type of the asset for Legal Type",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "494bd51e37b66cca",
+    "name" : "Suite : AssetCreationForOneOff[assetType=One-Off]",
+    "title" : "Suite : AssetCreationForOneOff[assetType=One-Off]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329311293,
+      "stop" : 1555329311293,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Alt Title Type For Legal param name in WOP API]",
+    "title" : "Validating Alt Title Type For Legal param name in WOP API",
+    "time" : {
+      "start" : 1555329311293,
+      "stop" : 1555329311293,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Legal]]",
+    "title" : " Param values are ------ : [Legal]",
+    "time" : {
+      "start" : 1555329311293,
+      "stop" : 1555329311293,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForOneOff[assetType=One-Off]"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForOneOff[assetType=One-Off]"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForOneOff"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForOneOff"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateAlternativeTitleTypeForLegalTypeForOneOff"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForOneOff-1(65)"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

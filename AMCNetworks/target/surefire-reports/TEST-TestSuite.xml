@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="851.009" tests="160" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Monocept\eclipse-workspace\AMCNetworks"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Monocept\eclipse-workspace\AMCNetworks"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Monocept\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Monocept\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4237741388089284351.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\Monocept\AppData\Local\Android\Sdk\platform-tools;C:\Users\Monocept\AppData\Local\Android\Sdk\tools;C:\Users\Monocept\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\git-bash.exe;C:\Program Files\nodejs\;D:\Softwares\Selenium\IEDriverServer.exe;C:\Program Files (x86)\QuickTime\QTSystem\;C:\apache-maven-3.6.0\bin;C:\Users\Monocept\AppData\Local\Microsoft\WindowsApps;;C:\Users\Monocept\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Monocept\AppData\Roaming\npm;C:\Users\Monocept\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Monocept"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Monocept"/>
+    <property name="java.class.path" value="C:\Users\Monocept\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.9.1.20180912-1600\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -PAMCNetworksBackup -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Monocept\eclipse-workspace\AMCNetworks\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="createDifferentRLAssetsForRegression" classname="com.amc.testclasses.RLAssetCreation" time="846.303"/>
+  <testcase name="validateAMCNID" classname="com.amc.testclasses.RLTestCasesForSeries" time="0.063"/>
+  <testcase name="validateAlternativeTitleForAKA" classname="com.amc.testclasses.RLTestCasesForSeries" time="0.03"/>
+  <testcase name="validateAlternativeTitleForLegal" classname="com.amc.testclasses.RLTestCasesForSeries" time="0.031"/>
+  <testcase name="validateAlternativeTitleTypeForAKA" classname="com.amc.testclasses.RLTestCasesForSeries" time="0.027"/>
+  <testcase name="validateAlternativeTitleTypeForLegalType" classname="com.amc.testclasses.RLTestCasesForSeries" time="0.033"/>
+  <testcase name="validateAssetShowType" classname="com.amc.testclasses.RLTestCasesForSeries" time="0.03"/>
+  <testcase name="validateAssetSource" classname="com.amc.testclasses.RLTestCasesForSeries" time="0.036"/>
+  <testcase name="validateAssetTitle" classname="com.amc.testclasses.RLTestCasesForSeries" time="0.05"/>
+  <testcase name="validateCastType" classname="com.amc.testclasses.RLTestCasesForSeries" time="0.034"/>
+  <testcase name="validateFirstNameOfCastMember" classname="com.amc.testclasses.RLTestCasesForSeries" time="0.037"/>
+  <testcase name="validateOrigin" classname="com.amc.testclasses.RLTestCasesForSeries" time="0.029"/>
+  <testcase name="validateOwnerNetwork" classname="com.amc.testclasses.RLTestCasesForSeries" time="0.029"/>
+  <testcase name="validateProductionMode" classname="com.amc.testclasses.RLTestCasesForSeries" time="0.029"/>
+  <testcase name="validateTitleType" classname="com.amc.testclasses.RLTestCasesForSeries" time="0.027"/>
+  <testcase name="validateTotalNumberOfEpisodes" classname="com.amc.testclasses.RLTestCasesForSeries" time="0.025"/>
+  <testcase name="validateAMCNIDForOneOff" classname="com.amc.testclasses.RLTestCasesForOneOff" time="0.034"/>
+  <testcase name="validateAlternativeTitleForAKAForOneOff" classname="com.amc.testclasses.RLTestCasesForOneOff" time="0.029"/>
+  <testcase name="validateAlternativeTitleForLegalForOneOff" classname="com.amc.testclasses.RLTestCasesForOneOff" time="0.026"/>
+  <testcase name="validateAlternativeTitleTypeForAKAForOneOff" classname="com.amc.testclasses.RLTestCasesForOneOff" time="0.025"/>
+  <testcase name="validateAlternativeTitleTypeForLegalTypeForOneOff" classname="com.amc.testclasses.RLTestCasesForOneOff" time="0.025"/>
+  <testcase name="validateAssetShowTypeForOneOff" classname="com.amc.testclasses.RLTestCasesForOneOff" time="0.024"/>
+  <testcase name="validateAssetSourceForOneOff" classname="com.amc.testclasses.RLTestCasesForOneOff" time="0.025"/>
+  <testcase name="validateAssetTitleForOneOff" classname="com.amc.testclasses.RLTestCasesForOneOff" time="0.025"/>
+  <testcase name="validateCastTypeForOneOff" classname="com.amc.testclasses.RLTestCasesForOneOff" time="0.025"/>
+  <testcase name="validateFirstNameOfCastMemberForOneOff" classname="com.amc.testclasses.RLTestCasesForOneOff" time="0.039"/>
+  <testcase name="validateOriginForOneOff" classname="com.amc.testclasses.RLTestCasesForOneOff" time="0.025"/>
+  <testcase name="validateProductionCompanyForOneOff" classname="com.amc.testclasses.RLTestCasesForOneOff" time="0.028"/>
+  <testcase name="validateProductionModeForOneOff" classname="com.amc.testclasses.RLTestCasesForOneOff" time="0.031"/>
+  <testcase name="validateReleaseYearForOneOff" classname="com.amc.testclasses.RLTestCasesForOneOff" time="0.033"/>
+  <testcase name="validateTRTForOneOff" classname="com.amc.testclasses.RLTestCasesForOneOff" time="0.027"/>
+  <testcase name="validateTitleTypeForOneOff" classname="com.amc.testclasses.RLTestCasesForOneOff" time="0.025"/>
+  <testcase name="validateAMCNIDForSpecial" classname="com.amc.testclasses.RLTestCasesForSpecial" time="0.021"/>
+  <testcase name="validateAlternativeTitleForAKAForSpecial" classname="com.amc.testclasses.RLTestCasesForSpecial" time="0.024"/>
+  <testcase name="validateAlternativeTitleForLegalForSpecial" classname="com.amc.testclasses.RLTestCasesForSpecial" time="0.025"/>
+  <testcase name="validateAlternativeTitleTypeForAKAForSpecial" classname="com.amc.testclasses.RLTestCasesForSpecial" time="0.023"/>
+  <testcase name="validateAlternativeTitleTypeForLegalTypeForSpecial" classname="com.amc.testclasses.RLTestCasesForSpecial" time="0.023"/>
+  <testcase name="validateAssetShowTypeForSpecial" classname="com.amc.testclasses.RLTestCasesForSpecial" time="0.037"/>
+  <testcase name="validateAssetSourceForSpecial" classname="com.amc.testclasses.RLTestCasesForSpecial" time="0.021"/>
+  <testcase name="validateAssetTitleForSpecial" classname="com.amc.testclasses.RLTestCasesForSpecial" time="0.024"/>
+  <testcase name="validateCastTypeForSpecial" classname="com.amc.testclasses.RLTestCasesForSpecial" time="0.024"/>
+  <testcase name="validateFirstNameOfCastMemberForSpecial" classname="com.amc.testclasses.RLTestCasesForSpecial" time="0.024"/>
+  <testcase name="validateOriginForSpecial" classname="com.amc.testclasses.RLTestCasesForSpecial" time="0.025"/>
+  <testcase name="validateProductionCompanyForSpecial" classname="com.amc.testclasses.RLTestCasesForSpecial" time="0.025"/>
+  <testcase name="validateProductionModeForSpecial" classname="com.amc.testclasses.RLTestCasesForSpecial" time="0.045"/>
+  <testcase name="validateReleaseYearForSpecial" classname="com.amc.testclasses.RLTestCasesForSpecial" time="0.023"/>
+  <testcase name="validateTRTForSpecial" classname="com.amc.testclasses.RLTestCasesForSpecial" time="0.025"/>
+  <testcase name="validateTitleTypeForSpecial" classname="com.amc.testclasses.RLTestCasesForSpecial" time="0.025"/>
+  <testcase name="validateAMCNIDForDemo" classname="com.amc.testclasses.RLTestCasesForDemo" time="0.036"/>
+  <testcase name="validateAlternativeTitleForAKAForDemo" classname="com.amc.testclasses.RLTestCasesForDemo" time="0.024"/>
+  <testcase name="validateAlternativeTitleForLegalForDemo" classname="com.amc.testclasses.RLTestCasesForDemo" time="0.024"/>
+  <testcase name="validateAlternativeTitleTypeForAKAForDemo" classname="com.amc.testclasses.RLTestCasesForDemo" time="0.036"/>
+  <testcase name="validateAlternativeTitleTypeForLegalTypeForDemo" classname="com.amc.testclasses.RLTestCasesForDemo" time="0.023"/>
+  <testcase name="validateAssetShowTypeForDemo" classname="com.amc.testclasses.RLTestCasesForDemo" time="0.023"/>
+  <testcase name="validateAssetSourceForDemo" classname="com.amc.testclasses.RLTestCasesForDemo" time="0.024"/>
+  <testcase name="validateAssetTitleForDemo" classname="com.amc.testclasses.RLTestCasesForDemo" time="0.023"/>
+  <testcase name="validateCastTypeForDemo" classname="com.amc.testclasses.RLTestCasesForDemo" time="0.022"/>
+  <testcase name="validateFirstNameOfCastMemberForDemo" classname="com.amc.testclasses.RLTestCasesForDemo" time="0.023"/>
+  <testcase name="validateOriginForDemo" classname="com.amc.testclasses.RLTestCasesForDemo" time="0.025"/>
+  <testcase name="validateProductionCompanyForDemo" classname="com.amc.testclasses.RLTestCasesForDemo" time="0.043"/>
+  <testcase name="validateProductionModeForDemo" classname="com.amc.testclasses.RLTestCasesForDemo" time="0.025"/>
+  <testcase name="validateReleaseYearForDemo" classname="com.amc.testclasses.RLTestCasesForDemo" time="0.023"/>
+  <testcase name="validateTRTForDemo" classname="com.amc.testclasses.RLTestCasesForDemo" time="0.024"/>
+  <testcase name="validateTitleTypeForDemo" classname="com.amc.testclasses.RLTestCasesForDemo" time="0.024"/>
+  <testcase name="validateAMCNIDForDocumentary" classname="com.amc.testclasses.RLTestCasesForDocumentary" time="0.021"/>
+  <testcase name="validateAlternativeTitleForAKAForDocumentary" classname="com.amc.testclasses.RLTestCasesForDocumentary" time="0.044"/>
+  <testcase name="validateAlternativeTitleForLegalForDocumentary" classname="com.amc.testclasses.RLTestCasesForDocumentary" time="0.023"/>
+  <testcase name="validateAlternativeTitleTypeForAKAForDocumentary" classname="com.amc.testclasses.RLTestCasesForDocumentary" time="0.023"/>
+  <testcase name="validateAlternativeTitleTypeForLegalTypeForDocumentary" classname="com.amc.testclasses.RLTestCasesForDocumentary" time="0.021"/>
+  <testcase name="validateAssetShowTypeForDocumentary" classname="com.amc.testclasses.RLTestCasesForDocumentary" time="0.023"/>
+  <testcase name="validateAssetSourceForDocumentary" classname="com.amc.testclasses.RLTestCasesForDocumentary" time="0.024"/>
+  <testcase name="validateAssetTitleForDocumentary" classname="com.amc.testclasses.RLTestCasesForDocumentary" time="0.024"/>
+  <testcase name="validateCastTypeForDocumentary" classname="com.amc.testclasses.RLTestCasesForDocumentary" time="0.039"/>
+  <testcase name="validateFirstNameOfCastMemberForDocumentary" classname="com.amc.testclasses.RLTestCasesForDocumentary" time="0.04"/>
+  <testcase name="validateOriginForDocumentary" classname="com.amc.testclasses.RLTestCasesForDocumentary" time="0.025"/>
+  <testcase name="validateProductionCompanyForDocumentary" classname="com.amc.testclasses.RLTestCasesForDocumentary" time="0.025"/>
+  <testcase name="validateProductionModeForDocumentary" classname="com.amc.testclasses.RLTestCasesForDocumentary" time="0.043"/>
+  <testcase name="validateReleaseYearForDocumentary" classname="com.amc.testclasses.RLTestCasesForDocumentary" time="0.023"/>
+  <testcase name="validateTRTForDocumentary" classname="com.amc.testclasses.RLTestCasesForDocumentary" time="0.024"/>
+  <testcase name="validateTitleTypeForDocumentary" classname="com.amc.testclasses.RLTestCasesForDocumentary" time="0.023"/>
+  <testcase name="validateAMCNIDForPilot" classname="com.amc.testclasses.RLTestCasesForPilot" time="0.021"/>
+  <testcase name="validateAlternativeTitleForAKAForPilot" classname="com.amc.testclasses.RLTestCasesForPilot" time="0.022"/>
+  <testcase name="validateAlternativeTitleForLegalForPilot" classname="com.amc.testclasses.RLTestCasesForPilot" time="0.042"/>
+  <testcase name="validateAlternativeTitleTypeForAKAForPilot" classname="com.amc.testclasses.RLTestCasesForPilot" time="0.034"/>
+  <testcase name="validateAlternativeTitleTypeForLegalTypeForPilot" classname="com.amc.testclasses.RLTestCasesForPilot" time="0.026"/>
+  <testcase name="validateAssetShowTypeForPilot" classname="com.amc.testclasses.RLTestCasesForPilot" time="0.024"/>
+  <testcase name="validateAssetSourceForPilot" classname="com.amc.testclasses.RLTestCasesForPilot" time="0.039"/>
+  <testcase name="validateAssetTitleForPilot" classname="com.amc.testclasses.RLTestCasesForPilot" time="0.024"/>
+  <testcase name="validateCastTypeForPilot" classname="com.amc.testclasses.RLTestCasesForPilot" time="0.027"/>
+  <testcase name="validateFirstNameOfCastMemberForPilot" classname="com.amc.testclasses.RLTestCasesForPilot" time="0.023"/>
+  <testcase name="validateOriginForPilot" classname="com.amc.testclasses.RLTestCasesForPilot" time="0.029"/>
+  <testcase name="validateProductionCompanyForPilot" classname="com.amc.testclasses.RLTestCasesForPilot" time="0.023"/>
+  <testcase name="validateProductionModeForPilot" classname="com.amc.testclasses.RLTestCasesForPilot" time="0.039"/>
+  <testcase name="validateReleaseYearForPilot" classname="com.amc.testclasses.RLTestCasesForPilot" time="0.026"/>
+  <testcase name="validateTRTForPilot" classname="com.amc.testclasses.RLTestCasesForPilot" time="0.032"/>
+  <testcase name="validateTitleTypeForPilot" classname="com.amc.testclasses.RLTestCasesForPilot" time="0.041"/>
+  <testcase name="validateAMCNIDForMadeForTV" classname="com.amc.testclasses.RLTestCasesForMadeForTV" time="0.021"/>
+  <testcase name="validateAlternativeTitleForAKAForMadeForTV" classname="com.amc.testclasses.RLTestCasesForMadeForTV" time="0.022"/>
+  <testcase name="validateAlternativeTitleForLegalForMadeForTV" classname="com.amc.testclasses.RLTestCasesForMadeForTV" time="0.023"/>
+  <testcase name="validateAlternativeTitleTypeForAKAForMadeForTV" classname="com.amc.testclasses.RLTestCasesForMadeForTV" time="0.04"/>
+  <testcase name="validateAlternativeTitleTypeForLegalTypeForMadeForTV" classname="com.amc.testclasses.RLTestCasesForMadeForTV" time="0.037"/>
+  <testcase name="validateAssetShowTypeForMadeForTV" classname="com.amc.testclasses.RLTestCasesForMadeForTV" time="0.028"/>
+  <testcase name="validateAssetSourceForMadeForTV" classname="com.amc.testclasses.RLTestCasesForMadeForTV" time="0.04"/>
+  <testcase name="validateAssetTitleForMadeForTV" classname="com.amc.testclasses.RLTestCasesForMadeForTV" time="0.024"/>
+  <testcase name="validateCastTypeForMadeForTV" classname="com.amc.testclasses.RLTestCasesForMadeForTV" time="0.023"/>
+  <testcase name="validateFirstNameOfCastMemberForMadeForTV" classname="com.amc.testclasses.RLTestCasesForMadeForTV" time="0.023"/>
+  <testcase name="validateOriginForMadeForTV" classname="com.amc.testclasses.RLTestCasesForMadeForTV" time="0.03"/>
+  <testcase name="validateProductionCompanyForMadeForTV" classname="com.amc.testclasses.RLTestCasesForMadeForTV" time="0.041"/>
+  <testcase name="validateProductionModeForMadeForTV" classname="com.amc.testclasses.RLTestCasesForMadeForTV" time="0.042"/>
+  <testcase name="validateReleaseYearForMadeForTV" classname="com.amc.testclasses.RLTestCasesForMadeForTV" time="0.028"/>
+  <testcase name="validateTRTForMadeForTV" classname="com.amc.testclasses.RLTestCasesForMadeForTV" time="0.032"/>
+  <testcase name="validateTitleTypeForMadeForTV" classname="com.amc.testclasses.RLTestCasesForMadeForTV" time="0.023"/>
+  <testcase name="validateAMCNIDForMusicPerformance" classname="com.amc.testclasses.RLTestCasesForMusicPerformance" time="0.022"/>
+  <testcase name="validateAlternativeTitleForAKAForMusicPerformance" classname="com.amc.testclasses.RLTestCasesForMusicPerformance" time="0.022"/>
+  <testcase name="validateAlternativeTitleForLegalForMusicPerformance" classname="com.amc.testclasses.RLTestCasesForMusicPerformance" time="0.038"/>
+  <testcase name="validateAlternativeTitleTypeForAKAForMusicPerformance" classname="com.amc.testclasses.RLTestCasesForMusicPerformance" time="0.041"/>
+  <testcase name="validateAlternativeTitleTypeForLegalTypeForMusicPerformance" classname="com.amc.testclasses.RLTestCasesForMusicPerformance" time="0.029"/>
+  <testcase name="validateAssetShowTypeForMusicPerformance" classname="com.amc.testclasses.RLTestCasesForMusicPerformance" time="0.027"/>
+  <testcase name="validateAssetSourceForMusicPerformance" classname="com.amc.testclasses.RLTestCasesForMusicPerformance" time="0.025"/>
+  <testcase name="validateAssetTitleForMusicPerformance" classname="com.amc.testclasses.RLTestCasesForMusicPerformance" time="0.032"/>
+  <testcase name="validateCastTypeForMusicPerformance" classname="com.amc.testclasses.RLTestCasesForMusicPerformance" time="0.04"/>
+  <testcase name="validateFirstNameOfCastMemberForMusicPerformance" classname="com.amc.testclasses.RLTestCasesForMusicPerformance" time="0.041"/>
+  <testcase name="validateOriginForMusicPerformance" classname="com.amc.testclasses.RLTestCasesForMusicPerformance" time="0.024"/>
+  <testcase name="validateProductionCompanyForMusicPerformance" classname="com.amc.testclasses.RLTestCasesForMusicPerformance" time="0.04"/>
+  <testcase name="validateProductionModeForMusicPerformance" classname="com.amc.testclasses.RLTestCasesForMusicPerformance" time="0.034"/>
+  <testcase name="validateReleaseYearForMusicPerformance" classname="com.amc.testclasses.RLTestCasesForMusicPerformance" time="0.037"/>
+  <testcase name="validateTRTForMusicPerformance" classname="com.amc.testclasses.RLTestCasesForMusicPerformance" time="0.029"/>
+  <testcase name="validateTitleTypeForMusicPerformance" classname="com.amc.testclasses.RLTestCasesForMusicPerformance" time="0.042"/>
+  <testcase name="validateAMCNIDForFeatureLength" classname="com.amc.testclasses.RLTestCasesForFeatureLength" time="0.021"/>
+  <testcase name="validateAlternativeTitleForAKAForFeatureLength" classname="com.amc.testclasses.RLTestCasesForFeatureLength" time="0.036"/>
+  <testcase name="validateAlternativeTitleForLegalForFeatureLength" classname="com.amc.testclasses.RLTestCasesForFeatureLength" time="0.038"/>
+  <testcase name="validateAlternativeTitleTypeForAKAForFeatureLength" classname="com.amc.testclasses.RLTestCasesForFeatureLength" time="0.022"/>
+  <testcase name="validateAlternativeTitleTypeForLegalTypeForFeatureLength" classname="com.amc.testclasses.RLTestCasesForFeatureLength" time="0.036"/>
+  <testcase name="validateAssetShowTypeForFeatureLength" classname="com.amc.testclasses.RLTestCasesForFeatureLength" time="0.023"/>
+  <testcase name="validateAssetSourceForFeatureLength" classname="com.amc.testclasses.RLTestCasesForFeatureLength" time="0.023"/>
+  <testcase name="validateAssetTitleForFeatureLength" classname="com.amc.testclasses.RLTestCasesForFeatureLength" time="0.038"/>
+  <testcase name="validateCastTypeForFeatureLength" classname="com.amc.testclasses.RLTestCasesForFeatureLength" time="0.019"/>
+  <testcase name="validateFirstNameOfCastMemberForFeatureLength" classname="com.amc.testclasses.RLTestCasesForFeatureLength" time="0.033"/>
+  <testcase name="validateOriginForFeatureLength" classname="com.amc.testclasses.RLTestCasesForFeatureLength" time="0.024"/>
+  <testcase name="validateProductionCompanyForFeatureLength" classname="com.amc.testclasses.RLTestCasesForFeatureLength" time="0.045"/>
+  <testcase name="validateProductionModeForFeatureLength" classname="com.amc.testclasses.RLTestCasesForFeatureLength" time="0.022"/>
+  <testcase name="validateReleaseYearForFeatureLength" classname="com.amc.testclasses.RLTestCasesForFeatureLength" time="0.042"/>
+  <testcase name="validateTRTForFeatureLength" classname="com.amc.testclasses.RLTestCasesForFeatureLength" time="0.043"/>
+  <testcase name="validateTitleTypeForFeatureLength" classname="com.amc.testclasses.RLTestCasesForFeatureLength" time="0.058"/>
+  <testcase name="validateAMCNIDForShortFilm" classname="com.amc.testclasses.RLTestCasesForShortFilm" time="0.021"/>
+  <testcase name="validateAlternativeTitleForAKAForShortFilm" classname="com.amc.testclasses.RLTestCasesForShortFilm" time="0.026"/>
+  <testcase name="validateAlternativeTitleForLegalForShortFilm" classname="com.amc.testclasses.RLTestCasesForShortFilm" time="0.022"/>
+  <testcase name="validateAlternativeTitleTypeForAKAForShortFilm" classname="com.amc.testclasses.RLTestCasesForShortFilm" time="0.023"/>
+  <testcase name="validateAlternativeTitleTypeForLegalTypeForShortFilm" classname="com.amc.testclasses.RLTestCasesForShortFilm" time="0.041"/>
+  <testcase name="validateAssetShowTypeForShortFilm" classname="com.amc.testclasses.RLTestCasesForShortFilm" time="0.041"/>
+  <testcase name="validateAssetSourceForShortFilm" classname="com.amc.testclasses.RLTestCasesForShortFilm" time="0.022"/>
+  <testcase name="validateAssetTitleForShortFilm" classname="com.amc.testclasses.RLTestCasesForShortFilm" time="0.023"/>
+  <testcase name="validateCastTypeForShortFilm" classname="com.amc.testclasses.RLTestCasesForShortFilm" time="0.023"/>
+  <testcase name="validateFirstNameOfCastMemberForShortFilm" classname="com.amc.testclasses.RLTestCasesForShortFilm" time="0.036"/>
+  <testcase name="validateOriginForShortFilm" classname="com.amc.testclasses.RLTestCasesForShortFilm" time="0.041"/>
+  <testcase name="validateProductionCompanyForShortFilm" classname="com.amc.testclasses.RLTestCasesForShortFilm" time="0.024"/>
+  <testcase name="validateProductionModeForShortFilm" classname="com.amc.testclasses.RLTestCasesForShortFilm" time="0.024"/>
+  <testcase name="validateReleaseYearForShortFilm" classname="com.amc.testclasses.RLTestCasesForShortFilm" time="0.044"/>
+  <testcase name="validateTRTForShortFilm" classname="com.amc.testclasses.RLTestCasesForShortFilm" time="0.023"/>
+  <testcase name="validateTitleTypeForShortFilm" classname="com.amc.testclasses.RLTestCasesForShortFilm" time="0.04"/>
+</testsuite>

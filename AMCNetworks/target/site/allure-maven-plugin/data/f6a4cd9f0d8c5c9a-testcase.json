@@ -1,0 +1,107 @@
+{
+  "uid" : "f6a4cd9f0d8c5c9a",
+  "name" : "validateFirstNameOfCastMemberForSpecial",
+  "title" : "Validate first name of cast member for special",
+  "time" : {
+    "start" : 1555329318427,
+    "stop" : 1555329318485,
+    "duration" : 58
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate name of cast member",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "de7fc0c6b87bf3f0",
+    "name" : "Suite : AssetCreationForSpecial[assetType=Special]",
+    "title" : "Suite : AssetCreationForSpecial[assetType=Special]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329318484,
+      "stop" : 1555329318484,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating First Name param name in WOP API]",
+    "title" : "Validating First Name param name in WOP API",
+    "time" : {
+      "start" : 1555329318484,
+      "stop" : 1555329318484,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Caroline Apperre]]",
+    "title" : " Param values are ------ : [Caroline Apperre]",
+    "time" : {
+      "start" : 1555329318485,
+      "stop" : 1555329318485,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForSpecial"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateFirstNameOfCastMemberForSpecial"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForSpecial[assetType=Special]"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForSpecial"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForSpecial[assetType=Special]"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSpecial-1(66)"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

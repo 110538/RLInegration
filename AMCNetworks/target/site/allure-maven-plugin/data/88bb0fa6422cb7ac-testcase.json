@@ -1,0 +1,152 @@
+{
+  "uid" : "88bb0fa6422cb7ac",
+  "name" : "validateTRTForOneOff",
+  "title" : "Validate TRT for one off",
+  "time" : {
+    "start" : 1555329311815,
+    "stop" : 1555329311866,
+    "duration" : 51
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate TRT of the asset",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "494bd51e37b66cca",
+    "name" : "Suite : AssetCreationForOneOff[assetType=One-Off]",
+    "title" : "Suite : AssetCreationForOneOff[assetType=One-Off]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329311866,
+      "stop" : 1555329311866,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Theatrical TRT param name in WOP API]",
+    "title" : "Validating Theatrical TRT param name in WOP API",
+    "time" : {
+      "start" : 1555329311866,
+      "stop" : 1555329311866,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [36300]]",
+    "title" : " Param values are ------ : [36300]",
+    "time" : {
+      "start" : 1555329311866,
+      "stop" : 1555329311866,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329311866,
+      "stop" : 1555329311866,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Theatrical TRT param name in MP API]",
+    "title" : "Validating Theatrical TRT param name in MP API",
+    "time" : {
+      "start" : 1555329311866,
+      "stop" : 1555329311866,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [36300]]",
+    "title" : " Param values are ------ : [36300]",
+    "time" : {
+      "start" : 1555329311866,
+      "stop" : 1555329311866,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForOneOff[assetType=One-Off]"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForOneOff[assetType=One-Off]"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForOneOff"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForOneOff"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateTRTForOneOff"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForOneOff-1(65)"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

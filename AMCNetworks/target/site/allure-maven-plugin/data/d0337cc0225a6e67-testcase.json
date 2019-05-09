@@ -1,0 +1,152 @@
+{
+  "uid" : "d0337cc0225a6e67",
+  "name" : "validateOwnerNetwork",
+  "title" : "Validate owner network",
+  "time" : {
+    "start" : 1555329304285,
+    "stop" : 1555329304357,
+    "duration" : 72
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate Owner Network",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "2df42c5b21f7bca8",
+    "name" : "Suite : AssetCreationForSeries[assetType=Series]",
+    "title" : "Suite : AssetCreationForSeries[assetType=Series]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329304355,
+      "stop" : 1555329304355,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Owner Network param name in WOP API]",
+    "title" : "Validating Owner Network param name in WOP API",
+    "time" : {
+      "start" : 1555329304357,
+      "stop" : 1555329304357,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [AMC]]",
+    "title" : " Param values are ------ : [AMC]",
+    "time" : {
+      "start" : 1555329304357,
+      "stop" : 1555329304357,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329304357,
+      "stop" : 1555329304357,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Owner Network param name in MP API]",
+    "title" : "Validating Owner Network param name in MP API",
+    "time" : {
+      "start" : 1555329304357,
+      "stop" : 1555329304357,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [AMC]]",
+    "title" : " Param values are ------ : [AMC]",
+    "time" : {
+      "start" : 1555329304357,
+      "stop" : 1555329304357,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(64)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateOwnerNetwork"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForSeries[assetType=Series]"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForSeries[assetType=Series]"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForSeries"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForSeries"
+  } ],
+  "parameters" : [ ]
+}

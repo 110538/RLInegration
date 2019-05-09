@@ -1,0 +1,107 @@
+{
+  "uid" : "67dbf1a32a98b50f",
+  "name" : "validateCastTypeForMusicPerformance",
+  "title" : "Validate cast type for music performance",
+  "time" : {
+    "start" : 1555329351407,
+    "stop" : 1555329351453,
+    "duration" : 46
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate Cast Type",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "eeed6f0fd357512",
+    "name" : "Suite : AssetCreationForMusicPerformance[assetType=Music Performance]",
+    "title" : "Suite : AssetCreationForMusicPerformance[assetType=Music Performance]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329351452,
+      "stop" : 1555329351452,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Cast Type param name in WOP API]",
+    "title" : "Validating Cast Type param name in WOP API",
+    "time" : {
+      "start" : 1555329351453,
+      "stop" : 1555329351453,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Director]]",
+    "title" : " Param values are ------ : [Director]",
+    "time" : {
+      "start" : 1555329351453,
+      "stop" : 1555329351453,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForMusicPerformance[assetType=Music Performance]"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForMusicPerformance"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForMusicPerformance-1(71)"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateCastTypeForMusicPerformance"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForMusicPerformance"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForMusicPerformance[assetType=Music Performance]"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,107 @@
+{
+  "uid" : "509c0acb2c04fcbb",
+  "name" : "validateAlternativeTitleForAKAForPilot",
+  "title" : "Validate alternative title for AKA for pilot",
+  "time" : {
+    "start" : 1555329338517,
+    "stop" : 1555329338566,
+    "duration" : 49
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate alternative title of the asset for AKA Type",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "768e4072d3e15ef",
+    "name" : "Suite : AssetCreationForPilot[assetType=Pilot]",
+    "title" : "Suite : AssetCreationForPilot[assetType=Pilot]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329338565,
+      "stop" : 1555329338565,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Alt Title param name in WOP API]",
+    "title" : "Validating Alt Title param name in WOP API",
+    "time" : {
+      "start" : 1555329338565,
+      "stop" : 1555329338565,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Program Alternative Title]]",
+    "title" : " Param values are ------ : [Program Alternative Title]",
+    "time" : {
+      "start" : 1555329338566,
+      "stop" : 1555329338566,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateAlternativeTitleForAKAForPilot"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForPilot"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForPilot"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForPilot[assetType=Pilot]"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForPilot[assetType=Pilot]"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForPilot-1(69)"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

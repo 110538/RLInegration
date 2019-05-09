@@ -1,0 +1,152 @@
+{
+  "uid" : "61265bc54707b127",
+  "name" : "validateTRTForMadeForTV",
+  "title" : "Validate TRT for made for TV",
+  "time" : {
+    "start" : 1555329345363,
+    "stop" : 1555329345413,
+    "duration" : 50
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate TRT of the asset",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "328c7831680df94f",
+    "name" : "Suite : AssetCreationForMadeForTV[assetType=Made For TV]",
+    "title" : "Suite : AssetCreationForMadeForTV[assetType=Made For TV]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329345410,
+      "stop" : 1555329345410,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Theatrical TRT param name in WOP API]",
+    "title" : "Validating Theatrical TRT param name in WOP API",
+    "time" : {
+      "start" : 1555329345410,
+      "stop" : 1555329345410,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [36300]]",
+    "title" : " Param values are ------ : [36300]",
+    "time" : {
+      "start" : 1555329345411,
+      "stop" : 1555329345411,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329345412,
+      "stop" : 1555329345412,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Theatrical TRT param name in MP API]",
+    "title" : "Validating Theatrical TRT param name in MP API",
+    "time" : {
+      "start" : 1555329345412,
+      "stop" : 1555329345412,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [36300]]",
+    "title" : " Param values are ------ : [36300]",
+    "time" : {
+      "start" : 1555329345413,
+      "stop" : 1555329345413,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForMadeForTV[assetType=Made For TV]"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateTRTForMadeForTV"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForMadeForTV[assetType=Made For TV]"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForMadeForTV-1(70)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForMadeForTV"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForMadeForTV"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

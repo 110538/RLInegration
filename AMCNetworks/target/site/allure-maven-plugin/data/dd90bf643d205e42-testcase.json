@@ -1,0 +1,152 @@
+{
+  "uid" : "dd90bf643d205e42",
+  "name" : "validateAssetTitleForFeatureLength",
+  "title" : "Validate asset title for feature length",
+  "time" : {
+    "start" : 1555329357736,
+    "stop" : 1555329357769,
+    "duration" : 33
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate Asset Title of WOP",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "3df6906f10d1da58",
+    "name" : "Suite : AssetCreationForFeatureLength[assetType=Feature Length]",
+    "title" : "Suite : AssetCreationForFeatureLength[assetType=Feature Length]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329357767,
+      "stop" : 1555329357767,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Title param name in WOP API]",
+    "title" : "Validating Title param name in WOP API",
+    "time" : {
+      "start" : 1555329357767,
+      "stop" : 1555329357767,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Theatrical Feature Length Test5LboWzURgDMq6UY]]",
+    "title" : " Param values are ------ : [Theatrical Feature Length Test5LboWzURgDMq6UY]",
+    "time" : {
+      "start" : 1555329357768,
+      "stop" : 1555329357768,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329357768,
+      "stop" : 1555329357768,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Title param name in MP API]",
+    "title" : "Validating Title param name in MP API",
+    "time" : {
+      "start" : 1555329357768,
+      "stop" : 1555329357768,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Theatrical Feature Length Test5LboWzURgDMq6UY]]",
+    "title" : " Param values are ------ : [Theatrical Feature Length Test5LboWzURgDMq6UY]",
+    "time" : {
+      "start" : 1555329357769,
+      "stop" : 1555329357769,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForFeatureLength"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForFeatureLength[assetType=Feature Length]"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForFeatureLength[assetType=Feature Length]"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForFeatureLength-1(72)"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForFeatureLength"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateAssetTitleForFeatureLength"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

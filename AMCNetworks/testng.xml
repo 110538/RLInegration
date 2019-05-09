@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="2">
+	<listeners>
+		<listener class-name="com.amc.listners.TestExecutionListner" />
+		<listener class-name="com.amc.listners.TestRailListner" />
+	</listeners>
+	<parameter name="appURL"
+		value="https://rl32test.amcnetworks.com/Login.aspx">
+	</parameter>
+	<parameter name="browserType" value="chrome"></parameter>
+	<!-- <test name ="ALlure Checking" > <classes> <class name="com.amc.testclasses.SimpleTestCase" 
+		/> </classes> </test> -->
+		
+	<test thread-count="1" name="AssetCreationForRL">
+		<parameter name="assetType" value="rlAssetCreation"></parameter>
+		<classes>
+			<class name="com.amc.testclasses.RLAssetCreation" />
+		</classes>
+	</test>
+	<test thread-count="1" name="AssetCreationForSeries">
+		<parameter name="assetType" value="Series"></parameter>
+		<classes>
+			<class name="com.amc.testclasses.RLTestCasesForSeries" />
+		</classes>
+	</test>
+	<test thread-count="1" name="AssetCreationForOneOff">
+		<parameter name="assetType" value="One-Off"></parameter>
+		<classes>
+			<class name="com.amc.testclasses.RLTestCasesForOneOff" />
+		</classes>
+	</test>
+	<test thread-count="1" name="AssetCreationForSpecial">
+		<parameter name="assetType" value="Special"></parameter>
+		<classes>
+			<class name="com.amc.testclasses.RLTestCasesForSpecial" />
+		</classes>
+	</test>
+	<test thread-count="1" name="AssetCreationForDemo">
+		<parameter name="assetType" value="Demo"></parameter>
+		<classes>
+			<class name="com.amc.testclasses.RLTestCasesForDemo" />
+		</classes>
+	</test>
+	<test thread-count="1" name="AssetCreationForDocumentary">
+		<parameter name="assetType" value="Documentary"></parameter>
+		<classes>
+			<class name="com.amc.testclasses.RLTestCasesForDocumentary" />
+		</classes>
+	</test>
+	<test thread-count="1" name="AssetCreationForPilot">
+		<parameter name="assetType" value="Pilot"></parameter>
+		<classes>
+			<class name="com.amc.testclasses.RLTestCasesForPilot" />
+		</classes>
+	</test>
+	<test thread-count="1" name="AssetCreationForMadeForTV">
+		<parameter name="assetType" value="Made For TV"></parameter>
+		<classes>
+			<class name="com.amc.testclasses.RLTestCasesForMadeForTV" />
+		</classes>
+	</test>
+	<test thread-count="1" name="AssetCreationForMusicPerformance">
+		<parameter name="assetType" value="Music Performance"></parameter>
+		<classes>
+			<class
+				name="com.amc.testclasses.RLTestCasesForMusicPerformance" />
+		</classes>
+	</test>
+	<test thread-count="1" name="AssetCreationForFeatureLength">
+		<parameter name="assetType" value="Feature Length"></parameter>
+		<classes>
+			<class name="com.amc.testclasses.RLTestCasesForFeatureLength" />
+		</classes>
+	</test>
+	<test thread-count="1" name="AssetCreationForShortFilm">
+		<parameter name="assetType" value="Short Film"></parameter>
+		<classes>
+			<class name="com.amc.testclasses.RLTestCasesForShortFilm" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

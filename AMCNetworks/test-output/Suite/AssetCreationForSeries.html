@@ -1,0 +1,336 @@
+<html>
+<head>
+<title>TestNG:  AssetCreationForSeries</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AssetCreationForSeries</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 09 16:47:36 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15278 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.amc.testclasses.RLTestCasesForSeries.validateAMCNID()'><b>validateAMCNID</b><br>Test class: com.amc.testclasses.RLTestCasesForSeries<br>Test method: Validate AMCN id of WOP<br/>
+<a href="#Output-747050200" onClick='toggleBox("Output-747050200", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-747050200" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-747050200">
+Started reading Responses from WOP API <br/>
+Validating AMCN ID param name in WOP API<br/>
+ Param values are ------ : [RLA219008]<br/>
+Validating WOP API value RLA219008 with test data value RLA219008<br/>
+Started reading Responses from MP API <br/>
+Validating AMCN ID param name in MP API<br/>
+ Param values are ------ : [RLA219008]<br/>
+Validating MP API value RLA219008 with test data value RLA219008<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.amc.testclasses.RLTestCasesForSeries@78067cc4</td></tr>
+<tr>
+<td title='com.amc.testclasses.RLTestCasesForSeries.validateAlternativeTitleForAKA()'><b>validateAlternativeTitleForAKA</b><br>Test class: com.amc.testclasses.RLTestCasesForSeries<br>Test method: Validate alternative title of the asset for AKA Type<br/>
+<a href="#Output-1539628516" onClick='toggleBox("Output-1539628516", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1539628516" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1539628516">
+Started reading Responses from WOP API <br/>
+Validating Alt Title param name in WOP API<br/>
+ Param values are ------ : [Program Series Alternative Title]<br/>
+Validating WOP API value Program Series Alternative Title with test data value Program Series Alternative Title<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.amc.testclasses.RLTestCasesForSeries@78067cc4</td></tr>
+<tr>
+<td title='com.amc.testclasses.RLTestCasesForSeries.validateAlternativeTitleForLegal()'><b>validateAlternativeTitleForLegal</b><br>Test class: com.amc.testclasses.RLTestCasesForSeries<br>Test method: Validate alternative title of the asset for Legal Type<br/>
+<a href="#Output-549157033" onClick='toggleBox("Output-549157033", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-549157033" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-549157033">
+Started reading Responses from WOP API <br/>
+Validating Alt Title For Legal param name in WOP API<br/>
+ Param values are ------ : [Program Legal Title]<br/>
+Validating WOP API value Program Legal Title with test data value Program Legal Title<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.amc.testclasses.RLTestCasesForSeries@78067cc4</td></tr>
+<tr>
+<td title='com.amc.testclasses.RLTestCasesForSeries.validateAlternativeTitleTypeForAKA()'><b>validateAlternativeTitleTypeForAKA</b><br>Test class: com.amc.testclasses.RLTestCasesForSeries<br>Test method: Validate alternative title type of the asset for AKA Type<br/>
+<a href="#Output-1062432550" onClick='toggleBox("Output-1062432550", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1062432550" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1062432550">
+Started reading Responses from WOP API <br/>
+Validating Alt Title Type param name in WOP API<br/>
+ Param values are ------ : [AKA]<br/>
+Validating WOP API value AKA with test data value AKA<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.amc.testclasses.RLTestCasesForSeries@78067cc4</td></tr>
+<tr>
+<td title='com.amc.testclasses.RLTestCasesForSeries.validateAlternativeTitleTypeForLegalType()'><b>validateAlternativeTitleTypeForLegalType</b><br>Test class: com.amc.testclasses.RLTestCasesForSeries<br>Test method: Validate alternative title type of the asset for Legal Type<br/>
+<a href="#Output-706079485" onClick='toggleBox("Output-706079485", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-706079485" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-706079485">
+Started reading Responses from WOP API <br/>
+Validating Alt Title Type For Legal param name in WOP API<br/>
+ Param values are ------ : [Legal]<br/>
+Validating WOP API value Legal with test data value Legal<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.amc.testclasses.RLTestCasesForSeries@78067cc4</td></tr>
+<tr>
+<td title='com.amc.testclasses.RLTestCasesForSeries.validateAssetShowType()'><b>validateAssetShowType</b><br>Test class: com.amc.testclasses.RLTestCasesForSeries<br>Test method: Validate Asset Shpw Type of WOP<br/>
+<a href="#Output-825190909" onClick='toggleBox("Output-825190909", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-825190909" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-825190909">
+Started reading Responses from WOP API <br/>
+Validating ShowType param name in WOP API<br/>
+ Param values are ------ : [Series]<br/>
+Validating WOP API value Series with test data value Series<br/>
+Started reading Responses from MP API <br/>
+Validating ShowType param name in MP API<br/>
+ Param values are ------ : [Series]<br/>
+Validating MP API value Series with test data value Series<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.amc.testclasses.RLTestCasesForSeries@78067cc4</td></tr>
+<tr>
+<td title='com.amc.testclasses.RLTestCasesForSeries.validateAssetSource()'><b>validateAssetSource</b><br>Test class: com.amc.testclasses.RLTestCasesForSeries<br>Test method: Validate Asset Source of WOP<br/>
+<a href="#Output-2033724649" onClick='toggleBox("Output-2033724649", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2033724649" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2033724649">
+Started reading Responses from WOP API <br/>
+Validating Asset Source param name in WOP API<br/>
+ Param values are ------ : [Original]<br/>
+Validating WOP API value Original with test data value Original<br/>
+Started reading Responses from MP API <br/>
+Validating Asset Source param name in MP API<br/>
+ Param values are ------ : [Original]<br/>
+Validating MP API value Original with test data value Original<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.amc.testclasses.RLTestCasesForSeries@78067cc4</td></tr>
+<tr>
+<td title='com.amc.testclasses.RLTestCasesForSeries.validateAssetTitle()'><b>validateAssetTitle</b><br>Test class: com.amc.testclasses.RLTestCasesForSeries<br>Test method: Validate Asset Title of WOP<br/>
+<a href="#Output-239015" onClick='toggleBox("Output-239015", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-239015" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-239015">
+Started reading Responses from WOP API <br/>
+Validating Title param name in WOP API<br/>
+ Param values are ------ : [ProgramSeriesTestllryRh]<br/>
+Validating WOP API value ProgramSeriesTestllryRh with test data value ProgramSeriesTestllryRh<br/>
+Started reading Responses from MP API <br/>
+Validating Title param name in MP API<br/>
+ Param values are ------ : [ProgramSeriesTestllryRh]<br/>
+Validating MP API value ProgramSeriesTestllryRh with test data value ProgramSeriesTestllryRh<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.amc.testclasses.RLTestCasesForSeries@78067cc4</td></tr>
+<tr>
+<td title='com.amc.testclasses.RLTestCasesForSeries.validateCastType()'><b>validateCastType</b><br>Test class: com.amc.testclasses.RLTestCasesForSeries<br>Test method: Validate Cast Type<br/>
+<a href="#Output-948771600" onClick='toggleBox("Output-948771600", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-948771600" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-948771600">
+Started reading Responses from WOP API <br/>
+Validating Cast Type param name in WOP API<br/>
+ Param values are ------ : [Director]<br/>
+Validating WOP API value Director with test data value Director<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.amc.testclasses.RLTestCasesForSeries@78067cc4</td></tr>
+<tr>
+<td title='com.amc.testclasses.RLTestCasesForSeries.validateFirstNameOfCastMember()'><b>validateFirstNameOfCastMember</b><br>Test class: com.amc.testclasses.RLTestCasesForSeries<br>Test method: Validate name of cast member<br/>
+<a href="#Output-1113984645" onClick='toggleBox("Output-1113984645", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1113984645" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1113984645">
+Started reading Responses from WOP API <br/>
+Validating First Name param name in WOP API<br/>
+ Param values are ------ : [Caroline Apperre]<br/>
+Validating WOP API value Caroline Apperre with test data value Caroline Apperre<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.amc.testclasses.RLTestCasesForSeries@78067cc4</td></tr>
+<tr>
+<td title='com.amc.testclasses.RLTestCasesForSeries.validateOrigin()'><b>validateOrigin</b><br>Test class: com.amc.testclasses.RLTestCasesForSeries<br>Test method: Validate Origin of WOP<br/>
+<a href="#Output-1677263104" onClick='toggleBox("Output-1677263104", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1677263104" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1677263104">
+Started reading Responses from WOP API <br/>
+Validating Origin param name in WOP API<br/>
+ Param values are ------ : [Licensed]<br/>
+Validating WOP API value Licensed with test data value Licensed<br/>
+Started reading Responses from MP API <br/>
+Validating Origin param name in MP API<br/>
+ Param values are ------ : [Licensed]<br/>
+Validating MP API value Licensed with test data value Licensed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.amc.testclasses.RLTestCasesForSeries@78067cc4</td></tr>
+<tr>
+<td title='com.amc.testclasses.RLTestCasesForSeries.validateOwnerNetwork()'><b>validateOwnerNetwork</b><br>Test class: com.amc.testclasses.RLTestCasesForSeries<br>Test method: Validate Owner Network<br/>
+<a href="#Output-1176104681" onClick='toggleBox("Output-1176104681", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1176104681" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1176104681">
+Started reading Responses from WOP API <br/>
+Validating Owner Network param name in WOP API<br/>
+ Param values are ------ : [AMC]<br/>
+Validating WOP API value AMC with test data value AMC<br/>
+Started reading Responses from MP API <br/>
+Validating Owner Network param name in MP API<br/>
+ Param values are ------ : [AMC]<br/>
+Validating MP API value AMC with test data value AMC<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.amc.testclasses.RLTestCasesForSeries@78067cc4</td></tr>
+<tr>
+<td title='com.amc.testclasses.RLTestCasesForSeries.validateProductionMode()'><b>validateProductionMode</b><br>Test class: com.amc.testclasses.RLTestCasesForSeries<br>Test method: Validate Production Mode of WOP<br/>
+<a href="#Output-38164930" onClick='toggleBox("Output-38164930", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-38164930" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-38164930">
+Started reading Responses from WOP API <br/>
+Validating Production Mode param name in WOP API<br/>
+ Param values are ------ : [Scripted]<br/>
+Validating WOP API value Scripted with test data value Scripted<br/>
+Started reading Responses from MP API <br/>
+Validating Production Mode param name in MP API<br/>
+ Param values are ------ : [Scripted]<br/>
+Validating MP API value Scripted with test data value Scripted<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.amc.testclasses.RLTestCasesForSeries@78067cc4</td></tr>
+<tr>
+<td title='com.amc.testclasses.RLTestCasesForSeries.validateTitleType()'><b>validateTitleType</b><br>Test class: com.amc.testclasses.RLTestCasesForSeries<br>Test method: Validate title type of the asset<br/>
+<a href="#Output-125613253" onClick='toggleBox("Output-125613253", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-125613253" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-125613253">
+Started reading Responses from WOP API <br/>
+Validating Title Type param name in WOP API<br/>
+ Param values are ------ : [Series]<br/>
+Validating WOP API value Series with test data value Series<br/>
+Started reading Responses from MP API <br/>
+Validating Title Type param name in MP API<br/>
+ Param values are ------ : [Series]<br/>
+Validating MP API value Series with test data value Series<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.amc.testclasses.RLTestCasesForSeries@78067cc4</td></tr>
+<tr>
+<td title='com.amc.testclasses.RLTestCasesForSeries.validateTotalNumberOfEpisodes()'><b>validateTotalNumberOfEpisodes</b><br>Test class: com.amc.testclasses.RLTestCasesForSeries<br>Test method: Validate total number of episodes in the series<br/>
+<a href="#Output-2089915415" onClick='toggleBox("Output-2089915415", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2089915415" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2089915415">
+Started reading Responses from MP API <br/>
+Validating TotalNumberOfEpisodes param name in MP API<br/>
+ Param values are ------ : [1]<br/>
+Validating MP API value 1 with test data value 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.amc.testclasses.RLTestCasesForSeries@78067cc4</td></tr>
+</table><p>
+</body>
+</html>

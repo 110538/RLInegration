@@ -1,0 +1,152 @@
+{
+  "uid" : "e687e35fde48657b",
+  "name" : "validateOriginForSpecial",
+  "title" : "Validate origin for special",
+  "time" : {
+    "start" : 1555329318486,
+    "stop" : 1555329318546,
+    "duration" : 60
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate Origin of WOP",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "de7fc0c6b87bf3f0",
+    "name" : "Suite : AssetCreationForSpecial[assetType=Special]",
+    "title" : "Suite : AssetCreationForSpecial[assetType=Special]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329318541,
+      "stop" : 1555329318541,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Origin param name in WOP API]",
+    "title" : "Validating Origin param name in WOP API",
+    "time" : {
+      "start" : 1555329318541,
+      "stop" : 1555329318541,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Licensed]]",
+    "title" : " Param values are ------ : [Licensed]",
+    "time" : {
+      "start" : 1555329318542,
+      "stop" : 1555329318542,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329318544,
+      "stop" : 1555329318544,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Origin param name in MP API]",
+    "title" : "Validating Origin param name in MP API",
+    "time" : {
+      "start" : 1555329318545,
+      "stop" : 1555329318545,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Licensed]]",
+    "title" : " Param values are ------ : [Licensed]",
+    "time" : {
+      "start" : 1555329318545,
+      "stop" : 1555329318545,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForSpecial"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateOriginForSpecial"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForSpecial[assetType=Special]"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForSpecial"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForSpecial[assetType=Special]"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSpecial-1(66)"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

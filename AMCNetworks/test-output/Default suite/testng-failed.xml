@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.amc.testclasses.RLTestCasesForShortFilm">
+        <methods>
+          <include name="validateAssetTitleForShortFilm"/>
+          <include name="validateAlternativeTitleForLegalForShortFilm"/>
+          <include name="validateTitleTypeForShortFilm"/>
+          <include name="validateCastTypeForShortFilm"/>
+          <include name="validateProductionCompanyForShortFilm"/>
+          <include name="validateAlternativeTitleForAKAForShortFilm"/>
+          <include name="validateReleaseYearForShortFilm"/>
+          <include name="validateFirstNameOfCastMemberForShortFilm"/>
+          <include name="validateTRTForShortFilm"/>
+          <include name="validateAMCNIDForShortFilm"/>
+          <include name="validateAlternativeTitleTypeForLegalTypeForShortFilm"/>
+          <include name="validateOriginForShortFilm"/>
+          <include name="validateOwnerNetworkForShortFilm"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="validateAlternativeTitleTypeForAKAForShortFilm"/>
+          <include name="validateAssetShowTypeForShortFilm"/>
+          <include name="executeAPI"/>
+          <include name="connectToESBDatabase"/>
+          <include name="validateAssetSourceForShortFilm"/>
+          <include name="validateProductionModeForShortFilm"/>
+        </methods>
+      </class> <!-- com.amc.testclasses.RLTestCasesForShortFilm -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

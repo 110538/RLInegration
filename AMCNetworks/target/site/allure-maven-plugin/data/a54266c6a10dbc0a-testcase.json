@@ -1,0 +1,152 @@
+{
+  "uid" : "a54266c6a10dbc0a",
+  "name" : "validateAssetShowTypeForShortFilm",
+  "title" : "Validate asset show type for short film",
+  "time" : {
+    "start" : 1555329364113,
+    "stop" : 1555329364162,
+    "duration" : 49
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate Asset Shpw Type of WOP",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "a997723ab4925b51",
+    "name" : "Suite : AssetCreationForShortFilm[assetType=Short Film]",
+    "title" : "Suite : AssetCreationForShortFilm[assetType=Short Film]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329364159,
+      "stop" : 1555329364159,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating ShowType param name in WOP API]",
+    "title" : "Validating ShowType param name in WOP API",
+    "time" : {
+      "start" : 1555329364160,
+      "stop" : 1555329364160,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Short Film]]",
+    "title" : " Param values are ------ : [Short Film]",
+    "time" : {
+      "start" : 1555329364160,
+      "stop" : 1555329364160,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329364161,
+      "stop" : 1555329364161,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating ShowType param name in MP API]",
+    "title" : "Validating ShowType param name in MP API",
+    "time" : {
+      "start" : 1555329364162,
+      "stop" : 1555329364162,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Short Film]]",
+    "title" : " Param values are ------ : [Short Film]",
+    "time" : {
+      "start" : 1555329364162,
+      "stop" : 1555329364162,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForShortFilm[assetType=Short Film]"
+  }, {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForShortFilm-1(73)"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateAssetShowTypeForShortFilm"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForShortFilm"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForShortFilm"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForShortFilm[assetType=Short Film]"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

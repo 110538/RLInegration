@@ -1,0 +1,107 @@
+{
+  "uid" : "441196a7e19e7b77",
+  "name" : "validateAlternativeTitleForAKAForSpecial",
+  "title" : "Validate alternative title for AKA for special",
+  "time" : {
+    "start" : 1555329317960,
+    "stop" : 1555329318009,
+    "duration" : 49
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate alternative title of the asset for AKA Type",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "de7fc0c6b87bf3f0",
+    "name" : "Suite : AssetCreationForSpecial[assetType=Special]",
+    "title" : "Suite : AssetCreationForSpecial[assetType=Special]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329318008,
+      "stop" : 1555329318008,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Alt Title param name in WOP API]",
+    "title" : "Validating Alt Title param name in WOP API",
+    "time" : {
+      "start" : 1555329318008,
+      "stop" : 1555329318008,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Program Alternative Title]]",
+    "title" : " Param values are ------ : [Program Alternative Title]",
+    "time" : {
+      "start" : 1555329318009,
+      "stop" : 1555329318009,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForSpecial"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForSpecial[assetType=Special]"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForSpecial"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForSpecial[assetType=Special]"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateAlternativeTitleForAKAForSpecial"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSpecial-1(66)"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,107 @@
+{
+  "uid" : "483fd3937024cef9",
+  "name" : "validateAlternativeTitleTypeForLegalTypeForDemo",
+  "title" : "Validate alternative title type for legal type for demo",
+  "time" : {
+    "start" : 1555329325229,
+    "stop" : 1555329325308,
+    "duration" : 79
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate alternative title type of the asset for Legal Type",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "400cf97b2dbd7fa2",
+    "name" : "Suite : AssetCreationForDemo[assetType=Demo]",
+    "title" : "Suite : AssetCreationForDemo[assetType=Demo]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329325307,
+      "stop" : 1555329325307,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Alt Title Type For Legal param name in WOP API]",
+    "title" : "Validating Alt Title Type For Legal param name in WOP API",
+    "time" : {
+      "start" : 1555329325308,
+      "stop" : 1555329325308,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Legal]]",
+    "title" : " Param values are ------ : [Legal]",
+    "time" : {
+      "start" : 1555329325308,
+      "stop" : 1555329325308,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForDemo[assetType=Demo]"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForDemo"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForDemo-1(67)"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForDemo"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForDemo[assetType=Demo]"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateAlternativeTitleTypeForLegalTypeForDemo"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

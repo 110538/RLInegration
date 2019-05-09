@@ -1,0 +1,152 @@
+{
+  "uid" : "c0df864cae1b6458",
+  "name" : "validateReleaseYearForFeatureLength",
+  "title" : "Validate release year for feature length",
+  "time" : {
+    "start" : 1555329358004,
+    "stop" : 1555329358047,
+    "duration" : 43
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate release year of the asset",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "3df6906f10d1da58",
+    "name" : "Suite : AssetCreationForFeatureLength[assetType=Feature Length]",
+    "title" : "Suite : AssetCreationForFeatureLength[assetType=Feature Length]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329358044,
+      "stop" : 1555329358044,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Release Year param name in WOP API]",
+    "title" : "Validating Release Year param name in WOP API",
+    "time" : {
+      "start" : 1555329358044,
+      "stop" : 1555329358044,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [2030]]",
+    "title" : " Param values are ------ : [2030]",
+    "time" : {
+      "start" : 1555329358045,
+      "stop" : 1555329358045,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329358046,
+      "stop" : 1555329358046,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Release Year param name in MP API]",
+    "title" : "Validating Release Year param name in MP API",
+    "time" : {
+      "start" : 1555329358046,
+      "stop" : 1555329358046,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [2030]]",
+    "title" : " Param values are ------ : [2030]",
+    "time" : {
+      "start" : 1555329358047,
+      "stop" : 1555329358047,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForFeatureLength"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForFeatureLength[assetType=Feature Length]"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForFeatureLength[assetType=Feature Length]"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForFeatureLength-1(72)"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForFeatureLength"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateReleaseYearForFeatureLength"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

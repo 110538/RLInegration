@@ -1,0 +1,107 @@
+{
+  "uid" : "eed0df27835986f6",
+  "name" : "validateAlternativeTitleTypeForAKAForMadeForTV",
+  "title" : "Validate alternative title type for AKA for made for TV",
+  "time" : {
+    "start" : 1555329344954,
+    "stop" : 1555329344984,
+    "duration" : 30
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate alternative title type of the asset for AKA Type",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "328c7831680df94f",
+    "name" : "Suite : AssetCreationForMadeForTV[assetType=Made For TV]",
+    "title" : "Suite : AssetCreationForMadeForTV[assetType=Made For TV]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329344984,
+      "stop" : 1555329344984,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Alt Title Type param name in WOP API]",
+    "title" : "Validating Alt Title Type param name in WOP API",
+    "time" : {
+      "start" : 1555329344984,
+      "stop" : 1555329344984,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [AKA]]",
+    "title" : " Param values are ------ : [AKA]",
+    "time" : {
+      "start" : 1555329344984,
+      "stop" : 1555329344984,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForMadeForTV[assetType=Made For TV]"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForMadeForTV[assetType=Made For TV]"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForMadeForTV-1(70)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateAlternativeTitleTypeForAKAForMadeForTV"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForMadeForTV"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForMadeForTV"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

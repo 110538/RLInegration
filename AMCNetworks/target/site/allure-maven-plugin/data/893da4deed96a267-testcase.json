@@ -1,0 +1,152 @@
+{
+  "uid" : "893da4deed96a267",
+  "name" : "validateReleaseYearForDemo",
+  "title" : "Validate release year for demo",
+  "time" : {
+    "start" : 1555329325727,
+    "stop" : 1555329325777,
+    "duration" : 50
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate release year of the asset",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "400cf97b2dbd7fa2",
+    "name" : "Suite : AssetCreationForDemo[assetType=Demo]",
+    "title" : "Suite : AssetCreationForDemo[assetType=Demo]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329325775,
+      "stop" : 1555329325775,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Release Year param name in WOP API]",
+    "title" : "Validating Release Year param name in WOP API",
+    "time" : {
+      "start" : 1555329325775,
+      "stop" : 1555329325775,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [2030]]",
+    "title" : " Param values are ------ : [2030]",
+    "time" : {
+      "start" : 1555329325776,
+      "stop" : 1555329325776,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329325776,
+      "stop" : 1555329325776,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Release Year param name in MP API]",
+    "title" : "Validating Release Year param name in MP API",
+    "time" : {
+      "start" : 1555329325777,
+      "stop" : 1555329325777,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [2030]]",
+    "title" : " Param values are ------ : [2030]",
+    "time" : {
+      "start" : 1555329325777,
+      "stop" : 1555329325777,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateReleaseYearForDemo"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForDemo[assetType=Demo]"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForDemo"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForDemo-1(67)"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForDemo"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForDemo[assetType=Demo]"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

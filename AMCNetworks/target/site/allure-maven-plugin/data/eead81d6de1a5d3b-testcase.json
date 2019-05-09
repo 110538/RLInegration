@@ -1,0 +1,152 @@
+{
+  "uid" : "eead81d6de1a5d3b",
+  "name" : "validateProductionCompanyForMadeForTV",
+  "title" : "Validate production company for made for TV",
+  "time" : {
+    "start" : 1555329345249,
+    "stop" : 1555329345281,
+    "duration" : 32
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate Production Company of the asset",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "328c7831680df94f",
+    "name" : "Suite : AssetCreationForMadeForTV[assetType=Made For TV]",
+    "title" : "Suite : AssetCreationForMadeForTV[assetType=Made For TV]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329345279,
+      "stop" : 1555329345279,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Production Company param name in WOP API]",
+    "title" : "Validating Production Company param name in WOP API",
+    "time" : {
+      "start" : 1555329345279,
+      "stop" : 1555329345279,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Apple Inc.]]",
+    "title" : " Param values are ------ : [Apple Inc.]",
+    "time" : {
+      "start" : 1555329345280,
+      "stop" : 1555329345280,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329345280,
+      "stop" : 1555329345280,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Production Company param name in MP API]",
+    "title" : "Validating Production Company param name in MP API",
+    "time" : {
+      "start" : 1555329345280,
+      "stop" : 1555329345280,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Apple Inc.]]",
+    "title" : " Param values are ------ : [Apple Inc.]",
+    "time" : {
+      "start" : 1555329345281,
+      "stop" : 1555329345281,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForMadeForTV[assetType=Made For TV]"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForMadeForTV[assetType=Made For TV]"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForMadeForTV-1(70)"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateProductionCompanyForMadeForTV"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForMadeForTV"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForMadeForTV"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

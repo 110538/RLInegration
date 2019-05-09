@@ -1,0 +1,7 @@
+workSpaceExcelPath=\\src\\main\\java\\com\\amc\\datasheets
+testRailURL=https://amcnetworks.testrail.io
+testRailUserName=Ajay.Shinde@amcnetworks.com
+testRailPassword=Automation@123
+TestExecutionFileName=AssestsIntegration.xlsx
+TestRailExcelFile=AssestsIntegration.xlsx
+testRailRunID=885

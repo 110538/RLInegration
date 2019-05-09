@@ -1,0 +1,1786 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 160,
+      "passed" : 160,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "848e852f6dd11a8b",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 160,
+        "passed" : 160,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "532328cfaf89645a",
+        "name" : "createDifferentRLAssetsForRegression",
+        "title" : "Create different RL assets for regression",
+        "time" : {
+          "start" : 1555328479149,
+          "stop" : 1555329295709,
+          "duration" : 816560
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e163b3f7e96f79c8",
+        "name" : "validateAMCNIDForDemo",
+        "title" : "Validate AMCNID for demo",
+        "time" : {
+          "start" : 1555329324994,
+          "stop" : 1555329325047,
+          "duration" : 53
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "90d82719f9fa2ed4",
+        "name" : "validateAlternativeTitleForAKAForDemo",
+        "title" : "Validate alternative title for AKA for demo",
+        "time" : {
+          "start" : 1555329325051,
+          "stop" : 1555329325106,
+          "duration" : 55
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "368106a9d47df685",
+        "name" : "validateAlternativeTitleForLegalForDemo",
+        "title" : "Validate alternative title for legal for demo",
+        "time" : {
+          "start" : 1555329325107,
+          "stop" : 1555329325161,
+          "duration" : 54
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "26b2569486593ba7",
+        "name" : "validateAlternativeTitleTypeForAKAForDemo",
+        "title" : "Validate alternative title type for AKA for demo",
+        "time" : {
+          "start" : 1555329325161,
+          "stop" : 1555329325225,
+          "duration" : 64
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "483fd3937024cef9",
+        "name" : "validateAlternativeTitleTypeForLegalTypeForDemo",
+        "title" : "Validate alternative title type for legal type for demo",
+        "time" : {
+          "start" : 1555329325229,
+          "stop" : 1555329325308,
+          "duration" : 79
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "be0f6483c02c38bd",
+        "name" : "validateAssetShowTypeForDemo",
+        "title" : "Validate asset show type for demo",
+        "time" : {
+          "start" : 1555329325308,
+          "stop" : 1555329325365,
+          "duration" : 57
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "62132e9f66a9fefd",
+        "name" : "validateAssetSourceForDemo",
+        "title" : "Validate asset source for demo",
+        "time" : {
+          "start" : 1555329325369,
+          "stop" : 1555329325420,
+          "duration" : 51
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e277658063423711",
+        "name" : "validateAssetTitleForDemo",
+        "title" : "Validate asset title for demo",
+        "time" : {
+          "start" : 1555329325421,
+          "stop" : 1555329325475,
+          "duration" : 54
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "465840b3b2ce07ba",
+        "name" : "validateCastTypeForDemo",
+        "title" : "Validate cast type for demo",
+        "time" : {
+          "start" : 1555329325476,
+          "stop" : 1555329325517,
+          "duration" : 41
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "28818f6214fc2965",
+        "name" : "validateFirstNameOfCastMemberForDemo",
+        "title" : "Validate first name of cast member for demo",
+        "time" : {
+          "start" : 1555329325518,
+          "stop" : 1555329325561,
+          "duration" : 43
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2b83a906b4c58f09",
+        "name" : "validateOriginForDemo",
+        "title" : "Validate origin for demo",
+        "time" : {
+          "start" : 1555329325563,
+          "stop" : 1555329325614,
+          "duration" : 51
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6d60220b4031ce75",
+        "name" : "validateProductionCompanyForDemo",
+        "title" : "Validate production company for demo",
+        "time" : {
+          "start" : 1555329325616,
+          "stop" : 1555329325668,
+          "duration" : 52
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "aae38c90a43153b7",
+        "name" : "validateProductionModeForDemo",
+        "title" : "Validate production mode for demo",
+        "time" : {
+          "start" : 1555329325668,
+          "stop" : 1555329325727,
+          "duration" : 59
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "893da4deed96a267",
+        "name" : "validateReleaseYearForDemo",
+        "title" : "Validate release year for demo",
+        "time" : {
+          "start" : 1555329325727,
+          "stop" : 1555329325777,
+          "duration" : 50
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b4aec0ee70f78475",
+        "name" : "validateTRTForDemo",
+        "title" : "Validate TRT for demo",
+        "time" : {
+          "start" : 1555329325777,
+          "stop" : 1555329325829,
+          "duration" : 52
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9b17ad3f1e58d552",
+        "name" : "validateTitleTypeForDemo",
+        "title" : "Validate title type for demo",
+        "time" : {
+          "start" : 1555329325830,
+          "stop" : 1555329325889,
+          "duration" : 59
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "10dd1fec2f3b5109",
+        "name" : "validateAMCNIDForMadeForTV",
+        "title" : "Validate AMCNID for made for TV",
+        "time" : {
+          "start" : 1555329344858,
+          "stop" : 1555329344889,
+          "duration" : 31
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c48908576fc12a4c",
+        "name" : "validateAlternativeTitleForAKAForMadeForTV",
+        "title" : "Validate alternative title for AKA for made for TV",
+        "time" : {
+          "start" : 1555329344890,
+          "stop" : 1555329344921,
+          "duration" : 31
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "30989ddb4e6b1bd0",
+        "name" : "validateAlternativeTitleForLegalForMadeForTV",
+        "title" : "Validate alternative title for legal for made for TV",
+        "time" : {
+          "start" : 1555329344922,
+          "stop" : 1555329344952,
+          "duration" : 30
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "eed0df27835986f6",
+        "name" : "validateAlternativeTitleTypeForAKAForMadeForTV",
+        "title" : "Validate alternative title type for AKA for made for TV",
+        "time" : {
+          "start" : 1555329344954,
+          "stop" : 1555329344984,
+          "duration" : 30
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1a6e0593f94b7eff",
+        "name" : "validateAlternativeTitleTypeForLegalTypeForMadeForTV",
+        "title" : "Validate alternative title type for legal type for made for TV",
+        "time" : {
+          "start" : 1555329344986,
+          "stop" : 1555329345016,
+          "duration" : 30
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "60d3fb2ded15a28f",
+        "name" : "validateAssetShowTypeForMadeForTV",
+        "title" : "Validate asset show type for made for TV",
+        "time" : {
+          "start" : 1555329345017,
+          "stop" : 1555329345047,
+          "duration" : 30
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e5ca4e0773d8c33e",
+        "name" : "validateAssetSourceForMadeForTV",
+        "title" : "Validate asset source for made for TV",
+        "time" : {
+          "start" : 1555329345048,
+          "stop" : 1555329345080,
+          "duration" : 32
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e0ec90ae3e087f5e",
+        "name" : "validateAssetTitleForMadeForTV",
+        "title" : "Validate asset title for made for TV",
+        "time" : {
+          "start" : 1555329345081,
+          "stop" : 1555329345117,
+          "duration" : 36
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "95e4faba8173832b",
+        "name" : "validateCastTypeForMadeForTV",
+        "title" : "Validate cast type for made for TV",
+        "time" : {
+          "start" : 1555329345119,
+          "stop" : 1555329345172,
+          "duration" : 53
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2fbad164c6efaf0",
+        "name" : "validateFirstNameOfCastMemberForMadeForTV",
+        "title" : "Validate first name of cast member for made for TV",
+        "time" : {
+          "start" : 1555329345173,
+          "stop" : 1555329345214,
+          "duration" : 41
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ff3ab7f43c5fcb24",
+        "name" : "validateOriginForMadeForTV",
+        "title" : "Validate origin for made for TV",
+        "time" : {
+          "start" : 1555329345215,
+          "stop" : 1555329345247,
+          "duration" : 32
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "eead81d6de1a5d3b",
+        "name" : "validateProductionCompanyForMadeForTV",
+        "title" : "Validate production company for made for TV",
+        "time" : {
+          "start" : 1555329345249,
+          "stop" : 1555329345281,
+          "duration" : 32
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9741659c14f415bf",
+        "name" : "validateProductionModeForMadeForTV",
+        "title" : "Validate production mode for made for TV",
+        "time" : {
+          "start" : 1555329345282,
+          "stop" : 1555329345319,
+          "duration" : 37
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7f77a65d6e4fc628",
+        "name" : "validateReleaseYearForMadeForTV",
+        "title" : "Validate release year for made for TV",
+        "time" : {
+          "start" : 1555329345320,
+          "stop" : 1555329345362,
+          "duration" : 42
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "61265bc54707b127",
+        "name" : "validateTRTForMadeForTV",
+        "title" : "Validate TRT for made for TV",
+        "time" : {
+          "start" : 1555329345363,
+          "stop" : 1555329345413,
+          "duration" : 50
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "61d0d6fd5ca0e797",
+        "name" : "validateTitleTypeForMadeForTV",
+        "title" : "Validate title type for made for TV",
+        "time" : {
+          "start" : 1555329345414,
+          "stop" : 1555329345478,
+          "duration" : 64
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "760c9ec285b65a7a",
+        "name" : "validateAMCNIDForShortFilm",
+        "title" : "Validate AMCNID for short film",
+        "time" : {
+          "start" : 1555329363905,
+          "stop" : 1555329363949,
+          "duration" : 44
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "211c6c4460942bce",
+        "name" : "validateAlternativeTitleForAKAForShortFilm",
+        "title" : "Validate alternative title for AKA for short film",
+        "time" : {
+          "start" : 1555329363950,
+          "stop" : 1555329363998,
+          "duration" : 48
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e597a3f8f458bdcd",
+        "name" : "validateAlternativeTitleForLegalForShortFilm",
+        "title" : "Validate alternative title for legal for short film",
+        "time" : {
+          "start" : 1555329363999,
+          "stop" : 1555329364048,
+          "duration" : 49
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "cc5c0f0889194e94",
+        "name" : "validateAlternativeTitleTypeForAKAForShortFilm",
+        "title" : "Validate alternative title type for AKA for short film",
+        "time" : {
+          "start" : 1555329364050,
+          "stop" : 1555329364079,
+          "duration" : 29
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5a85e1961da5645c",
+        "name" : "validateAlternativeTitleTypeForLegalTypeForShortFilm",
+        "title" : "Validate alternative title type for legal type for short film",
+        "time" : {
+          "start" : 1555329364080,
+          "stop" : 1555329364112,
+          "duration" : 32
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a54266c6a10dbc0a",
+        "name" : "validateAssetShowTypeForShortFilm",
+        "title" : "Validate asset show type for short film",
+        "time" : {
+          "start" : 1555329364113,
+          "stop" : 1555329364162,
+          "duration" : 49
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e61298aa5e9bb97d",
+        "name" : "validateAssetSourceForShortFilm",
+        "title" : "Validate asset source for short film",
+        "time" : {
+          "start" : 1555329364164,
+          "stop" : 1555329364218,
+          "duration" : 54
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4db51b10419dc0a6",
+        "name" : "validateAssetTitleForShortFilm",
+        "title" : "Validate asset title for short film",
+        "time" : {
+          "start" : 1555329364220,
+          "stop" : 1555329364293,
+          "duration" : 73
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "77f195b1dac6d68a",
+        "name" : "validateCastTypeForShortFilm",
+        "title" : "Validate cast type for short film",
+        "time" : {
+          "start" : 1555329364295,
+          "stop" : 1555329364327,
+          "duration" : 32
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "daf64a4e6f1a8c30",
+        "name" : "validateFirstNameOfCastMemberForShortFilm",
+        "title" : "Validate first name of cast member for short film",
+        "time" : {
+          "start" : 1555329364328,
+          "stop" : 1555329364377,
+          "duration" : 49
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7a2ba34f69b1a5ed",
+        "name" : "validateOriginForShortFilm",
+        "title" : "Validate origin for short film",
+        "time" : {
+          "start" : 1555329364378,
+          "stop" : 1555329364425,
+          "duration" : 47
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c8b70031e79e0c52",
+        "name" : "validateProductionCompanyForShortFilm",
+        "title" : "Validate production company for short film",
+        "time" : {
+          "start" : 1555329364426,
+          "stop" : 1555329364470,
+          "duration" : 44
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "79b41d9de2df4942",
+        "name" : "validateProductionModeForShortFilm",
+        "title" : "Validate production mode for short film",
+        "time" : {
+          "start" : 1555329364472,
+          "stop" : 1555329364526,
+          "duration" : 54
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a0dc6bf3271b370d",
+        "name" : "validateReleaseYearForShortFilm",
+        "title" : "Validate release year for short film",
+        "time" : {
+          "start" : 1555329364528,
+          "stop" : 1555329364587,
+          "duration" : 59
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f3f4d1f453c55f72",
+        "name" : "validateTRTForShortFilm",
+        "title" : "Validate TRT for short film",
+        "time" : {
+          "start" : 1555329364588,
+          "stop" : 1555329364638,
+          "duration" : 50
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "da36fd1ad037c34f",
+        "name" : "validateTitleTypeForShortFilm",
+        "title" : "Validate title type for short film",
+        "time" : {
+          "start" : 1555329364640,
+          "stop" : 1555329364688,
+          "duration" : 48
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "db65758547882faa",
+        "name" : "validateAMCNIDForOneOff",
+        "title" : "Validate AMCNID for one off",
+        "time" : {
+          "start" : 1555329310985,
+          "stop" : 1555329311049,
+          "duration" : 64
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "eb4b86df3536a2",
+        "name" : "validateAlternativeTitleForAKAForOneOff",
+        "title" : "Validate alternative title for AKA for one off",
+        "time" : {
+          "start" : 1555329311051,
+          "stop" : 1555329311105,
+          "duration" : 54
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d15ab2013573ccda",
+        "name" : "validateAlternativeTitleForLegalForOneOff",
+        "title" : "Validate alternative title for legal for one off",
+        "time" : {
+          "start" : 1555329311110,
+          "stop" : 1555329311167,
+          "duration" : 57
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a5d9ebdbf31b7dd7",
+        "name" : "validateAlternativeTitleTypeForAKAForOneOff",
+        "title" : "Validate alternative title type for AKA for one off",
+        "time" : {
+          "start" : 1555329311170,
+          "stop" : 1555329311228,
+          "duration" : 58
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "63177a56be295bf7",
+        "name" : "validateAlternativeTitleTypeForLegalTypeForOneOff",
+        "title" : "Validate alternative title type for legal type for one off",
+        "time" : {
+          "start" : 1555329311231,
+          "stop" : 1555329311294,
+          "duration" : 63
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "69d31f395559b2ce",
+        "name" : "validateAssetShowTypeForOneOff",
+        "title" : "Validate asset show type for one off",
+        "time" : {
+          "start" : 1555329311294,
+          "stop" : 1555329311353,
+          "duration" : 59
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "67359f51b9a6377e",
+        "name" : "validateAssetSourceForOneOff",
+        "title" : "Validate asset source for one off",
+        "time" : {
+          "start" : 1555329311355,
+          "stop" : 1555329311407,
+          "duration" : 52
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "89eaaa896ac6d02c",
+        "name" : "validateAssetTitleForOneOff",
+        "title" : "Validate asset title for one off",
+        "time" : {
+          "start" : 1555329311412,
+          "stop" : 1555329311468,
+          "duration" : 56
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "84f679be2a17571c",
+        "name" : "validateCastTypeForOneOff",
+        "title" : "Validate cast type for one off",
+        "time" : {
+          "start" : 1555329311468,
+          "stop" : 1555329311525,
+          "duration" : 57
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c253f9bee8a36510",
+        "name" : "validateFirstNameOfCastMemberForOneOff",
+        "title" : "Validate first name of cast member for one off",
+        "time" : {
+          "start" : 1555329311525,
+          "stop" : 1555329311576,
+          "duration" : 51
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a842f34ae38fd6e9",
+        "name" : "validateOriginForOneOff",
+        "title" : "Validate origin for one off",
+        "time" : {
+          "start" : 1555329311580,
+          "stop" : 1555329311635,
+          "duration" : 55
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6946b452a2702d64",
+        "name" : "validateProductionCompanyForOneOff",
+        "title" : "Validate production company for one off",
+        "time" : {
+          "start" : 1555329311635,
+          "stop" : 1555329311692,
+          "duration" : 57
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "217cadbfe5359092",
+        "name" : "validateProductionModeForOneOff",
+        "title" : "Validate production mode for one off",
+        "time" : {
+          "start" : 1555329311694,
+          "stop" : 1555329311753,
+          "duration" : 59
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e8f5313dc24cc779",
+        "name" : "validateReleaseYearForOneOff",
+        "title" : "Validate release year for one off",
+        "time" : {
+          "start" : 1555329311753,
+          "stop" : 1555329311811,
+          "duration" : 58
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "88bb0fa6422cb7ac",
+        "name" : "validateTRTForOneOff",
+        "title" : "Validate TRT for one off",
+        "time" : {
+          "start" : 1555329311815,
+          "stop" : 1555329311866,
+          "duration" : 51
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "624c6c0f9dd26243",
+        "name" : "validateTitleTypeForOneOff",
+        "title" : "Validate title type for one off",
+        "time" : {
+          "start" : 1555329311870,
+          "stop" : 1555329311920,
+          "duration" : 50
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f3ee9b57c786428f",
+        "name" : "validateAMCNIDForFeatureLength",
+        "title" : "Validate AMCNID for feature length",
+        "time" : {
+          "start" : 1555329357379,
+          "stop" : 1555329357447,
+          "duration" : 68
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "63230ec46c9d9295",
+        "name" : "validateAlternativeTitleForAKAForFeatureLength",
+        "title" : "Validate alternative title for AKA for feature length",
+        "time" : {
+          "start" : 1555329357449,
+          "stop" : 1555329357498,
+          "duration" : 49
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9308743dc25ecc49",
+        "name" : "validateAlternativeTitleForLegalForFeatureLength",
+        "title" : "Validate alternative title for legal for feature length",
+        "time" : {
+          "start" : 1555329357500,
+          "stop" : 1555329357549,
+          "duration" : 49
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "583ccb0a6fd84490",
+        "name" : "validateAlternativeTitleTypeForAKAForFeatureLength",
+        "title" : "Validate alternative title type for AKA for feature length",
+        "time" : {
+          "start" : 1555329357550,
+          "stop" : 1555329357601,
+          "duration" : 51
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ea7f72b5cf530e3c",
+        "name" : "validateAlternativeTitleTypeForLegalTypeForFeatureLength",
+        "title" : "Validate alternative title type for legal type for feature length",
+        "time" : {
+          "start" : 1555329357602,
+          "stop" : 1555329357652,
+          "duration" : 50
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "10b8b203f6e62850",
+        "name" : "validateAssetShowTypeForFeatureLength",
+        "title" : "Validate asset show type for feature length",
+        "time" : {
+          "start" : 1555329357654,
+          "stop" : 1555329357701,
+          "duration" : 47
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "eba070cf140c6a77",
+        "name" : "validateAssetSourceForFeatureLength",
+        "title" : "Validate asset source for feature length",
+        "time" : {
+          "start" : 1555329357702,
+          "stop" : 1555329357735,
+          "duration" : 33
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "dd90bf643d205e42",
+        "name" : "validateAssetTitleForFeatureLength",
+        "title" : "Validate asset title for feature length",
+        "time" : {
+          "start" : 1555329357736,
+          "stop" : 1555329357769,
+          "duration" : 33
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1612e45e8dbada7d",
+        "name" : "validateCastTypeForFeatureLength",
+        "title" : "Validate cast type for feature length",
+        "time" : {
+          "start" : 1555329357770,
+          "stop" : 1555329357814,
+          "duration" : 44
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "40c35e56a2690cad",
+        "name" : "validateFirstNameOfCastMemberForFeatureLength",
+        "title" : "Validate first name of cast member for feature length",
+        "time" : {
+          "start" : 1555329357815,
+          "stop" : 1555329357865,
+          "duration" : 50
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b7be695213f8a5e2",
+        "name" : "validateOriginForFeatureLength",
+        "title" : "Validate origin for feature length",
+        "time" : {
+          "start" : 1555329357866,
+          "stop" : 1555329357918,
+          "duration" : 52
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6fb36cb4e99fc531",
+        "name" : "validateProductionCompanyForFeatureLength",
+        "title" : "Validate production company for feature length",
+        "time" : {
+          "start" : 1555329357920,
+          "stop" : 1555329357958,
+          "duration" : 38
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e45ac4b76287011a",
+        "name" : "validateProductionModeForFeatureLength",
+        "title" : "Validate production mode for feature length",
+        "time" : {
+          "start" : 1555329357959,
+          "stop" : 1555329358002,
+          "duration" : 43
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c0df864cae1b6458",
+        "name" : "validateReleaseYearForFeatureLength",
+        "title" : "Validate release year for feature length",
+        "time" : {
+          "start" : 1555329358004,
+          "stop" : 1555329358047,
+          "duration" : 43
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d0cc28e800545c71",
+        "name" : "validateTRTForFeatureLength",
+        "title" : "Validate TRT for feature length",
+        "time" : {
+          "start" : 1555329358049,
+          "stop" : 1555329358101,
+          "duration" : 52
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ff0afc06951eb014",
+        "name" : "validateTitleTypeForFeatureLength",
+        "title" : "Validate title type for feature length",
+        "time" : {
+          "start" : 1555329358102,
+          "stop" : 1555329358147,
+          "duration" : 45
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f69408ac2ad110cf",
+        "name" : "validateAMCNIDForPilot",
+        "title" : "Validate AMCNID for pilot",
+        "time" : {
+          "start" : 1555329338468,
+          "stop" : 1555329338515,
+          "duration" : 47
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "509c0acb2c04fcbb",
+        "name" : "validateAlternativeTitleForAKAForPilot",
+        "title" : "Validate alternative title for AKA for pilot",
+        "time" : {
+          "start" : 1555329338517,
+          "stop" : 1555329338566,
+          "duration" : 49
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "88424c7e7a46d7dd",
+        "name" : "validateAlternativeTitleForLegalForPilot",
+        "title" : "Validate alternative title for legal for pilot",
+        "time" : {
+          "start" : 1555329338567,
+          "stop" : 1555329338601,
+          "duration" : 34
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "37edfbc66488f213",
+        "name" : "validateAlternativeTitleTypeForAKAForPilot",
+        "title" : "Validate alternative title type for AKA for pilot",
+        "time" : {
+          "start" : 1555329338602,
+          "stop" : 1555329338639,
+          "duration" : 37
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a5c07d89e821474d",
+        "name" : "validateAlternativeTitleTypeForLegalTypeForPilot",
+        "title" : "Validate alternative title type for legal type for pilot",
+        "time" : {
+          "start" : 1555329338641,
+          "stop" : 1555329338691,
+          "duration" : 50
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4c8c2b3cd7f80fc3",
+        "name" : "validateAssetShowTypeForPilot",
+        "title" : "Validate asset show type for pilot",
+        "time" : {
+          "start" : 1555329338693,
+          "stop" : 1555329338736,
+          "duration" : 43
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "13380859b022d631",
+        "name" : "validateAssetSourceForPilot",
+        "title" : "Validate asset source for pilot",
+        "time" : {
+          "start" : 1555329338737,
+          "stop" : 1555329338787,
+          "duration" : 50
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d34f1b8ce9b88fa5",
+        "name" : "validateAssetTitleForPilot",
+        "title" : "Validate asset title for pilot",
+        "time" : {
+          "start" : 1555329338788,
+          "stop" : 1555329338820,
+          "duration" : 32
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "21b19aff69459ee2",
+        "name" : "validateCastTypeForPilot",
+        "title" : "Validate cast type for pilot",
+        "time" : {
+          "start" : 1555329338821,
+          "stop" : 1555329338853,
+          "duration" : 32
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b4102414bd6b9159",
+        "name" : "validateFirstNameOfCastMemberForPilot",
+        "title" : "Validate first name of cast member for pilot",
+        "time" : {
+          "start" : 1555329338854,
+          "stop" : 1555329338890,
+          "duration" : 36
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "471f6256380e11f",
+        "name" : "validateOriginForPilot",
+        "title" : "Validate origin for pilot",
+        "time" : {
+          "start" : 1555329338891,
+          "stop" : 1555329338925,
+          "duration" : 34
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1928f7be1a44dffc",
+        "name" : "validateProductionCompanyForPilot",
+        "title" : "Validate production company for pilot",
+        "time" : {
+          "start" : 1555329338926,
+          "stop" : 1555329338962,
+          "duration" : 36
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d70e5951aa9e3702",
+        "name" : "validateProductionModeForPilot",
+        "title" : "Validate production mode for pilot",
+        "time" : {
+          "start" : 1555329338963,
+          "stop" : 1555329338998,
+          "duration" : 35
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d9b6551e952af57",
+        "name" : "validateReleaseYearForPilot",
+        "title" : "Validate release year for pilot",
+        "time" : {
+          "start" : 1555329338999,
+          "stop" : 1555329339030,
+          "duration" : 31
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6e1207c1cfc8d9b4",
+        "name" : "validateTRTForPilot",
+        "title" : "Validate TRT for pilot",
+        "time" : {
+          "start" : 1555329339031,
+          "stop" : 1555329339063,
+          "duration" : 32
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5ac2702519209785",
+        "name" : "validateTitleTypeForPilot",
+        "title" : "Validate title type for pilot",
+        "time" : {
+          "start" : 1555329339068,
+          "stop" : 1555329339101,
+          "duration" : 33
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a411d7a5f991a3",
+        "name" : "validateAMCNIDForMusicPerformance",
+        "title" : "Validate AMCNID for music performance",
+        "time" : {
+          "start" : 1555329351005,
+          "stop" : 1555329351089,
+          "duration" : 84
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ee82eb1842052bd7",
+        "name" : "validateAlternativeTitleForAKAForMusicPerformance",
+        "title" : "Validate alternative title for AKA for music performance",
+        "time" : {
+          "start" : 1555329351092,
+          "stop" : 1555329351135,
+          "duration" : 43
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "feba8576de9c7dee",
+        "name" : "validateAlternativeTitleForLegalForMusicPerformance",
+        "title" : "Validate alternative title for legal for music performance",
+        "time" : {
+          "start" : 1555329351137,
+          "stop" : 1555329351181,
+          "duration" : 44
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "729421a865da53b",
+        "name" : "validateAlternativeTitleTypeForAKAForMusicPerformance",
+        "title" : "Validate alternative title type for AKA for music performance",
+        "time" : {
+          "start" : 1555329351182,
+          "stop" : 1555329351220,
+          "duration" : 38
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "39ada97209c17d35",
+        "name" : "validateAlternativeTitleTypeForLegalTypeForMusicPerformance",
+        "title" : "Validate alternative title type for legal type for music performance",
+        "time" : {
+          "start" : 1555329351222,
+          "stop" : 1555329351257,
+          "duration" : 35
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6279f7ff07334dd5",
+        "name" : "validateAssetShowTypeForMusicPerformance",
+        "title" : "Validate asset show type for music performance",
+        "time" : {
+          "start" : 1555329351259,
+          "stop" : 1555329351291,
+          "duration" : 32
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6cc24fc68af4fefa",
+        "name" : "validateAssetSourceForMusicPerformance",
+        "title" : "Validate asset source for music performance",
+        "time" : {
+          "start" : 1555329351292,
+          "stop" : 1555329351336,
+          "duration" : 44
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "88a28fc41038e77d",
+        "name" : "validateAssetTitleForMusicPerformance",
+        "title" : "Validate asset title for music performance",
+        "time" : {
+          "start" : 1555329351339,
+          "stop" : 1555329351405,
+          "duration" : 66
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "67dbf1a32a98b50f",
+        "name" : "validateCastTypeForMusicPerformance",
+        "title" : "Validate cast type for music performance",
+        "time" : {
+          "start" : 1555329351407,
+          "stop" : 1555329351453,
+          "duration" : 46
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e66d2258c1b295d0",
+        "name" : "validateFirstNameOfCastMemberForMusicPerformance",
+        "title" : "Validate first name of cast member for music performance",
+        "time" : {
+          "start" : 1555329351454,
+          "stop" : 1555329351505,
+          "duration" : 51
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d7dcb1bcae2b95dc",
+        "name" : "validateOriginForMusicPerformance",
+        "title" : "Validate origin for music performance",
+        "time" : {
+          "start" : 1555329351506,
+          "stop" : 1555329351561,
+          "duration" : 55
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ff3da57640850ed7",
+        "name" : "validateProductionCompanyForMusicPerformance",
+        "title" : "Validate production company for music performance",
+        "time" : {
+          "start" : 1555329351563,
+          "stop" : 1555329351606,
+          "duration" : 43
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "adfff63089a898f",
+        "name" : "validateProductionModeForMusicPerformance",
+        "title" : "Validate production mode for music performance",
+        "time" : {
+          "start" : 1555329351607,
+          "stop" : 1555329351646,
+          "duration" : 39
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "fdd670163dcb013a",
+        "name" : "validateReleaseYearForMusicPerformance",
+        "title" : "Validate release year for music performance",
+        "time" : {
+          "start" : 1555329351648,
+          "stop" : 1555329351699,
+          "duration" : 51
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a7827d603a317484",
+        "name" : "validateTRTForMusicPerformance",
+        "title" : "Validate TRT for music performance",
+        "time" : {
+          "start" : 1555329351700,
+          "stop" : 1555329351748,
+          "duration" : 48
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f416634564067ecf",
+        "name" : "validateTitleTypeForMusicPerformance",
+        "title" : "Validate title type for music performance",
+        "time" : {
+          "start" : 1555329351749,
+          "stop" : 1555329351779,
+          "duration" : 30
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7eb8dba89ad1ae9f",
+        "name" : "validateAMCNIDForDocumentary",
+        "title" : "Validate AMCNID for documentary",
+        "time" : {
+          "start" : 1555329332013,
+          "stop" : 1555329332067,
+          "duration" : 54
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "20bede5c9776d607",
+        "name" : "validateAlternativeTitleForAKAForDocumentary",
+        "title" : "Validate alternative title for AKA for documentary",
+        "time" : {
+          "start" : 1555329332069,
+          "stop" : 1555329332117,
+          "duration" : 48
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3a8eb488a9fd0f14",
+        "name" : "validateAlternativeTitleForLegalForDocumentary",
+        "title" : "Validate alternative title for legal for documentary",
+        "time" : {
+          "start" : 1555329332117,
+          "stop" : 1555329332171,
+          "duration" : 54
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8ff1a7d712b1889f",
+        "name" : "validateAlternativeTitleTypeForAKAForDocumentary",
+        "title" : "Validate alternative title type for AKA for documentary",
+        "time" : {
+          "start" : 1555329332171,
+          "stop" : 1555329332223,
+          "duration" : 52
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "72ff2cecfae18229",
+        "name" : "validateAlternativeTitleTypeForLegalTypeForDocumentary",
+        "title" : "Validate alternative title type for legal type for documentary",
+        "time" : {
+          "start" : 1555329332223,
+          "stop" : 1555329332276,
+          "duration" : 53
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "25ffd9f418776c2f",
+        "name" : "validateAssetShowTypeForDocumentary",
+        "title" : "Validate asset show type for documentary",
+        "time" : {
+          "start" : 1555329332278,
+          "stop" : 1555329332326,
+          "duration" : 48
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "93ca22cb853d7cb2",
+        "name" : "validateAssetSourceForDocumentary",
+        "title" : "Validate asset source for documentary",
+        "time" : {
+          "start" : 1555329332330,
+          "stop" : 1555329332383,
+          "duration" : 53
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8119a6dd7ac67d25",
+        "name" : "validateAssetTitleForDocumentary",
+        "title" : "Validate asset title for documentary",
+        "time" : {
+          "start" : 1555329332388,
+          "stop" : 1555329332443,
+          "duration" : 55
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9e9de5fe457f6686",
+        "name" : "validateCastTypeForDocumentary",
+        "title" : "Validate cast type for documentary",
+        "time" : {
+          "start" : 1555329332443,
+          "stop" : 1555329332496,
+          "duration" : 53
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9939e19cc49add57",
+        "name" : "validateFirstNameOfCastMemberForDocumentary",
+        "title" : "Validate first name of cast member for documentary",
+        "time" : {
+          "start" : 1555329332496,
+          "stop" : 1555329332571,
+          "duration" : 75
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "743f3fdb06af57c",
+        "name" : "validateOriginForDocumentary",
+        "title" : "Validate origin for documentary",
+        "time" : {
+          "start" : 1555329332573,
+          "stop" : 1555329332640,
+          "duration" : 67
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4c90416b79157667",
+        "name" : "validateProductionCompanyForDocumentary",
+        "title" : "Validate production company for documentary",
+        "time" : {
+          "start" : 1555329332644,
+          "stop" : 1555329332684,
+          "duration" : 40
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c03d4e81aae24c52",
+        "name" : "validateProductionModeForDocumentary",
+        "title" : "Validate production mode for documentary",
+        "time" : {
+          "start" : 1555329332684,
+          "stop" : 1555329332755,
+          "duration" : 71
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7a0fcf1bb183c9ba",
+        "name" : "validateReleaseYearForDocumentary",
+        "title" : "Validate release year for documentary",
+        "time" : {
+          "start" : 1555329332756,
+          "stop" : 1555329332802,
+          "duration" : 46
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4e9e36a360cbfe5",
+        "name" : "validateTRTForDocumentary",
+        "title" : "Validate TRT for documentary",
+        "time" : {
+          "start" : 1555329332803,
+          "stop" : 1555329332859,
+          "duration" : 56
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9a9330053b08cadd",
+        "name" : "validateTitleTypeForDocumentary",
+        "title" : "Validate title type for documentary",
+        "time" : {
+          "start" : 1555329332860,
+          "stop" : 1555329332894,
+          "duration" : 34
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "dc001ca4b6051bb2",
+        "name" : "validateAMCNID",
+        "title" : "Validate AMCNID",
+        "time" : {
+          "start" : 1555329303408,
+          "stop" : 1555329303515,
+          "duration" : 107
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a862e16afca42811",
+        "name" : "validateAlternativeTitleForAKA",
+        "title" : "Validate alternative title for AKA",
+        "time" : {
+          "start" : 1555329303518,
+          "stop" : 1555329303585,
+          "duration" : 67
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a410357de2822ccb",
+        "name" : "validateAlternativeTitleForLegal",
+        "title" : "Validate alternative title for legal",
+        "time" : {
+          "start" : 1555329303585,
+          "stop" : 1555329303657,
+          "duration" : 72
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ad0048d5fbb53df7",
+        "name" : "validateAlternativeTitleTypeForAKA",
+        "title" : "Validate alternative title type for AKA",
+        "time" : {
+          "start" : 1555329303660,
+          "stop" : 1555329303727,
+          "duration" : 67
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9a1970768dec0dad",
+        "name" : "validateAlternativeTitleTypeForLegalType",
+        "title" : "Validate alternative title type for legal type",
+        "time" : {
+          "start" : 1555329303730,
+          "stop" : 1555329303822,
+          "duration" : 92
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f2704ce2d3e86f09",
+        "name" : "validateAssetShowType",
+        "title" : "Validate asset show type",
+        "time" : {
+          "start" : 1555329303822,
+          "stop" : 1555329303910,
+          "duration" : 88
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "21abed424d475dcc",
+        "name" : "validateAssetSource",
+        "title" : "Validate asset source",
+        "time" : {
+          "start" : 1555329303910,
+          "stop" : 1555329303986,
+          "duration" : 76
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4741c0c1c9f41fe1",
+        "name" : "validateAssetTitle",
+        "title" : "Validate asset title",
+        "time" : {
+          "start" : 1555329303986,
+          "stop" : 1555329304057,
+          "duration" : 71
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e88e326f97d5b6f7",
+        "name" : "validateCastType",
+        "title" : "Validate cast type",
+        "time" : {
+          "start" : 1555329304059,
+          "stop" : 1555329304140,
+          "duration" : 81
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6eba7ca0d5b4662e",
+        "name" : "validateFirstNameOfCastMember",
+        "title" : "Validate first name of cast member",
+        "time" : {
+          "start" : 1555329304144,
+          "stop" : 1555329304209,
+          "duration" : 65
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1fa948d4945a6cd9",
+        "name" : "validateOrigin",
+        "title" : "Validate origin",
+        "time" : {
+          "start" : 1555329304215,
+          "stop" : 1555329304285,
+          "duration" : 70
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d0337cc0225a6e67",
+        "name" : "validateOwnerNetwork",
+        "title" : "Validate owner network",
+        "time" : {
+          "start" : 1555329304285,
+          "stop" : 1555329304357,
+          "duration" : 72
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9036f07f9a53a7bf",
+        "name" : "validateProductionMode",
+        "title" : "Validate production mode",
+        "time" : {
+          "start" : 1555329304361,
+          "stop" : 1555329304428,
+          "duration" : 67
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "14652b67992bab27",
+        "name" : "validateTitleType",
+        "title" : "Validate title type",
+        "time" : {
+          "start" : 1555329304431,
+          "stop" : 1555329304493,
+          "duration" : 62
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3e600167a0b2fee7",
+        "name" : "validateTotalNumberOfEpisodes",
+        "title" : "Validate total number of episodes",
+        "time" : {
+          "start" : 1555329304497,
+          "stop" : 1555329304556,
+          "duration" : 59
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c7f763ef70aef073",
+        "name" : "validateAMCNIDForSpecial",
+        "title" : "Validate AMCNID for special",
+        "time" : {
+          "start" : 1555329317905,
+          "stop" : 1555329317958,
+          "duration" : 53
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "441196a7e19e7b77",
+        "name" : "validateAlternativeTitleForAKAForSpecial",
+        "title" : "Validate alternative title for AKA for special",
+        "time" : {
+          "start" : 1555329317960,
+          "stop" : 1555329318009,
+          "duration" : 49
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7654a728e6484c41",
+        "name" : "validateAlternativeTitleForLegalForSpecial",
+        "title" : "Validate alternative title for legal for special",
+        "time" : {
+          "start" : 1555329318010,
+          "stop" : 1555329318064,
+          "duration" : 54
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a34c63f2681c7773",
+        "name" : "validateAlternativeTitleTypeForAKAForSpecial",
+        "title" : "Validate alternative title type for AKA for special",
+        "time" : {
+          "start" : 1555329318064,
+          "stop" : 1555329318119,
+          "duration" : 55
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3a7cd858931a5761",
+        "name" : "validateAlternativeTitleTypeForLegalTypeForSpecial",
+        "title" : "Validate alternative title type for legal type for special",
+        "time" : {
+          "start" : 1555329318121,
+          "stop" : 1555329318175,
+          "duration" : 54
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a4263bb190ef7520",
+        "name" : "validateAssetShowTypeForSpecial",
+        "title" : "Validate asset show type for special",
+        "time" : {
+          "start" : 1555329318175,
+          "stop" : 1555329318234,
+          "duration" : 59
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "bf7e2be1531222e7",
+        "name" : "validateAssetSourceForSpecial",
+        "title" : "Validate asset source for special",
+        "time" : {
+          "start" : 1555329318235,
+          "stop" : 1555329318308,
+          "duration" : 73
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "18c6641e5b21ee89",
+        "name" : "validateAssetTitleForSpecial",
+        "title" : "Validate asset title for special",
+        "time" : {
+          "start" : 1555329318308,
+          "stop" : 1555329318368,
+          "duration" : 60
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5714852eb62228d6",
+        "name" : "validateCastTypeForSpecial",
+        "title" : "Validate cast type for special",
+        "time" : {
+          "start" : 1555329318372,
+          "stop" : 1555329318425,
+          "duration" : 53
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f6a4cd9f0d8c5c9a",
+        "name" : "validateFirstNameOfCastMemberForSpecial",
+        "title" : "Validate first name of cast member for special",
+        "time" : {
+          "start" : 1555329318427,
+          "stop" : 1555329318485,
+          "duration" : 58
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e687e35fde48657b",
+        "name" : "validateOriginForSpecial",
+        "title" : "Validate origin for special",
+        "time" : {
+          "start" : 1555329318486,
+          "stop" : 1555329318546,
+          "duration" : 60
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "bc94110c92e17815",
+        "name" : "validateProductionCompanyForSpecial",
+        "title" : "Validate production company for special",
+        "time" : {
+          "start" : 1555329318547,
+          "stop" : 1555329318604,
+          "duration" : 57
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "61a76ed3f06cd44b",
+        "name" : "validateProductionModeForSpecial",
+        "title" : "Validate production mode for special",
+        "time" : {
+          "start" : 1555329318605,
+          "stop" : 1555329318663,
+          "duration" : 58
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "838952363e7a243b",
+        "name" : "validateReleaseYearForSpecial",
+        "title" : "Validate release year for special",
+        "time" : {
+          "start" : 1555329318663,
+          "stop" : 1555329318719,
+          "duration" : 56
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "951217d773ee3623",
+        "name" : "validateTRTForSpecial",
+        "title" : "Validate TRT for special",
+        "time" : {
+          "start" : 1555329318721,
+          "stop" : 1555329318787,
+          "duration" : 66
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a99b630d1ee3835c",
+        "name" : "validateTitleTypeForSpecial",
+        "title" : "Validate title type for special",
+        "time" : {
+          "start" : 1555329318790,
+          "stop" : 1555329318847,
+          "duration" : 57
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

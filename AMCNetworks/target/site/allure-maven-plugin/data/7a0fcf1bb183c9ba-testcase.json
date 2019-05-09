@@ -1,0 +1,152 @@
+{
+  "uid" : "7a0fcf1bb183c9ba",
+  "name" : "validateReleaseYearForDocumentary",
+  "title" : "Validate release year for documentary",
+  "time" : {
+    "start" : 1555329332756,
+    "stop" : 1555329332802,
+    "duration" : 46
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate release year of the asset",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "f38f8b9c3fe9432c",
+    "name" : "Suite : AssetCreationForDocumentary[assetType=Documentary]",
+    "title" : "Suite : AssetCreationForDocumentary[assetType=Documentary]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329332799,
+      "stop" : 1555329332799,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Release Year param name in WOP API]",
+    "title" : "Validating Release Year param name in WOP API",
+    "time" : {
+      "start" : 1555329332799,
+      "stop" : 1555329332799,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [2030]]",
+    "title" : " Param values are ------ : [2030]",
+    "time" : {
+      "start" : 1555329332800,
+      "stop" : 1555329332800,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading Responses from MP API ]",
+    "title" : "Started reading Responses from MP API ",
+    "time" : {
+      "start" : 1555329332801,
+      "stop" : 1555329332801,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating Release Year param name in MP API]",
+    "title" : "Validating Release Year param name in MP API",
+    "time" : {
+      "start" : 1555329332801,
+      "stop" : 1555329332801,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [2030]]",
+    "title" : " Param values are ------ : [2030]",
+    "time" : {
+      "start" : 1555329332802,
+      "stop" : 1555329332802,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForDocumentary-1(68)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForDocumentary[assetType=Documentary]"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForDocumentary"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForDocumentary[assetType=Documentary]"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForDocumentary"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateReleaseYearForDocumentary"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  } ],
+  "parameters" : [ ]
+}

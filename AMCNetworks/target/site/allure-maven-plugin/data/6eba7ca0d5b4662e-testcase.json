@@ -1,0 +1,107 @@
+{
+  "uid" : "6eba7ca0d5b4662e",
+  "name" : "validateFirstNameOfCastMember",
+  "title" : "Validate first name of cast member",
+  "time" : {
+    "start" : 1555329304144,
+    "stop" : 1555329304209,
+    "duration" : 65
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Validate name of cast member",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "2df42c5b21f7bca8",
+    "name" : "Suite : AssetCreationForSeries[assetType=Series]",
+    "title" : "Suite : AssetCreationForSeries[assetType=Series]"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading Responses from WOP API ]",
+    "title" : "Started reading Responses from WOP API ",
+    "time" : {
+      "start" : 1555329304209,
+      "stop" : 1555329304209,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Validating First Name param name in WOP API]",
+    "title" : "Validating First Name param name in WOP API",
+    "time" : {
+      "start" : 1555329304209,
+      "stop" : 1555329304209,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[ Param values are ------ : [Caroline Apperre]]",
+    "title" : " Param values are ------ : [Caroline Apperre]",
+    "time" : {
+      "start" : 1555329304209,
+      "stop" : 1555329304209,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "thread",
+    "value" : "7916@MONO-HYD-LAP-44.TestNG-test=AssetCreationForSeries-1(64)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateFirstNameOfCastMember"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : AssetCreationForSeries[assetType=Series]"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : AssetCreationForSeries[assetType=Series]"
+  }, {
+    "name" : "testGroup",
+    "value" : "AssetCreationForSeries"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-44"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.testclasses.RLTestCasesForSeries"
+  } ],
+  "parameters" : [ ]
+}
