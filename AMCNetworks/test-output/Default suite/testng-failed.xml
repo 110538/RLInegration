@@ -3,30 +3,32 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.amc.testclasses.RLTestCasesForShortFilm">
+      <class name="com.amc.testclasses.RLTestCasesForDemo">
         <methods>
-          <include name="validateAssetTitleForShortFilm"/>
-          <include name="validateAlternativeTitleForLegalForShortFilm"/>
-          <include name="validateTitleTypeForShortFilm"/>
-          <include name="validateCastTypeForShortFilm"/>
-          <include name="validateProductionCompanyForShortFilm"/>
-          <include name="validateAlternativeTitleForAKAForShortFilm"/>
-          <include name="validateReleaseYearForShortFilm"/>
-          <include name="validateFirstNameOfCastMemberForShortFilm"/>
-          <include name="validateTRTForShortFilm"/>
-          <include name="validateAMCNIDForShortFilm"/>
-          <include name="validateAlternativeTitleTypeForLegalTypeForShortFilm"/>
-          <include name="validateOriginForShortFilm"/>
-          <include name="validateOwnerNetworkForShortFilm"/>
+          <include name="validateProductionCompanyForDemo"/>
+          <include name="validateReleaseYearForDemo"/>
+          <include name="validateAlternativeTitleForAKAForDemo"/>
+          <include name="validateAMCNIDForDemo"/>
+          <include name="validateAlternativeTitleForLegalForDemo"/>
+          <include name="validateCastTypeForDemo"/>
+          <include name="close"/>
+          <include name="validateAlternativeTitleTypeForAKAForDemo"/>
+          <include name="validateAlternativeTitleTypeForLegalTypeForDemo"/>
+          <include name="validateAssetTitleForDemo"/>
           <include name="initializeTestBaseSetup"/>
-          <include name="validateAlternativeTitleTypeForAKAForShortFilm"/>
-          <include name="validateAssetShowTypeForShortFilm"/>
+          <include name="checkExecutionCondition"/>
+          <include name="validateProductionModeForDemo"/>
           <include name="executeAPI"/>
-          <include name="connectToESBDatabase"/>
-          <include name="validateAssetSourceForShortFilm"/>
-          <include name="validateProductionModeForShortFilm"/>
+          <include name="setExcelValuesToInitialValue"/>
+          <include name="validateFirstNameOfCastMemberForDemo"/>
+          <include name="validateOwnerNetworkForDemo"/>
+          <include name="validateTRTForDemo"/>
+          <include name="validateTitleTypeForDemo"/>
+          <include name="validateAssetSourceForDemo"/>
+          <include name="validateAssetShowTypeForDemo"/>
+          <include name="validateOriginForDemo"/>
         </methods>
-      </class> <!-- com.amc.testclasses.RLTestCasesForShortFilm -->
+      </class> <!-- com.amc.testclasses.RLTestCasesForDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Properties;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.IMethodInstance;
 import org.testng.IMethodInterceptor;
 import org.testng.ITestContext;
@@ -16,14 +15,15 @@ public class TestExecutionListner extends AMCBaseClass implements IMethodInterce
 	{
 	@Override
 	public List<IMethodInstance> intercept(List<IMethodInstance> methods, ITestContext context) {
+		System.out.println("Hey");
 		Properties prop = propHandler.get();
+		System.out.println(prop);
 		List<IMethodInstance> result = new ArrayList<IMethodInstance>();
 		 for (IMethodInstance method : methods) {
-			  initializeExcelSheet(prop.getProperty("TestExecutionFileName"));
+			  workBook = initializeExcelSheet(prop.getProperty("TestExecutionFileName"));
 	          XSSFSheet sheet;
-	  		  XSSFWorkbook workBook;
 	  		  String sheetName = "ExecutionModel";
-	  		  workBook = excelWorkBook.get();
+	  		  //workBook = excelWorkBook.get();
 	  		  sheet = workBook.getSheet(sheetName);
 	  		  int maxcount = sheet.getLastRowNum();
 	  		  try {
@@ -40,6 +40,7 @@ public class TestExecutionListner extends AMCBaseClass implements IMethodInterce
 	  			System.out.println(e.getStackTrace());
 	  		}
 	  	}
+		 System.out.println(result);
 		return result;
 	  		  }
 		 }

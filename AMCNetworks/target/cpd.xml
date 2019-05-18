@@ -2,9 +2,9 @@
 <pmd-cpd>
    <duplication lines="16" tokens="124">
       <file line="158"
-            path="C:\Users\Monocept\eclipse-workspace\AMCNetworks\src\main\java\com\amc\pageobjects\ApiExecutionTypes.java"/>
+            path="D:\AMC\AMCNetworks\src\main\java\com\amc\pageobjects\ApiExecutionTypes.java"/>
       <file line="286"
-            path="C:\Users\Monocept\eclipse-workspace\AMCNetworks\src\main\java\com\amc\pageobjects\ApiExecutionTypes.java"/>
+            path="D:\AMC\AMCNetworks\src\main\java\com\amc\pageobjects\ApiExecutionTypes.java"/>
       <codefragment><![CDATA[					String line = "";
 					while ((line = rd.readLine()) != null) {
 						textView_1.append(line);

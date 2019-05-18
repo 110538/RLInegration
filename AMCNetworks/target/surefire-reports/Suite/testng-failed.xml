@@ -7,76 +7,17 @@
     <listener class-name="com.amc.listners.TestExecutionListner"/>
     <listener class-name="com.amc.listners.TestRailListner"/>
   </listeners>
-  <test thread-count="2" verbose="0" name="AssetCreationForRL(failed)" parallel="classes">
-    <parameter name="assetType" value="rlAssetCreation"/>
-    <classes>
-      <class name="com.amc.testclasses.RLAssetCreation">
-        <methods>
-          <include name="initializeTestBaseSetup"/>
-          <include name="createDifferentRLAssetsForRegression"/>
-          <include name="checkExecutionCondition"/>
-          <include name="executeAPI"/>
-          <include name="setExcelValuesToInitialValue"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- com.amc.testclasses.RLAssetCreation -->
-    </classes>
-  </test> <!-- AssetCreationForRL(failed) -->
-  <test thread-count="2" verbose="0" name="AssetCreationForSeries(failed)" parallel="classes">
-    <parameter name="assetType" value="Series"/>
-    <classes>
-      <class name="com.amc.testclasses.RLTestCasesForSeries">
-        <methods>
-          <include name="validateCastType"/>
-          <include name="validateAssetShowType"/>
-          <include name="validateAssetSource"/>
-          <include name="validateOrigin"/>
-          <include name="validateTotalNumberOfEpisodes"/>
-          <include name="validateProductionMode"/>
-          <include name="validateAMCNID"/>
-          <include name="validateAssetTitle"/>
-          <include name="close"/>
-          <include name="validateAlternativeTitleForLegal"/>
-          <include name="initializeTestBaseSetup"/>
-          <include name="checkExecutionCondition"/>
-          <include name="executeAPI"/>
-          <include name="validateAlternativeTitleTypeForLegalType"/>
-          <include name="validateAlternativeTitleTypeForAKA"/>
-          <include name="setExcelValuesToInitialValue"/>
-          <include name="validateOwnerNetwork"/>
-          <include name="validateTitleType"/>
-          <include name="validateAlternativeTitleForAKA"/>
-          <include name="validateFirstNameOfCastMember"/>
-        </methods>
-      </class> <!-- com.amc.testclasses.RLTestCasesForSeries -->
-    </classes>
-  </test> <!-- AssetCreationForSeries(failed) -->
   <test thread-count="2" verbose="0" name="AssetCreationForOneOff(failed)" parallel="classes">
     <parameter name="assetType" value="One-Off"/>
     <classes>
       <class name="com.amc.testclasses.RLTestCasesForOneOff">
         <methods>
-          <include name="validateAlternativeTitleTypeForAKAForOneOff"/>
-          <include name="validateProductionCompanyForOneOff"/>
-          <include name="validateAlternativeTitleForLegalForOneOff"/>
-          <include name="validateTitleTypeForOneOff"/>
-          <include name="validateAssetTitleForOneOff"/>
-          <include name="validateProductionModeForOneOff"/>
-          <include name="close"/>
-          <include name="validateOriginForOneOff"/>
           <include name="validateTRTForOneOff"/>
-          <include name="validateCastTypeForOneOff"/>
-          <include name="validateFirstNameOfCastMemberForOneOff"/>
           <include name="initializeTestBaseSetup"/>
-          <include name="validateAMCNIDForOneOff"/>
           <include name="checkExecutionCondition"/>
-          <include name="validateReleaseYearForOneOff"/>
           <include name="executeAPI"/>
-          <include name="validateAssetShowTypeForOneOff"/>
           <include name="setExcelValuesToInitialValue"/>
-          <include name="validateAssetSourceForOneOff"/>
-          <include name="validateAlternativeTitleForAKAForOneOff"/>
-          <include name="validateAlternativeTitleTypeForLegalTypeForOneOff"/>
+          <include name="close"/>
         </methods>
       </class> <!-- com.amc.testclasses.RLTestCasesForOneOff -->
     </classes>
@@ -86,27 +27,12 @@
     <classes>
       <class name="com.amc.testclasses.RLTestCasesForSpecial">
         <methods>
-          <include name="validateAMCNIDForSpecial"/>
-          <include name="validateCastTypeForSpecial"/>
-          <include name="validateAssetShowTypeForSpecial"/>
-          <include name="validateAssetTitleForSpecial"/>
-          <include name="validateProductionModeForSpecial"/>
-          <include name="validateTRTForSpecial"/>
-          <include name="validateReleaseYearForSpecial"/>
-          <include name="validateAlternativeTitleForLegalForSpecial"/>
-          <include name="close"/>
           <include name="initializeTestBaseSetup"/>
           <include name="checkExecutionCondition"/>
           <include name="executeAPI"/>
-          <include name="validateOriginForSpecial"/>
           <include name="setExcelValuesToInitialValue"/>
-          <include name="validateFirstNameOfCastMemberForSpecial"/>
-          <include name="validateTitleTypeForSpecial"/>
-          <include name="validateAlternativeTitleForAKAForSpecial"/>
-          <include name="validateAlternativeTitleTypeForAKAForSpecial"/>
-          <include name="validateAssetSourceForSpecial"/>
-          <include name="validateAlternativeTitleTypeForLegalTypeForSpecial"/>
-          <include name="validateProductionCompanyForSpecial"/>
+          <include name="validateTRTForSpecial"/>
+          <include name="close"/>
         </methods>
       </class> <!-- com.amc.testclasses.RLTestCasesForSpecial -->
     </classes>
@@ -116,27 +42,12 @@
     <classes>
       <class name="com.amc.testclasses.RLTestCasesForDemo">
         <methods>
-          <include name="validateProductionCompanyForDemo"/>
-          <include name="validateReleaseYearForDemo"/>
-          <include name="validateAlternativeTitleForAKAForDemo"/>
-          <include name="validateAMCNIDForDemo"/>
-          <include name="validateAlternativeTitleForLegalForDemo"/>
-          <include name="validateCastTypeForDemo"/>
-          <include name="close"/>
-          <include name="validateAlternativeTitleTypeForAKAForDemo"/>
-          <include name="validateAlternativeTitleTypeForLegalTypeForDemo"/>
-          <include name="validateAssetTitleForDemo"/>
           <include name="initializeTestBaseSetup"/>
           <include name="checkExecutionCondition"/>
-          <include name="validateProductionModeForDemo"/>
           <include name="executeAPI"/>
           <include name="setExcelValuesToInitialValue"/>
-          <include name="validateFirstNameOfCastMemberForDemo"/>
           <include name="validateTRTForDemo"/>
-          <include name="validateTitleTypeForDemo"/>
-          <include name="validateAssetSourceForDemo"/>
-          <include name="validateAssetShowTypeForDemo"/>
-          <include name="validateOriginForDemo"/>
+          <include name="close"/>
         </methods>
       </class> <!-- com.amc.testclasses.RLTestCasesForDemo -->
     </classes>
@@ -146,27 +57,12 @@
     <classes>
       <class name="com.amc.testclasses.RLTestCasesForDocumentary">
         <methods>
-          <include name="validateReleaseYearForDocumentary"/>
-          <include name="validateCastTypeForDocumentary"/>
-          <include name="validateAlternativeTitleTypeForAKAForDocumentary"/>
-          <include name="validateProductionModeForDocumentary"/>
-          <include name="validateAlternativeTitleForLegalForDocumentary"/>
-          <include name="validateOriginForDocumentary"/>
-          <include name="validateAssetShowTypeForDocumentary"/>
-          <include name="close"/>
-          <include name="validateTitleTypeForDocumentary"/>
-          <include name="validateFirstNameOfCastMemberForDocumentary"/>
-          <include name="validateProductionCompanyForDocumentary"/>
           <include name="validateTRTForDocumentary"/>
           <include name="initializeTestBaseSetup"/>
-          <include name="validateAMCNIDForDocumentary"/>
           <include name="checkExecutionCondition"/>
           <include name="executeAPI"/>
           <include name="setExcelValuesToInitialValue"/>
-          <include name="validateAlternativeTitleForAKAForDocumentary"/>
-          <include name="validateAssetSourceForDocumentary"/>
-          <include name="validateAlternativeTitleTypeForLegalTypeForDocumentary"/>
-          <include name="validateAssetTitleForDocumentary"/>
+          <include name="close"/>
         </methods>
       </class> <!-- com.amc.testclasses.RLTestCasesForDocumentary -->
     </classes>
@@ -176,27 +72,12 @@
     <classes>
       <class name="com.amc.testclasses.RLTestCasesForPilot">
         <methods>
-          <include name="validateTRTForPilot"/>
-          <include name="validateTitleTypeForPilot"/>
-          <include name="validateAssetSourceForPilot"/>
-          <include name="validateAlternativeTitleForLegalForPilot"/>
-          <include name="validateAssetTitleForPilot"/>
-          <include name="validateProductionCompanyForPilot"/>
-          <include name="validateAlternativeTitleTypeForAKAForPilot"/>
-          <include name="validateProductionModeForPilot"/>
-          <include name="close"/>
           <include name="initializeTestBaseSetup"/>
-          <include name="validateAlternativeTitleForAKAForPilot"/>
+          <include name="validateTRTForPilot"/>
           <include name="checkExecutionCondition"/>
           <include name="executeAPI"/>
           <include name="setExcelValuesToInitialValue"/>
-          <include name="validateAMCNIDForPilot"/>
-          <include name="validateFirstNameOfCastMemberForPilot"/>
-          <include name="validateAssetShowTypeForPilot"/>
-          <include name="validateAlternativeTitleTypeForLegalTypeForPilot"/>
-          <include name="validateCastTypeForPilot"/>
-          <include name="validateOriginForPilot"/>
-          <include name="validateReleaseYearForPilot"/>
+          <include name="close"/>
         </methods>
       </class> <!-- com.amc.testclasses.RLTestCasesForPilot -->
     </classes>
@@ -206,27 +87,12 @@
     <classes>
       <class name="com.amc.testclasses.RLTestCasesForMadeForTV">
         <methods>
-          <include name="validateAlternativeTitleTypeForLegalTypeForMadeForTV"/>
-          <include name="validateReleaseYearForMadeForTV"/>
-          <include name="validateCastTypeForMadeForTV"/>
-          <include name="validateFirstNameOfCastMemberForMadeForTV"/>
-          <include name="validateAlternativeTitleForAKAForMadeForTV"/>
-          <include name="validateAlternativeTitleForLegalForMadeForTV"/>
-          <include name="validateAssetSourceForMadeForTV"/>
-          <include name="validateProductionCompanyForMadeForTV"/>
-          <include name="close"/>
           <include name="validateTRTForMadeForTV"/>
-          <include name="validateTitleTypeForMadeForTV"/>
           <include name="initializeTestBaseSetup"/>
-          <include name="validateAlternativeTitleTypeForAKAForMadeForTV"/>
-          <include name="validateAssetShowTypeForMadeForTV"/>
-          <include name="validateAssetTitleForMadeForTV"/>
           <include name="checkExecutionCondition"/>
-          <include name="validateAMCNIDForMadeForTV"/>
           <include name="executeAPI"/>
           <include name="setExcelValuesToInitialValue"/>
-          <include name="validateProductionModeForMadeForTV"/>
-          <include name="validateOriginForMadeForTV"/>
+          <include name="close"/>
         </methods>
       </class> <!-- com.amc.testclasses.RLTestCasesForMadeForTV -->
     </classes>
@@ -236,27 +102,12 @@
     <classes>
       <class name="com.amc.testclasses.RLTestCasesForMusicPerformance">
         <methods>
-          <include name="validateFirstNameOfCastMemberForMusicPerformance"/>
-          <include name="validateProductionModeForMusicPerformance"/>
-          <include name="validateAlternativeTitleTypeForLegalTypeForMusicPerformance"/>
-          <include name="validateAlternativeTitleTypeForAKAForMusicPerformance"/>
-          <include name="validateAssetSourceForMusicPerformance"/>
-          <include name="validateAlternativeTitleForAKAForMusicPerformance"/>
-          <include name="validateOriginForMusicPerformance"/>
-          <include name="validateProductionCompanyForMusicPerformance"/>
-          <include name="validateAMCNIDForMusicPerformance"/>
-          <include name="validateAssetTitleForMusicPerformance"/>
-          <include name="validateTitleTypeForMusicPerformance"/>
-          <include name="close"/>
           <include name="initializeTestBaseSetup"/>
           <include name="validateTRTForMusicPerformance"/>
           <include name="checkExecutionCondition"/>
           <include name="executeAPI"/>
-          <include name="validateAssetShowTypeForMusicPerformance"/>
           <include name="setExcelValuesToInitialValue"/>
-          <include name="validateAlternativeTitleForLegalForMusicPerformance"/>
-          <include name="validateReleaseYearForMusicPerformance"/>
-          <include name="validateCastTypeForMusicPerformance"/>
+          <include name="close"/>
         </methods>
       </class> <!-- com.amc.testclasses.RLTestCasesForMusicPerformance -->
     </classes>
@@ -266,27 +117,12 @@
     <classes>
       <class name="com.amc.testclasses.RLTestCasesForFeatureLength">
         <methods>
-          <include name="validateOriginForFeatureLength"/>
-          <include name="validateAlternativeTitleTypeForAKAForFeatureLength"/>
-          <include name="validateAlternativeTitleForLegalForFeatureLength"/>
-          <include name="validateAlternativeTitleForAKAForFeatureLength"/>
-          <include name="validateAlternativeTitleTypeForLegalTypeForFeatureLength"/>
-          <include name="validateAssetShowTypeForFeatureLength"/>
-          <include name="validateCastTypeForFeatureLength"/>
-          <include name="validateProductionModeForFeatureLength"/>
-          <include name="validateAssetTitleForFeatureLength"/>
-          <include name="validateFirstNameOfCastMemberForFeatureLength"/>
-          <include name="validateAMCNIDForFeatureLength"/>
-          <include name="validateAssetSourceForFeatureLength"/>
-          <include name="validateProductionCompanyForFeatureLength"/>
-          <include name="close"/>
           <include name="initializeTestBaseSetup"/>
-          <include name="validateTitleTypeForFeatureLength"/>
           <include name="checkExecutionCondition"/>
           <include name="executeAPI"/>
           <include name="setExcelValuesToInitialValue"/>
-          <include name="validateReleaseYearForFeatureLength"/>
           <include name="validateTRTForFeatureLength"/>
+          <include name="close"/>
         </methods>
       </class> <!-- com.amc.testclasses.RLTestCasesForFeatureLength -->
     </classes>
@@ -296,27 +132,12 @@
     <classes>
       <class name="com.amc.testclasses.RLTestCasesForShortFilm">
         <methods>
-          <include name="validateAssetTitleForShortFilm"/>
-          <include name="validateAlternativeTitleForLegalForShortFilm"/>
-          <include name="validateTitleTypeForShortFilm"/>
-          <include name="validateCastTypeForShortFilm"/>
-          <include name="validateProductionCompanyForShortFilm"/>
-          <include name="validateAlternativeTitleForAKAForShortFilm"/>
-          <include name="validateReleaseYearForShortFilm"/>
-          <include name="validateFirstNameOfCastMemberForShortFilm"/>
-          <include name="validateTRTForShortFilm"/>
-          <include name="close"/>
-          <include name="validateAMCNIDForShortFilm"/>
-          <include name="validateAlternativeTitleTypeForLegalTypeForShortFilm"/>
-          <include name="validateOriginForShortFilm"/>
           <include name="initializeTestBaseSetup"/>
-          <include name="validateAlternativeTitleTypeForAKAForShortFilm"/>
-          <include name="validateAssetShowTypeForShortFilm"/>
           <include name="checkExecutionCondition"/>
           <include name="executeAPI"/>
-          <include name="validateAssetSourceForShortFilm"/>
           <include name="setExcelValuesToInitialValue"/>
-          <include name="validateProductionModeForShortFilm"/>
+          <include name="validateTRTForShortFilm"/>
+          <include name="close"/>
         </methods>
       </class> <!-- com.amc.testclasses.RLTestCasesForShortFilm -->
     </classes>

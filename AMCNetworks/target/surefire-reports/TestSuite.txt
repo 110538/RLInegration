@@ -1,4 +1,67 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 160, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,014.415 sec
+Tests run: 160, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 1,037.209 sec <<< FAILURE!
+validateTRTForOneOff(com.amc.testclasses.RLTestCasesForOneOff)  Time elapsed: 2.89 sec  <<< FAILURE!
+org.json.JSONException: JSONObject["tdc:TITLE_CUST_field_83"] not found.
+	at org.json.JSONObject.get(JSONObject.java:520)
+	at com.amc.pageobjects.ApiExecutionTypes.getValue(ApiExecutionTypes.java:473)
+	at com.amc.pageobjects.LoginModule.validateRLValuesWithMP(LoginModule.java:83)
+	at com.amc.testclasses.RLTestCasesForOneOff.validateTRTForOneOff(RLTestCasesForOneOff.java:180)
+
+validateTRTForSpecial(com.amc.testclasses.RLTestCasesForSpecial)  Time elapsed: 1.779 sec  <<< FAILURE!
+org.json.JSONException: JSONObject["tdc:TITLE_CUST_field_83"] not found.
+	at org.json.JSONObject.get(JSONObject.java:520)
+	at com.amc.pageobjects.ApiExecutionTypes.getValue(ApiExecutionTypes.java:473)
+	at com.amc.pageobjects.LoginModule.validateRLValuesWithMP(LoginModule.java:83)
+	at com.amc.testclasses.RLTestCasesForSpecial.validateTRTForSpecial(RLTestCasesForSpecial.java:180)
+
+validateTRTForDemo(com.amc.testclasses.RLTestCasesForDemo)  Time elapsed: 1.918 sec  <<< FAILURE!
+org.json.JSONException: JSONObject["tdc:TITLE_CUST_field_83"] not found.
+	at org.json.JSONObject.get(JSONObject.java:520)
+	at com.amc.pageobjects.ApiExecutionTypes.getValue(ApiExecutionTypes.java:473)
+	at com.amc.pageobjects.LoginModule.validateRLValuesWithMP(LoginModule.java:83)
+	at com.amc.testclasses.RLTestCasesForDemo.validateTRTForDemo(RLTestCasesForDemo.java:179)
+
+validateTRTForDocumentary(com.amc.testclasses.RLTestCasesForDocumentary)  Time elapsed: 1.837 sec  <<< FAILURE!
+org.json.JSONException: JSONObject["tdc:TITLE_CUST_field_83"] not found.
+	at org.json.JSONObject.get(JSONObject.java:520)
+	at com.amc.pageobjects.ApiExecutionTypes.getValue(ApiExecutionTypes.java:473)
+	at com.amc.pageobjects.LoginModule.validateRLValuesWithMP(LoginModule.java:83)
+	at com.amc.testclasses.RLTestCasesForDocumentary.validateTRTForDocumentary(RLTestCasesForDocumentary.java:180)
+
+validateTRTForPilot(com.amc.testclasses.RLTestCasesForPilot)  Time elapsed: 2.397 sec  <<< FAILURE!
+org.json.JSONException: JSONObject["tdc:TITLE_CUST_field_83"] not found.
+	at org.json.JSONObject.get(JSONObject.java:520)
+	at com.amc.pageobjects.ApiExecutionTypes.getValue(ApiExecutionTypes.java:473)
+	at com.amc.pageobjects.LoginModule.validateRLValuesWithMP(LoginModule.java:83)
+	at com.amc.testclasses.RLTestCasesForPilot.validateTRTForPilot(RLTestCasesForPilot.java:180)
+
+validateTRTForMadeForTV(com.amc.testclasses.RLTestCasesForMadeForTV)  Time elapsed: 1.908 sec  <<< FAILURE!
+org.json.JSONException: JSONObject["tdc:TITLE_CUST_field_83"] not found.
+	at org.json.JSONObject.get(JSONObject.java:520)
+	at com.amc.pageobjects.ApiExecutionTypes.getValue(ApiExecutionTypes.java:473)
+	at com.amc.pageobjects.LoginModule.validateRLValuesWithMP(LoginModule.java:83)
+	at com.amc.testclasses.RLTestCasesForMadeForTV.validateTRTForMadeForTV(RLTestCasesForMadeForTV.java:180)
+
+validateTRTForMusicPerformance(com.amc.testclasses.RLTestCasesForMusicPerformance)  Time elapsed: 2.69 sec  <<< FAILURE!
+org.json.JSONException: JSONObject["tdc:TITLE_CUST_field_83"] not found.
+	at org.json.JSONObject.get(JSONObject.java:520)
+	at com.amc.pageobjects.ApiExecutionTypes.getValue(ApiExecutionTypes.java:473)
+	at com.amc.pageobjects.LoginModule.validateRLValuesWithMP(LoginModule.java:83)
+	at com.amc.testclasses.RLTestCasesForMusicPerformance.validateTRTForMusicPerformance(RLTestCasesForMusicPerformance.java:180)
+
+validateTRTForFeatureLength(com.amc.testclasses.RLTestCasesForFeatureLength)  Time elapsed: 1.835 sec  <<< FAILURE!
+org.json.JSONException: JSONObject["tdc:TITLE_CUST_field_83"] not found.
+	at org.json.JSONObject.get(JSONObject.java:520)
+	at com.amc.pageobjects.ApiExecutionTypes.getValue(ApiExecutionTypes.java:473)
+	at com.amc.pageobjects.LoginModule.validateRLValuesWithMP(LoginModule.java:83)
+	at com.amc.testclasses.RLTestCasesForFeatureLength.validateTRTForFeatureLength(RLTestCasesForFeatureLength.java:180)
+
+validateTRTForShortFilm(com.amc.testclasses.RLTestCasesForShortFilm)  Time elapsed: 2.052 sec  <<< FAILURE!
+org.json.JSONException: JSONObject["tdc:TITLE_CUST_field_83"] not found.
+	at org.json.JSONObject.get(JSONObject.java:520)
+	at com.amc.pageobjects.ApiExecutionTypes.getValue(ApiExecutionTypes.java:473)
+	at com.amc.pageobjects.LoginModule.validateRLValuesWithMP(LoginModule.java:83)
+	at com.amc.testclasses.RLTestCasesForShortFilm.validateTRTForShortFilm(RLTestCasesForShortFilm.java:178)
+

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>AssetCreationForOneOff</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/16</td>
+<td>Tests passed/Failed/Skipped:</td><td>15/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu May 09 18:40:16 IST 2019</td>
+<td>Started on:</td><td>Thu May 16 14:28:20 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>8 seconds (8567 ms)</td>
+<tr><td>Total time:</td><td>19 seconds (19505 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,769 +68,345 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.executeAPI()'><b>executeAPI</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Parameters: One-Off</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2119100763", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2119100763'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
+<td title='com.amc.testclasses.RLTestCasesForOneOff.validateTRTForOneOff()'><b>validateTRTForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate TRT of the asset<br/>
+<a href="#Output-569312933" onClick='toggleBox("Output-569312933", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-569312933" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-569312933">
+Started reading Responses from WOP API <br/>
+Validating Theatrical TRT param name in WOP API<br/>
+ Param values are ------ : [32780]<br/>
+Validating WOP API value 32780 with test data value 32780<br/>
+WOP API value ( 32780)is Matched WithRL Test Data Value(32780)<br/>
+Started reading Responses from MP API <br/>
+Validating Theatrical TRT param name in MP API<br/>
+</div>
+</td>
+<td><div><pre>org.json.JSONException: JSONObject[&quot;tdc:TITLE_CUST_field_83&quot;] not found.
+	at org.json.JSONObject.get(JSONObject.java:520)
+	at com.amc.pageobjects.ApiExecutionTypes.getValue(ApiExecutionTypes.java:473)
+	at com.amc.pageobjects.LoginModule.validateRLValuesWithMP(LoginModule.java:83)
+	at com.amc.testclasses.RLTestCasesForOneOff.validateTRTForOneOff(RLTestCasesForOneOff.java:180)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace569312933", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace569312933'><pre>org.json.JSONException: JSONObject[&quot;tdc:TITLE_CUST_field_83&quot;] not found.
+	at org.json.JSONObject.get(JSONObject.java:520)
+	at com.amc.pageobjects.ApiExecutionTypes.getValue(ApiExecutionTypes.java:473)
+	at com.amc.pageobjects.LoginModule.validateRLValuesWithMP(LoginModule.java:83)
+	at com.amc.testclasses.RLTestCasesForOneOff.validateTRTForOneOff(RLTestCasesForOneOff.java:180)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
 <td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
+<td>com.amc.testclasses.RLTestCasesForOneOff@397fd951</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.checkExecutionCondition()'><b>checkExecutionCondition</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff</td>
+<td title='com.amc.testclasses.RLTestCasesForOneOff.validateAMCNIDForOneOff()'><b>validateAMCNIDForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate AMCN id of WOP<br/>
+<a href="#Output-1270538652" onClick='toggleBox("Output-1270538652", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1270538652" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1270538652">
+Started reading Responses from WOP API <br/>
+Validating AMCN ID param name in WOP API<br/>
+ Param values are ------ : [RLA219145]<br/>
+Validating WOP API value RLA219145 with test data value RLA219145<br/>
+WOP API value ( RLA219145)is Matched WithRL Test Data Value(RLA219145)<br/>
+Started reading Responses from MP API <br/>
+Validating AMCN ID param name in MP API<br/>
+ Param values are ------ : [RLA219145]<br/>
+Validating MP API value RLA219145 with test data value RLA219145<br/>
+MP API value ( RLA219145)is Matched WithRL Test Data Value(RLA219145)<br/>
+</div>
+</td>
 <td></td>
 <td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
+<td>com.amc.testclasses.RLTestCasesForOneOff@397fd951</td></tr>
 <tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.setExcelValuesToInitialValue()'><b>setExcelValuesToInitialValue</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff</td>
+<td title='com.amc.testclasses.RLTestCasesForOneOff.validateAlternativeTitleForAKAForOneOff()'><b>validateAlternativeTitleForAKAForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate alternative title of the asset for AKA Type<br/>
+<a href="#Output-159834669" onClick='toggleBox("Output-159834669", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-159834669" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-159834669">
+Started reading Responses from WOP API <br/>
+Validating Alt Title param name in WOP API<br/>
+ Param values are ------ : [Program One OffAlternative Title]<br/>
+Validating WOP API value Program One OffAlternative Title with test data value Program One OffAlternative Title<br/>
+WOP API value ( Program One OffAlternative Title)is Matched WithRL Test Data Value(Program One OffAlternative Title)<br/>
+</div>
+</td>
 <td></td>
 <td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>com.amc.testclasses.RLTestCasesForOneOff@397fd951</td></tr>
 <tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.validateAMCNIDForOneOff()'><b>validateAMCNIDForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate AMCN id of WOP</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1351901930", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1351901930'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</pre></div></td>
+<td title='com.amc.testclasses.RLTestCasesForOneOff.validateAlternativeTitleForLegalForOneOff()'><b>validateAlternativeTitleForLegalForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate alternative title of the asset for Legal Type<br/>
+<a href="#Output-21449369" onClick='toggleBox("Output-21449369", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-21449369" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-21449369">
+Started reading Responses from WOP API <br/>
+Validating Alt Title For Legal param name in WOP API<br/>
+ Param values are ------ : [Program Legal Title]<br/>
+Validating WOP API value Program Legal Title with test data value Program Legal Title<br/>
+WOP API value ( Program Legal Title)is Matched WithRL Test Data Value(Program Legal Title)<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
+<td>com.amc.testclasses.RLTestCasesForOneOff@397fd951</td></tr>
 <tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.validateAlternativeTitleForAKAForOneOff()'><b>validateAlternativeTitleForAKAForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate alternative title of the asset for AKA Type</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace26229964", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace26229964'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</pre></div></td>
+<td title='com.amc.testclasses.RLTestCasesForOneOff.validateAlternativeTitleTypeForAKAForOneOff()'><b>validateAlternativeTitleTypeForAKAForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate alternative title type of the asset for AKA Type<br/>
+<a href="#Output-304202309" onClick='toggleBox("Output-304202309", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-304202309" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-304202309">
+Started reading Responses from WOP API <br/>
+Validating Alt Title Type param name in WOP API<br/>
+ Param values are ------ : [AKA]<br/>
+Validating WOP API value AKA with test data value AKA<br/>
+WOP API value ( AKA)is Matched WithRL Test Data Value(AKA)<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
+<td>com.amc.testclasses.RLTestCasesForOneOff@397fd951</td></tr>
 <tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.validateAlternativeTitleForLegalForOneOff()'><b>validateAlternativeTitleForLegalForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate alternative title of the asset for Legal Type</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2034384366", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2034384366'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</pre></div></td>
+<td title='com.amc.testclasses.RLTestCasesForOneOff.validateAlternativeTitleTypeForLegalTypeForOneOff()'><b>validateAlternativeTitleTypeForLegalTypeForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate alternative title type of the asset for Legal Type<br/>
+<a href="#Output-1316450412" onClick='toggleBox("Output-1316450412", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1316450412" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1316450412">
+Started reading Responses from WOP API <br/>
+Validating Alt Title Type For Legal param name in WOP API<br/>
+ Param values are ------ : [Legal]<br/>
+Validating WOP API value Legal with test data value Legal<br/>
+WOP API value ( Legal)is Matched WithRL Test Data Value(Legal)<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
+<td>com.amc.testclasses.RLTestCasesForOneOff@397fd951</td></tr>
 <tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.validateAlternativeTitleTypeForAKAForOneOff()'><b>validateAlternativeTitleTypeForAKAForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate alternative title type of the asset for AKA Type</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace98484717", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace98484717'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</pre></div></td>
+<td title='com.amc.testclasses.RLTestCasesForOneOff.validateAssetShowTypeForOneOff()'><b>validateAssetShowTypeForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate Asset Shpw Type of WOP<br/>
+<a href="#Output-1466192286" onClick='toggleBox("Output-1466192286", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1466192286" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1466192286">
+Started reading Responses from WOP API <br/>
+Validating ShowType param name in WOP API<br/>
+ Param values are ------ : [Special]<br/>
+Validating WOP API value Special with test data value Special<br/>
+WOP API value ( Special)is Matched WithRL Test Data Value(Special)<br/>
+Started reading Responses from MP API <br/>
+Validating ShowType param name in MP API<br/>
+ Param values are ------ : [Special]<br/>
+Validating MP API value Special with test data value Special<br/>
+MP API value ( Special)is Matched WithRL Test Data Value(Special)<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
+<td>com.amc.testclasses.RLTestCasesForOneOff@397fd951</td></tr>
 <tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.validateAlternativeTitleTypeForLegalTypeForOneOff()'><b>validateAlternativeTitleTypeForLegalTypeForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate alternative title type of the asset for Legal Type</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1935435371", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1935435371'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</pre></div></td>
+<td title='com.amc.testclasses.RLTestCasesForOneOff.validateAssetSourceForOneOff()'><b>validateAssetSourceForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate Asset Source of WOP<br/>
+<a href="#Output-1031579116" onClick='toggleBox("Output-1031579116", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1031579116" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1031579116">
+Started reading Responses from WOP API <br/>
+Validating Asset Source param name in WOP API<br/>
+ Param values are ------ : [Original]<br/>
+Validating WOP API value Original with test data value Original<br/>
+WOP API value ( Original)is Matched WithRL Test Data Value(Original)<br/>
+Started reading Responses from MP API <br/>
+Validating Asset Source param name in MP API<br/>
+ Param values are ------ : [Original]<br/>
+Validating MP API value Original with test data value Original<br/>
+MP API value ( Original)is Matched WithRL Test Data Value(Original)<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
+<td>com.amc.testclasses.RLTestCasesForOneOff@397fd951</td></tr>
 <tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.validateAssetShowTypeForOneOff()'><b>validateAssetShowTypeForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate Asset Shpw Type of WOP</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1120553754", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1120553754'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</pre></div></td>
+<td title='com.amc.testclasses.RLTestCasesForOneOff.validateAssetTitleForOneOff()'><b>validateAssetTitleForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate Asset Title of WOP<br/>
+<a href="#Output-1462006652" onClick='toggleBox("Output-1462006652", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1462006652" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1462006652">
+Started reading Responses from WOP API <br/>
+Validating Title param name in WOP API<br/>
+ Param values are ------ : [ProgramOne-OffTestqeb]<br/>
+Validating WOP API value ProgramOne-OffTestqeb with test data value ProgramOne-OffTestqeb<br/>
+WOP API value ( ProgramOne-OffTestqeb)is Matched WithRL Test Data Value(ProgramOne-OffTestqeb)<br/>
+Started reading Responses from MP API <br/>
+Validating Title param name in MP API<br/>
+ Param values are ------ : [ProgramOne-OffTestqeb]<br/>
+Validating MP API value ProgramOne-OffTestqeb with test data value ProgramOne-OffTestqeb<br/>
+MP API value ( ProgramOne-OffTestqeb)is Matched WithRL Test Data Value(ProgramOne-OffTestqeb)<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
+<td>com.amc.testclasses.RLTestCasesForOneOff@397fd951</td></tr>
 <tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.validateAssetSourceForOneOff()'><b>validateAssetSourceForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate Asset Source of WOP</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace97937749", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace97937749'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</pre></div></td>
+<td title='com.amc.testclasses.RLTestCasesForOneOff.validateCastTypeForOneOff()'><b>validateCastTypeForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate Cast Type<br/>
+<a href="#Output-1685664176" onClick='toggleBox("Output-1685664176", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1685664176" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1685664176">
+Started reading Responses from WOP API <br/>
+Validating Cast Type param name in WOP API<br/>
+ Param values are ------ : [Director]<br/>
+Validating WOP API value Director with test data value Director<br/>
+WOP API value ( Director)is Matched WithRL Test Data Value(Director)<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
+<td>com.amc.testclasses.RLTestCasesForOneOff@397fd951</td></tr>
 <tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.validateAssetTitleForOneOff()'><b>validateAssetTitleForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate Asset Title of WOP</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1701281932", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1701281932'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</pre></div></td>
+<td title='com.amc.testclasses.RLTestCasesForOneOff.validateFirstNameOfCastMemberForOneOff()'><b>validateFirstNameOfCastMemberForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate name of cast member<br/>
+<a href="#Output-363867520" onClick='toggleBox("Output-363867520", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-363867520" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-363867520">
+Started reading Responses from WOP API <br/>
+Validating First Name param name in WOP API<br/>
+ Param values are ------ : [Caroline Apperre]<br/>
+Validating WOP API value Caroline Apperre with test data value Caroline Apperre<br/>
+WOP API value ( Caroline Apperre)is Matched WithRL Test Data Value(Caroline Apperre)<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
+<td>com.amc.testclasses.RLTestCasesForOneOff@397fd951</td></tr>
 <tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.validateCastTypeForOneOff()'><b>validateCastTypeForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate Cast Type</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace258816187", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace258816187'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</pre></div></td>
+<td title='com.amc.testclasses.RLTestCasesForOneOff.validateOriginForOneOff()'><b>validateOriginForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate Origin of WOP<br/>
+<a href="#Output-1054271749" onClick='toggleBox("Output-1054271749", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1054271749" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1054271749">
+Started reading Responses from WOP API <br/>
+Validating Origin param name in WOP API<br/>
+ Param values are ------ : [Licensed]<br/>
+Validating WOP API value Licensed with test data value Licensed<br/>
+WOP API value ( Licensed)is Matched WithRL Test Data Value(Licensed)<br/>
+Started reading Responses from MP API <br/>
+Validating Origin param name in MP API<br/>
+ Param values are ------ : [Licensed]<br/>
+Validating MP API value Licensed with test data value Licensed<br/>
+MP API value ( Licensed)is Matched WithRL Test Data Value(Licensed)<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
+<td>com.amc.testclasses.RLTestCasesForOneOff@397fd951</td></tr>
 <tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.validateFirstNameOfCastMemberForOneOff()'><b>validateFirstNameOfCastMemberForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate name of cast member</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace257353545", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace257353545'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</pre></div></td>
+<td title='com.amc.testclasses.RLTestCasesForOneOff.validateProductionCompanyForOneOff()'><b>validateProductionCompanyForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate Production Company of the asset<br/>
+<a href="#Output-1415285420" onClick='toggleBox("Output-1415285420", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1415285420" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1415285420">
+Started reading Responses from WOP API <br/>
+Validating Production Company param name in WOP API<br/>
+ Param values are ------ : [Apple Inc.]<br/>
+Validating WOP API value Apple Inc. with test data value Apple Inc.<br/>
+WOP API value ( Apple Inc.)is Matched WithRL Test Data Value(Apple Inc.)<br/>
+Started reading Responses from MP API <br/>
+Validating Production Company param name in MP API<br/>
+ Param values are ------ : [Apple Inc.]<br/>
+Validating MP API value Apple Inc. with test data value Apple Inc.<br/>
+MP API value ( Apple Inc.)is Matched WithRL Test Data Value(Apple Inc.)<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
+<td>com.amc.testclasses.RLTestCasesForOneOff@397fd951</td></tr>
 <tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.validateOriginForOneOff()'><b>validateOriginForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate Origin of WOP</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1808605717", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1808605717'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</pre></div></td>
+<td title='com.amc.testclasses.RLTestCasesForOneOff.validateProductionModeForOneOff()'><b>validateProductionModeForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate Production Mode of WOP<br/>
+<a href="#Output-2130528617" onClick='toggleBox("Output-2130528617", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2130528617" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2130528617">
+Started reading Responses from WOP API <br/>
+Validating Production Mode param name in WOP API<br/>
+ Param values are ------ : [Scripted]<br/>
+Validating WOP API value Scripted with test data value Scripted<br/>
+WOP API value ( Scripted)is Matched WithRL Test Data Value(Scripted)<br/>
+Started reading Responses from MP API <br/>
+Validating Production Mode param name in MP API<br/>
+ Param values are ------ : [Scripted]<br/>
+Validating MP API value Scripted with test data value Scripted<br/>
+MP API value ( Scripted)is Matched WithRL Test Data Value(Scripted)<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
+<td>com.amc.testclasses.RLTestCasesForOneOff@397fd951</td></tr>
 <tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.validateProductionCompanyForOneOff()'><b>validateProductionCompanyForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate Production Company of the asset</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1723290112", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1723290112'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</pre></div></td>
+<td title='com.amc.testclasses.RLTestCasesForOneOff.validateReleaseYearForOneOff()'><b>validateReleaseYearForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate release year of the asset<br/>
+<a href="#Output-1561453973" onClick='toggleBox("Output-1561453973", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1561453973" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1561453973">
+Started reading Responses from WOP API <br/>
+Validating Release Year param name in WOP API<br/>
+ Param values are ------ : [2030]<br/>
+Validating WOP API value 2030 with test data value 2030<br/>
+WOP API value ( 2030)is Matched WithRL Test Data Value(2030)<br/>
+Started reading Responses from MP API <br/>
+Validating Release Year param name in MP API<br/>
+ Param values are ------ : [2030]<br/>
+Validating MP API value 2030 with test data value 2030<br/>
+MP API value ( 2030)is Matched WithRL Test Data Value(2030)<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
+<td>com.amc.testclasses.RLTestCasesForOneOff@397fd951</td></tr>
 <tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.validateProductionModeForOneOff()'><b>validateProductionModeForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate Production Mode of WOP</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1923268787", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1923268787'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</pre></div></td>
+<td title='com.amc.testclasses.RLTestCasesForOneOff.validateTitleTypeForOneOff()'><b>validateTitleTypeForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate title type of the asset<br/>
+<a href="#Output-280324458" onClick='toggleBox("Output-280324458", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-280324458" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-280324458">
+Started reading Responses from MP API <br/>
+Validating Title Type param name in MP API<br/>
+ Param values are ------ : [Episode/Theatrical]<br/>
+Validating MP API value Episode/Theatrical with test data value Episode/Theatrical<br/>
+MP API value ( Episode/Theatrical)is Matched WithRL Test Data Value(Episode/Theatrical)<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
-<tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.validateReleaseYearForOneOff()'><b>validateReleaseYearForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate release year of the asset</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1814676831", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1814676831'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</pre></div></td>
-<td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
-<tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.validateTRTForOneOff()'><b>validateTRTForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate TRT of the asset</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace348265491", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace348265491'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</pre></div></td>
-<td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
-<tr>
-<td title='com.amc.testclasses.RLTestCasesForOneOff.validateTitleTypeForOneOff()'><b>validateTitleTypeForOneOff</b><br>Test class: com.amc.testclasses.RLTestCasesForOneOff<br>Test method: Validate title type of the asset</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace321182272", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace321182272'><pre>java.lang.NullPointerException
-	at com.amc.baseclass.AMCBaseClass.executeAPI(AMCBaseClass.java:175)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-	at org.testng.TestRunner.run(TestRunner.java:497)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</pre></div></td>
-<td>0</td>
-<td>com.amc.testclasses.RLTestCasesForOneOff@22d522d4</td></tr>
+<td>com.amc.testclasses.RLTestCasesForOneOff@397fd951</td></tr>
 </table><p>
 </body>
 </html>

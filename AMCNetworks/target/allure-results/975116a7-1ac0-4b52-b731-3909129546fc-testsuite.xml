@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1558000895292" stop="1558001871815" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite : AssetCreationForRL[assetType=rlAssetCreation]</name>
+    <title>Suite : AssetCreationForRL[assetType=rlAssetCreation]</title>
+    <test-cases>
+        <test-case start="1558000895459" stop="1558001871743" status="passed">
+            <name>createDifferentRLAssetsForRegression</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="AssetCreationForRL"/>
+                <label name="testClass" value="com.amc.testclasses.RLAssetCreation"/>
+                <label name="testMethod" value="createDifferentRLAssetsForRegression"/>
+                <label name="story" value="RLRegressionValidation"/>
+                <label name="feature" value="RLRegressionValidation"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="16232@MONO-HYD-LAP-41.TestNG-test=AssetCreationForRL-1(23)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -9,6 +9,12 @@ import org.testng.ITestResult;
 
 import com.amc.baseclass.AMCBaseClass;
 
+import net.rcarz.jiraclient.BasicCredentials;
+import net.rcarz.jiraclient.Field;
+import net.rcarz.jiraclient.Issue;
+import net.rcarz.jiraclient.JiraClient;
+import net.rcarz.jiraclient.JiraException;
+
 public class TestRailListner extends AMCBaseClass implements ITestListener {
 
 	HashMap<String, Integer> stringValue = null;
@@ -19,13 +25,18 @@ public class TestRailListner extends AMCBaseClass implements ITestListener {
 		prop = propHandler.get();
 	}
 
-	
+	private JiraClient initializeJIRASetUP() {
+		BasicCredentials creds = new BasicCredentials("ajayshinde1947@gmail.com", "ajaydipali");
+		JiraClient jira = new JiraClient("https://ajayshinde1947.atlassian.net", creds);
+		return jira;
+	}
+
 	private APIClient initializeTestRailSetup() {
 		APIClient client = new APIClient(prop.getProperty("testRailURL"));
 		client.setUser(prop.getProperty("testRailUserName"));
 		client.setPassword(prop.getProperty("testRailPassword"));
 		return client;
-	} 
+	}
 
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -47,8 +58,8 @@ public class TestRailListner extends AMCBaseClass implements ITestListener {
 			client.sendPost("add_result_for_case/" + testRunID + "/" + testCaseID, data);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace(); 
-		}  
+			e.printStackTrace();
+		}
 	}
 
 	@SuppressWarnings("unchecked")
@@ -66,9 +77,18 @@ public class TestRailListner extends AMCBaseClass implements ITestListener {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} 
-	//	currentDriver.get().quit();  
-	}
+		}
+		JiraClient clientJIRA = initializeJIRASetUP();
+		try {
+			Issue issue = clientJIRA.createIssue("ITGI", "Bug")
+					.field(Field.SUMMARY, result.getMethod().getDescription())
+					.field(Field.DESCRIPTION, result.getThrowable())
+					.execute();
+				}catch(JiraException e) {
+					e.getStackTrace();
+				}
+					}
+		// currentDriver.get().quit()
 
 	@SuppressWarnings("unchecked")
 	@Override
@@ -85,9 +105,9 @@ public class TestRailListner extends AMCBaseClass implements ITestListener {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}  
-		//currentDriver.get().quit(); 
-	} 
+		}
+		// currentDriver.get().quit();
+	}
 
 	@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {

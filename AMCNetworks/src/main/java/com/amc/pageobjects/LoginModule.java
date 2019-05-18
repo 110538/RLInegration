@@ -71,6 +71,7 @@ public class LoginModule extends AMCBaseClass {
 			logStepMessage(String.format("Validating WOP API value %s with test data value %s",actualValue, RLValue));
 			if (actualValue.equals(RLValue)) {
 				Assert.assertEquals(RLValue, actualValue);
+				logStepMessage(String.format("WOP API value " + "( "+actualValue+ ")" +"is Matched With" + "RL Test Data Value" + "(" +RLValue+ ")"));
 			} else {
 				Assert.fail(String.format("Expected WOP value was %s but found %s", RLValue, actualValue));
 			}
@@ -81,9 +82,10 @@ public class LoginModule extends AMCBaseClass {
 		ApiExecutionTypes apiExecutionTypes = new ApiExecutionTypes();
 		ArrayList<String> arrayTest = apiExecutionTypes.getValue("MP", MPparameter);
 		for (String actualValue : arrayTest) {
-			logStepMessage(String.format("Validating MP API value %s with test data value %s",actualValue, RLValue));
+			logStepMessage(String.format("Validating MP API value %s with test data value %s",actualValue, RLValue));	
 			if (actualValue.equals(RLValue)) {
 				Assert.assertEquals(RLValue, actualValue);
+				logStepMessage(String.format("MP API value " + "( "+actualValue+ ")" +"is Matched With" + "RL Test Data Value" + "(" +RLValue+ ")"));
 			} else {
 				Assert.fail(String.format("Expected MP value was %s but found %s", RLValue, actualValue));
 			}
