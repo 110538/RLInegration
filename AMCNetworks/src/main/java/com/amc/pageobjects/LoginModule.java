@@ -34,13 +34,13 @@ public class LoginModule extends AMCBaseClass {
 
 	private void enterUsername(int rowNumber) {
 		String userName = dataBook[rowNumber][0].toString();
-		logStepMessage("Enter user name as:" + userName);
+		//logStepMessage("Enter user name as:" + userName);
 		setData(userNameField, userName);
 	}
 
 	private void enterPassword(int rowNumber) {
 		String password = dataBook[rowNumber][1].toString();
-		logStepMessage("Enter password as:" + password);
+		//logStepMessage("Enter password as:" + password);
 		setData(passwordField, password);
 	}
 
