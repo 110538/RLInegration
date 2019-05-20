@@ -77,18 +77,8 @@ public class TestRailListner extends AMCBaseClass implements ITestListener {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
-		JiraClient clientJIRA = initializeJIRASetUP();
-		try {
-			Issue issue = clientJIRA.createIssue("ITGI", "Bug")
-					.field(Field.SUMMARY, result.getMethod().getDescription())
-					.field(Field.DESCRIPTION, result.getThrowable())
-					.execute();
-				}catch(JiraException e) {
-					e.getStackTrace();
-				}
-					}
-		// currentDriver.get().quit()
+		}	
+	}
 
 	@SuppressWarnings("unchecked")
 	@Override
