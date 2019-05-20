@@ -9,12 +9,6 @@ import org.testng.ITestResult;
 
 import com.amc.baseclass.AMCBaseClass;
 
-import net.rcarz.jiraclient.BasicCredentials;
-import net.rcarz.jiraclient.Field;
-import net.rcarz.jiraclient.Issue;
-import net.rcarz.jiraclient.JiraClient;
-import net.rcarz.jiraclient.JiraException;
-
 public class TestRailListner extends AMCBaseClass implements ITestListener {
 
 	HashMap<String, Integer> stringValue = null;
@@ -25,11 +19,7 @@ public class TestRailListner extends AMCBaseClass implements ITestListener {
 		prop = propHandler.get();
 	}
 
-	private JiraClient initializeJIRASetUP() {
-		BasicCredentials creds = new BasicCredentials("ajayshinde1947@gmail.com", "ajaydipali");
-		JiraClient jira = new JiraClient("https://ajayshinde1947.atlassian.net", creds);
-		return jira;
-	}
+	
 
 	private APIClient initializeTestRailSetup() {
 		APIClient client = new APIClient(prop.getProperty("testRailURL"));
