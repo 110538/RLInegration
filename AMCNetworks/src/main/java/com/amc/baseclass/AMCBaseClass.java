@@ -166,7 +166,7 @@ public class AMCBaseClass {
 			}
 		}
 		
-		logStepMessage(" Assets Creation Completed Waiting 5mts for API Response..... ");
+		logStepMessage(" Assets Creation Completed Waiting 5mts for API Response and Validation..... ");
 		
 		Thread.sleep(300000);
 	}
